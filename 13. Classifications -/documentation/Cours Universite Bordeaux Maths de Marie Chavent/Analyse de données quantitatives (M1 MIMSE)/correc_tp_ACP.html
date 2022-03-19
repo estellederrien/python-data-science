@@ -1,0 +1,164 @@
+#############ACP TP1: Analyse du nuage des individus
+
+
+
+######Importation du tableau de données######
+
+X<-read.table("eaux.txt", header=TRUE, row.names=1,sep=";")
+n<-nrow(X)
+p<-ncol(X)
+colnames<-colnames(X)
+rownames<-rownames(X)
+
+######Calcul de la matrice centrée réduite avec la fonction scale ()######
+
+moy<-apply(X,2,mean)
+ecartype<-sd(X) # mais numérateur n-1 donc
+ecartype<-sd(X)*sqrt((n-1)/n) #pour obtenir l'écart-type corrigé!
+
+?scale
+Z<-scale(X,center=moy,scale=ecartype)
+apply(Z,2,mean) #verification de la nullité des moyennes
+apply(Z,2,sd)*sqrt((n-1)/n) #verification des ecart-types à 1
+
+######Calcul de la matrice des corrélations######
+#N<-matrix(0,n,n)
+
+N<-diag(rep(1/n,n))
+R<-t(Z)%*%N%*%Z
+
+######Décomposition spéctrale avec la fonction eigen()######
+
+e<-eigen(R)
+e$values
+e$vectors
+
+t(e$vectors)%*%e$vectors #les vecteurs propres sont bien orhonormés
+
+
+sum(e$values)
+
+######Matrice des coordonnées factorielles des individus (des scores)######
+Psi<-Z%*%e$vectors
+apply(Psi,2,mean) #verification de la nullité des moyennes
+apply(Psi,2,var)*(n-1)/n
+e$values
+
+######Représentation graphique sur les plans factoriels des individus######
+par(mfrow=c(1,2))
+plot(Psi[,1:2])
+text(Psi[,1:2],rownames(X))
+
+plot(Psi[,2:3])
+text(Psi[,2:3],rownames(X))
+
+######Inerties######
+
+sum(e$values) #Inertie totale du nuage des 5 eaux minérales
+e$value/p*100 #Pourcentages d'inertie expliquée par chaque composante
+
+
+res<-PCA(X)
+res$eig
+
+
+######ACP avec les fonction prcomp() et prcomp()######
+?prcomp
+res<-prcomp(X,center=TRUE,scale=ecartype)
+res<-prcomp(X,center=TRUE,scale=TRUE)
+res$sdev^2 #racines des valeurs propres donc au carré. 
+res$x
+
+?princomp
+res<-princomp(X,cor=TRUE)
+res$sdev^2 #racines des valeurs propres donc au carré. 
+res$scores
+
+
+######ACP avec la PCA du package FactoMineR######
+
+#faire Package/installer Package, choisir le mirroir, puis FactoMineR
+require (FactoMineR)
+
+?PCA
+res<-PCA(X)
+res$eig
+res$ind
+res$ind$coord
+
+#Pour connaître la liste des jeux de données associés à FactoMineR :
+data(package="FactoMineR")
+
+#Pour avoir une description du jeu de données :
+?JO 
+?children
+
+#############ACP TP2: Analyse du nuage des variables
+
+##Calcul de la matrice des produits scalaires des individus
+N<-diag(rep(1/n,n))
+PS<-Z%*%t(Z)%*%N
+
+######Décomposition spéctrale avec la fonction eigen()######
+
+e<-eigen(PS)
+e$values
+U<-sqrt(n)*e$vectors[,1:3] #pour avoir des vecteurs N-normés à 1
+t(U)%*%N%*%U
+
+t(e$vectors)%*%e$vectors #les vecteurs propres sont bien orhonormés
+
+
+######Matrice des coordonnées factorielles des variables (les loadings)######
+Phi<-t(Z)%*%N%*%U
+apply(Psi,2,mean) #verification de la nullité des moyennes
+Phi
+X
+######Représentation graphique sur les plans factoriels des variables######
+par(mfrow=c(1,2))
+plot(Phi[,1:2])
+text(Phi[,1:2],colnames(X))
+
+plot(Phi[,2:3])
+text(Phi[,2:3],colnames(X))
+
+######SVD et formules de passage######
+dvs<-svd(N^0.5%*%Z)
+e$values
+dvs$d^2 #on retrouve bien les valeurs propres
+U<-sqrt(n)*dvs$u
+V<-dvs$v
+Psi
+U%*%diag(dvs$d) #première formule de passage vérifiée
+Phi
+V%*%diag(dvs$d) #seconde formule de passage vérifiée
+
+
+?svd.triplet()
+row.w<-rep(1/n,n)
+col.w<-rep(1,p)
+dvs<-svd.triplet(Z,row.w,col.w)
+dvs$vs^2 #on retrouve bien les valeurs propres
+U<-dvs$U
+V<-dvs$V
+
+Psi
+U%*%diag(dvs$vs) #première formule de passage vérifiée
+Phi
+V%*%diag(dvs$vs) #seconde formule de passage vérifiée
+
+
+
+
+Phi[1,1]
+cor(X[,1],Psi[,1]) #corrélations composantes-variables
+
+####Avec FactoMineR
+require(FactoMineR)
+res<-PCA(X)
+res$var$coord
+?plot.PCA
+plot.PCA(res,axes=c(1,2),choix="ind")
+plot.PCA(res,axes=c(1,2),choix="var")
+res$ind
+res$var

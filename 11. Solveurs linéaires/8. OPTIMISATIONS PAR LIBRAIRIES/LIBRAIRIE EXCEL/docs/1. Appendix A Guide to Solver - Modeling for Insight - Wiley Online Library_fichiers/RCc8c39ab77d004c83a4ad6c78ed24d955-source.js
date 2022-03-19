@@ -1,0 +1,2 @@
+// For license information, see `https://assets.adobedtm.com/59640f9fa510/d21f80da3f8b/4432b477d037/RCc8c39ab77d004c83a4ad6c78ed24d955-source.js`.
+_satellite.__registerScript('https://assets.adobedtm.com/59640f9fa510/d21f80da3f8b/4432b477d037/RCc8c39ab77d004c83a4ad6c78ed24d955-source.min.js', "window.gtag&&_satellite.getVar(\"journalCode\")&&\"24750387\"==_satellite.getVar(\"journalCode\")&&gtag(\"event\",\"conversion\",{send_to:\"AW-973395369/TFuICNqxysgBEKmrk9AD\"});");

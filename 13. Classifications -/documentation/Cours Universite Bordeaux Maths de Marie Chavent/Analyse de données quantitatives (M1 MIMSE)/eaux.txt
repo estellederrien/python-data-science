@@ -1,0 +1,6 @@
+Produit;intensite emission de bulles;saveur salee;appreciation globale
+St Yorre;3.9;6.4;2.9
+Vichy;1.4;6.0;2.8
+Quézac;5.1;4.7;3.5
+Salvetat;2.9;4.1;3.4
+Perrier;8.2;4.9;2.8

@@ -1,0 +1,12 @@
+\* BeerTest *\
+Minimize
+OBJ: __dummy
+Subject To
+IBU: 0.15 Ingr_Beer_1 + 0.4 Ingr_Beer_2 + 0.25 Ingr_Beer_3 + 0.4 Ingr_Beer_4
+ = 22
+PercentagesSum: Ingr_Beer_1 + Ingr_Beer_2 + Ingr_Beer_3 + Ingr_Beer_4 = 100
+RDF: 0.6 Ingr_Beer_1 + 0.6 Ingr_Beer_2 + 0.7 Ingr_Beer_3 + 0.7 Ingr_Beer_4
+ = 67
+Bounds
+__dummy = 0
+End

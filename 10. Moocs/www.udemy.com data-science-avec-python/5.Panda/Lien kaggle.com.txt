@@ -1,0 +1,3 @@
+Des tas de datasets py avec analyse notebook
+
+https://www.kaggle.com/harshkothari21/100-accurate-results-with-eda-all-ml-models

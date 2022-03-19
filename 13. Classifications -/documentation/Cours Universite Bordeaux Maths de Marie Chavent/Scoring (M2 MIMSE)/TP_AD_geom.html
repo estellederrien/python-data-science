@@ -1,0 +1,170 @@
+#-------TP2 Analyse discriminante geometrique
+
+source("AFD_procedures_chavent.R")
+source("LDA_procedures_chavent.R")
+
+#--------Exemple des infarctus 
+
+load("infarctus.Rdata")
+head(infarctus)
+
+
+#-------Code R de l'exercice 1
+
+X <- infarctus[,c(2,4,5)]
+y <- infarctus[,1]
+
+head(infarctus[,c(1,2,4,5)])
+
+# question 1
+resAFD <- AFD(X,y)
+pdf("afd_infarctus.pdf", height=4, width=5, bg="white") #pour créer le graphique dans un pdf
+plotAFD(resAFD)
+dev.off()
+
+resAFD$eig #pouvoir discriminant
+
+cor(X,resAFD$S) #interprétation de l'axe discriminant
+
+# question 2
+ 
+res <- linear_func(X,y,type="geom")
+res$Lk
+
+#ou encore
+W <- res$W #matrice de var-cov intra 
+invW <- solve(W)
+
+g1 <- res$gk[[1]]
+g2 <- res$gk[[2]]
+
+u1 <- invW%*%g1 #coefficients de L1
+c1 <- -t(g1)%*%invW%*%g1/2  #constante de L1
+
+u2 <- invW%*%g2 #coefficients de L2
+c2 <- -t(g2)%*%invW%*%g2/2  #constante de L2
+
+# question 3
+
+head(res$S)
+res$S[2,] #score des partients sur les deux groupes
+# ou encore
+x <- as.numeric(X[2,])
+x <- c(90, 18.7, 24)
+L1 <- x %*% u1 + c1
+L2 <- x %*% u2 + c2 
+
+# question 4
+which.max(res$S[2,]) #L1 max donc patient prédit classe dans G1 (décès)
+y[2]  # vrai groupe
+
+# question 5
+
+Delta12 <- res$Lk[,1]-res$Lk[,2] #coefficients de la fonction score de Fisher
+
+# ou encore
+u <- invW%*%(g1-g2) #coefficients du score Delat1/2
+c <- -t(g1+g2)%*%invW%*%(g1-g2)/2
+
+x %*% u + c 
+#score de fisher du second patient. 
+# score positif donc G1 (décès) prédit
+
+# question 7
+
+
+yhat <- apply(res$S,1,which.max)
+yhat <- as.factor(predic)
+levels(yhat) <- c("DECES", "SURVIE")
+T <- table(yhat,y) #matrice de confusion
+sum(y != yhat)/101 # taux d'erreur
+sum(diag(T))/length(yhat) # taux de bon classement
+diag(T)/apply(T,2,sum) #sensibilité et spécificité
+
+#-----------Exercice 2
+
+X <- infarctus[,-1]
+y <- infarctus[,1]
+
+# question 1
+res <- linear_func(X,y,type="geom")
+Lk <- res$Lk
+
+Delta12 <- Lk[,1]-Lk[,2] #coefficients de la fonction score de Fisher
+
+# question 2
+beta0 <- Delta12[1]
+beta <- Delta12[-1]
+x <- c(90, 1.71, 19, 16, 19.5, 16, 912) # nouveau patient
+beta0+ sum(x*beta) # score de Fisher de ce patient
+#Score négatif donc on prédit G2 (survie)
+
+# question 3
+S <- res$S[,1]-res$S[,2] #score de Fisher des 151 patients
+head(S)
+head(res$S)
+yhat <- as.factor(S < 0)
+levels(yhat) <- c("DECES","SURVIE")
+
+# question 4
+plot(S,rep(0,length(S)),xlab="Axe 1",ylab="",col=as.numeric(y))
+legend("topleft",legend = levels(y), text.col = c(1:length(levels(y))),cex=0.8)
+cor(X,S)     
+     
+# question 5
+T <- table(yhat,y) #matrice de confusion
+sum(y != yhat)/101 # taux d'erreur
+sum(diag(T))/length(yhat) # taux de bon classement
+diag(T)/apply(T,2,sum) #sensibilité et spécificité
+
+# question 6
+
+library(MASS)
+lda <- lda(PRONO~.,infarctus,prior=c(0.5,0.5))
+pred <- predict(lda) 
+yhat <- pred$class 
+table(yhat,y) #matrice de confusion
+
+
+
+# question 7
+#methode de l'echantillon test
+
+n <- nrow(X)
+tr <- sample(1:n,70)
+train <- X[tr,] #echantillon d'apprentissage
+test <- X[-tr,] #echantillon test
+
+m <- lda(train, y[tr],prior=c(0.5,0.5)) #regle construite sur l'echantillon d'apprentissage
+
+yhat <- predict(m, test)$class #predictions sur l'échantillon test
+table(y[-tr],yhat)
+sum(yhat != y[-tr])/length(yhat) #taux d'erreur plus fiable
+
+# question 8
+#methode de l'echantillon test 100 fois
+
+err <- vector(length = 100)
+
+for (k in 1:100) 
+{
+  tr <- sample(1:n,70)
+  train <- X[tr,]
+  test <- X[-tr,]
+  m <- lda(train, y[tr],prior=c(0.5,0.5))
+  yhat <- predict(m, test)$class
+  err[k] <- sum(yhat != y[-tr])/length(yhat) 
+}
+mean(err) #moyenne des taux d'erreur 
+sd(err) #ecart-type des taux d'erreur 
+
+# question 9
+# methode de validation croisee de type LOO
+
+ldacv <- lda(PRONO~.,infarctus,prior=c(0.5,0.5),CV=TRUE) 
+ldacv$class
+
+yhatcv <- ldacv$class
+sum(yhatcv != y)/length(yhatcv) #taux estime a 15.8 en validation croisee LOO
+
+  

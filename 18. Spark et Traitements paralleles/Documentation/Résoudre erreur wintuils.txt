@@ -1,0 +1,18 @@
+Either ignore it or you can download winutils.exe put it a folder like c:\hadoop\bin then set HADOOP_HOME to c:\hadoop
+
+Download from:
+
+https://github.com/steveloughran/winutils/tree/master/hadoop-2.7.1/bin
+
+
+Encountering “ WARN ProcfsMetricsGetter: Exception when trying to compute pagesize” error when running Spark
+
+The same problem occured with me because python path was not added to system environment. I added this in environment and now it works perfectly.
+
+Adding PYTHONPATH environment variable with value as:
+
+%SPARK_HOME%\python;%SPARK_HOME%\python\lib\py4j-<version>-src.zip:%PYTHONPATH%
+
+helped resolve this issue. Just check what py4j version you have in your spark/python/lib folder.
+
+

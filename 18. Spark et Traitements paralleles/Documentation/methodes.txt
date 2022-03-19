@@ -1,0 +1,32 @@
+$ docker-machine ls
+List your machines.
+
+ La liste des images est disponible avec la commande:
+
+docker images
+
+Une image est instanciée dans un conteneur avec la commande run .
+
+docker run --name 'nom-conteneu' <options>
+
+Les options dépendent de l’image: voir les sections suivantes pour des exemples avec MySQL et MongoDB. La liste des conteneurs est disponible avec la commande:
+
+docker ps -a
+
+L’option -a permet de voir tous les conteneurs, quel que soit leur statut (en arrêt, ou en cours d’exécution).
+
+Voici quelques commandes utiles pour gérer un conteneur dont nous allons supposer que le nom est mon-conteneur . Tout d’abord on peut l’arrêter avec la commande stop .
+
+docker stop mon-conteneur
+
+Et le relancer avec la commande start .
+
+docker start mon-conteneur
+
+Pour le supprimer, c’est la commande docker rm (cela permet de libérer le nom mon-conteneur au besoin).
+
+Pour inspecter la configuration système/réseau d’un conteneur, Docker fournit la commande inspect .
+
+docker inspect mon-conteneur
+
+On obtient un large document JSON. 

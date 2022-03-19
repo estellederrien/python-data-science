@@ -1,0 +1,120 @@
+
+#---------------ACP données problèmes financiers d'exploitations agricoles-----------
+#    http://www-rocq.inria.fr/axis/modulad/archives/numero-31/desbois-31/desbois-31.pdf
+#    http://www.bentley.edu/csbigs/documents/Desbois.pdf
+#--------------------------------------------------------------------------------------
+
+don<-read.table("Desbois.txt", header=TRUE,sep="\t",dec=",")
+#colnames(don)
+nrow(don) #1260 exploitations agricoles
+ncol(don) #30 variables
+colnames(don)
+
+don[,2] <- as.factor(don[,2])
+levels(don[,2]) <- c("healthy","failing")
+
+#------1 ACP---------
+require(FactoMineR)
+
+pca <- PCA(don,quali.sup=c(1:3,5,8),quanti.sup=c(4,6,7),graph=FALSE)
+?plot.PCA
+plot(pca, invisible="quali")
+plot(pca, habillage = 2,invisible="quali")
+dev.new()
+plot(pca, choix = "var",invisible="quanti.sup")
+
+pca$eig #choix du nombre de composantes
+pca$var #loadings (coordonnees), contributions, cos2
+pca$var$coord
+pca$ind$coord[1:10,]
+
+dimdesc(pca)
+
+#----2.1 Première composante principale de l'ACP------
+X <- don[,9:30]
+Psi1 <-princomp(X,cor=TRUE)$scores[,1]
+#s1 <- princomp(X,cor=TRUE)$sdev[1]
+attach(don)
+plot(Psi1~DIFF)
+moy <- tapply(Psi1,DIFF,mean) # moyennes de Psi1 sur les deux classes
+eff <- table(DIFF)
+n <- sum(eff)
+sum(eff*moy)/n
+seuil <- mean(moy)
+
+predict <- rep("healty",1260)
+predict[which(Psi1 >= seuil)] <- "failing"
+table(DIFF,predict)
+
+
+(54+124)/1260*100 #taux d'erreur
+
+#----2.2 Fonction score------------------
+v <-princomp(X,cor=TRUE)$loadings[,1]
+n <- 1260
+s <- apply(X,2,sd)*sqrt((n-1)/n)
+mu <- apply(X,2,mean)
+const <- sum(v*mu/s)
+a <- v/s
+as.matrix(X)%*%as.matrix(a)-const
+Psi1
+
+#----2.3 Taux d'erreur et méthode de l'échantillon test------
+
+X1 <- X[1:840,] #échantillon d'apprentissage
+X2 <- X[841:1260,] #échantillon test
+
+v <-princomp(X1,cor=TRUE)$loadings[,1]
+n <- 840
+s <- apply(X1,2,sd)*sqrt((n-1)/n)
+mu <- apply(X1,2,mean)
+const <- sum(v*mu/s)
+a <- v/s
+
+DIFF1 <- DIFF[1:840] #échantillon d'apprentissage
+Psi11 <- princomp(X1,cor=TRUE)$scores[,1] #échantillon d'apprentissage
+
+moy <- tapply(Psi11,DIFF1,mean) # moyennes de Psi11 sur les deux classes
+seuil <- mean(moy)
+
+S<-as.matrix(X2)%*%as.matrix(a)-const #vecteur des scores des obs. de l'échantillon test
+
+DIFF2 <- DIFF[841:1260] #échantillon test
+predict <- rep("healty",420)
+predict[which(S >= seuil)] <- "failing"
+table(DIFF2,predict)
+
+(36+4)/420*100 #9,5% d'erreur
+
+#----------avec tirage aléatoire des echantillons
+
+n <- 840
+ech <- sample(1:1260,n)
+X1 <- X[ech,] #échantillon d'apprentissage
+X2 <- X[-ech,] #échantillon test
+
+v <-princomp(X1,cor=TRUE)$loadings[,1]
+
+s <- apply(X1,2,sd)*sqrt((n-1)/n)
+mu <- apply(X1,2,mean)
+const <- sum(v*mu/s)
+a <- v/s
+
+DIFF1 <- DIFF[ech] #échantillon d'apprentissage
+Psi11 <- princomp(X1,cor=TRUE)$scores[,1] #échantillon d'apprentissage
+
+moy <- tapply(Psi11,DIFF1,mean) # moyennes de Psi11 sur les deux classes
+seuil <- mean(moy)
+
+S<-as.matrix(X2)%*%as.matrix(a)-const #vecteur des scores des obs. de l'échantillon test
+
+DIFF2 <- DIFF[-ech] #échantillon test
+predict <- rep("healty",420)
+predict[which(S >= seuil)] <- "failing"
+table(DIFF2,predict)
+
+(26+42)/420*100
+
+
+
+

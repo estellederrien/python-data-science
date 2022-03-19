@@ -1,0 +1,14 @@
+digraph  {
+dormir;
+manger;
+defequer;
+dormir -> dormir  [key=0, label="0.4", weight="0.4"];
+dormir -> manger  [key=0, label="0.2", weight="0.2"];
+dormir -> defequer  [key=0, label="0.4", weight="0.4"];
+manger -> dormir  [key=0, label="0.45", weight="0.45"];
+manger -> manger  [key=0, label="0.45", weight="0.45"];
+manger -> defequer  [key=0, label="0.1", weight="0.1"];
+defequer -> dormir  [key=0, label="0.45", weight="0.45"];
+defequer -> manger  [key=0, label="0.25", weight="0.25"];
+defequer -> defequer  [key=0, label="0.3", weight="0.3"];
+}
