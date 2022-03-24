@@ -8,7 +8,7 @@
 Je stocke ici divers scripts de data science et de mathématiques descriptives ou prédictives en Python, en langue Française. Mes études sont principalement axées sur les solveurs linéaires, les régressions multiples, les lois de probabilité et les chaines de Markov. Un peu de finances aussi...<br>
 
 ## Dernières news du dépot : 
-- 21-03-2022 : Création du répertoire ' Recherche opérationelle avec Excle' pour stocker toutes les catégories d'optimisations linéaires EXCEL par répertoire ( Pas de Python)
+- 21-03-2022 : Création du répertoire ' Recherche opérationelle avec Excel' pour stocker et appliquer toutes les catégories d'optimisations linéaires EXCEL par répertoire ( Pas de Python) - Etudes de toutes les parties du livre Programmation linéaire avec Excel - Eyrolles de Marc Sevaux et Christian Prins, avec en particulier le gestion des stocks dans les optimisations, ce que mon application www.SolvGraph.com ne fait pas encore. Ajout d'autres fichiers Excels tirés de livres en Anglais.
 
 - 30-04-2021 : Ajout du répertoire de la théorie des files d'attente. Découverte du site de cours de mathématiques de université Lille L1 L2 et L3 : http://exo7.emath.fr/index.html
 
