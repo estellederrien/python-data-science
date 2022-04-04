@@ -8,7 +8,8 @@
 Je stocke ici divers scripts de data science et de mathématiques descriptives ou prédictives en Python, en langue Française. Mes études sont principalement axées sur les solveurs linéaires, les régressions multiples, les lois de probabilité et les chaines de Markov. Un peu de finances aussi...<br>
 
 ## Dernières news du dépot : 
-- 21-03-2022 : Création du répertoire ' Recherche opérationnelle avec Excel' pour stocker et appliquer toutes les catégories d'optimisations linéaires EXCEL par répertoire ( Pas de Python) - Etudes de toutes les parties du livre Programmation linéaire avec Excel - Eyrolles de Marc Sevaux et Christian Prins, avec en particulier le gestion des stocks dans les optimisations , ce que mon application www.SolvGraph.com ne fait pas encore (Car c'est très difficile à programmer en Full Stack...). Ajout d'autres fichiers Excels tirés de livres en Anglais.
+- 21-03-2022 : Création du répertoire ' Recherche opérationnelle avec Excel' pour stocker et appliquer précisement chaque catégories d'optimisations linéaires du solveur EXCEL par répertoire ( Productions , mélanges, Job Shop, flots, affectation , planification,  Bin Packing, Cutting Stock, gestion des stocks invendus) , contrôle des résultats, ajout de documentations en français dans les fichiers excel...
+- Etudes de toutes les parties du livre Programmation linéaire avec Excel - Eyrolles de Marc Sevaux et Christian Prins, avec en particulier le gestion des stocks dans les optimisations , ce que mon application www.SolvGraph.com ne fait pas encore (Car c'est très difficile à programmer en Full Stack...). Ajout d'autres fichiers Excels tirés de livres en Anglais. Je ne fais plus que ça en ce moment, pour des années ...
 
 - 30-04-2021 : Ajout du répertoire de la théorie des files d'attente. Découverte du site de cours de mathématiques de université Lille L1 L2 et L3 : http://exo7.emath.fr/index.html
 
@@ -34,7 +35,7 @@ Mastering Python for Finance by James Ma Weiming : Livre En anglais, bien écrit
 
 ## Notebooks de Data Science à télécharger sur Kaggle (En Anglais)!
 https://www.kaggle.com/notebooks<br><br>
-
+ting 
 ## Modifier les notebooks Python avec Anaconda et Jupiter : 
 ![Screenshot](anacondanew.jpg)<br>
 Ensuite, cliquer sur " Home " , "Jupiter Notebooks", et ouvrir ou créer un notebook...
