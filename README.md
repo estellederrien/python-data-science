@@ -8,6 +8,11 @@
 Je stocke ici divers scripts de data science et de mathématiques descriptives ou prédictives en Python, en langue Française. Mes études sont principalement axées sur les solveurs linéaires, les régressions multiples, les lois de probabilité et les chaines de Markov. Un peu de finances aussi...<br>
 
 ## Dernières news du dépot : 
+
+- 06-04-2022 : Les fichiers 'MULTIPLES' du répertoire 'Recherche opérationnelle avec Excel' sont fantastiques avec optimisation d'affectation sur une semaine par exemple -> création de légendes et traductions.. C'est précisément ça qui est très difficile à coder en full stack dans www.solvgraph.com, pourtant, en toute logique, ça doit être possible.
+
+
+
 - 21-03-2022 : Création du répertoire '26. Recherche opérationnelle avec Excel' pour stocker et appliquer précisement chaque catégories d'optimisations linéaires du solveur EXCEL par répertoire ( Productions , mélanges, Job Shop, flots, affectation , planification,  Bin Packing, Cutting Stock, gestion des stocks invendus) , contrôle des résultats, ajout de documentations et légendes en français dans les fichiers Excel et validations de P.ls...
 - Etudes de toutes les parties du livre Programmation linéaire avec Excel - Eyrolles de Marc Sevaux et Christian Prins, avec en particulier le gestion des stocks dans les optimisations , ce que mon application www.SolvGraph.com ne fait pas encore (Car c'est très difficile à programmer en Full Stack...). Ajout d'autres fichiers Excels tirés de livres en Anglais. Je ne fais plus que ça en ce moment, pour des années ...
 
