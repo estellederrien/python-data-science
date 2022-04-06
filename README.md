@@ -6,7 +6,7 @@
 
 ## Intro 
 Je stocke ici divers scripts de data science et de mathématiques descriptives ou prédictives en Python, en langue Française. Mes études sont principalement axées sur les solveurs linéaires, les régressions multiples, les lois de probabilité et les chaines de Markov. Un peu de finances aussi...
-<B>New 2022</b> : Je vais dorénavant stocker des centaines de fichiers de recherche opérationnelle avec le solveur EXCEL, traduits en Français, avec leurs légendes simplifiées ( Mélanges, Affectations, Production, Cutting stock, Bin Packing 2d etc...!<br>
+<br><B>New 2022</b> : Je vais dorénavant stocker des centaines de fichiers de recherche opérationnelle avec le solveur EXCEL, traduits en Français, avec leurs légendes simplifiées ( Mélanges, Affectations multi périodes et gestion des stocks, Production avancée, Cutting stock, Bin Packing 2d et bien plus etc ...., je ne fais plus que ça !<br>
 
 ## Dernières news du dépot : 
 
