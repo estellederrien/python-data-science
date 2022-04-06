@@ -11,6 +11,7 @@ Je stocke ici divers scripts de data science et de mathématiques descriptives o
 ## Dernières news du dépot : 
 
 - 06-04-2022 : Les fichiers 'MULTIPLES' du répertoire 'Recherche opérationnelle avec Excel' sont fantastiques avec optimisation d'affectation sur une semaine par exemple -> création de légendes et traductions.. C'est précisément ça qui est très difficile à coder en full stack (Python + Js) dans www.solvgraph.com, pourtant, en toute logique, ça doit être possible à l'avenir, mais très difficile.
+L'objectif est de parvenir à programmer les 'objectifs multiples' et les 'groupes de variables de décisions' en python ( et aussi dans Excel)
 
 
 
