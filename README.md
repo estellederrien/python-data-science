@@ -10,7 +10,7 @@ Je stocke ici divers scripts de data science et de mathématiques descriptives o
 
 ## Dernières news du dépot : 
 
-- 08-04-2022 : Je prends chaque problème linéaire EXCEL, valide les résultats, puis les traduits ( quand ce ne sont pas ceuxx de Christian Prins et Marc Sevaux) et ajoute des traductions. A terme, j'aurais chaque catégories de programmes linéaires parfaitement triés et susceptibles d'êtres modifiés en fonction des besoins.
+- 08-04-2022 : 26. Recherche opérationnelle en Excel - > Je prends chaque problème linéaire EXCEL , valide les résultats, puis les traduits ( Quand ce ne sont pas ceux de Christian Prins et Marc Sevaux) et ajoute des légendes. A terme, j'aurais chaque catégories de programmes linéaires parfaitement triés et susceptibles d'êtres modifiés en fonction des besoins.
 
 
 - 06-04-2022 : Les fichiers 'MULTIPLES' du répertoire 'Recherche opérationnelle avec Excel' sont fantastiques avec optimisation d'affectation sur une semaine par exemple -> création de légendes et traductions.. C'est précisément ça qui est très difficile à coder en full stack (Python + Js) dans www.solvgraph.com, pourtant, en toute logique, ça doit être possible à l'avenir, mais très difficile.
