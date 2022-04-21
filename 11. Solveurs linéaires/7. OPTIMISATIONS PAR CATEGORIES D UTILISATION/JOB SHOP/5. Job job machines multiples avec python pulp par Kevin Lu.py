@@ -22,6 +22,8 @@ machine_order=pd.read_excel("Jobshop.xlsx",
 
 pt = processing_time.values
 mo = machine_order.values
+print(pt)
+print(mo)
 
 model = pulp.LpProblem("MIN_makespan", pulp.LpMinimize)
 
