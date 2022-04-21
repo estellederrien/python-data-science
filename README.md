@@ -10,37 +10,37 @@ Je stocke ici divers scripts de data science et de mathématiques descriptives o
 
 ## Dernières news du dépot : 
 
-- 21-04-2022 . Liste provisoire des programmes linéaires ( Fichiers solveur excel provenant de sources diverses ), vivement le tri final, quand tout sera traduit , testé et validé !:<br>
-production mix<br>
-production - affectaction (Alloc)<br>
-production - selection de processus<br>
-Production - avec gestion des stocks et invendus (commerce)<br>
-mélange - simple période<br>
-mélange - multi période<br>
-transport<br>
-transport - 2-stage-transport	<br>
-transport -facility location<br>
-transport - Production Transportation Problem (2-stage-transport, multi-commodity)<br>					
-sac à dos (knapsac)<br>
-sac à dos multiple (googleOr, fichier excel à trouver)<br>
-découpe 1 dimension ( cuttingstock)<br>
-découpe 2 dimensions ( cuttingstock)<br>
-FlowShop<br>
-JobShob<br>
-Equilibrage de ligne d'assemblage<br>
-Portefeuille - investissement en portefeuille<br>
-Investissement<br>
-Projet - Minimisation de temps de projet MPM<br>
-Projet - Selection des meilleures tâche <br>
-Planification employés - (Scheduling) - <br>
-Affectation - Assignement <br>
-Affectation - Assignement simple d'employés à des tâches<br>
-Affectation - Assignement d'employés à des créneaux<br>
-Plus court chemin - Shortest past<br>
-Cash Flow<br>
-Electric engineering<br>
-Bin packin 1d ( fichier excel à trouver à trouver ou à créer)<br>
-Bin packin 2d ( fichier excel à trouver à trouver ou à créer)<br>
+- 21-04-2022 . Liste provisoire des programmes linéaires ( Fichiers solveur excel provenant de sources diverses ), vivement le tri final, quand tout sera traduit , testé , trié par catégorie et validé !:<br>
+- production mix<br>
+- production - affectaction (Alloc)<br>
+- production - selection de processus<br>
+- Production - avec gestion des stocks et invendus (commerce)<br>
+- mélange - simple période<br>
+- mélange - multi période<br>
+- transport<br>
+- transport - 2-stage-transport	<br>
+- transport -facility location<br>
+- transport - Production Transportation Problem (2-stage-transport, multi-commodity)<br>					
+- sac à dos (knapsac)<br>
+- sac à dos multiple (googleOr, fichier excel à trouver)<br>
+- découpe 1 dimension ( cuttingstock)<br>
+- découpe 2 dimensions ( cuttingstock)<br>
+- FlowShop<br>
+- JobShob<br>
+- Equilibrage de ligne d'assemblage<br>
+- Portefeuille - investissement en portefeuille<br>
+- Investissement<br>
+- Projet - Minimisation de temps de projet MPM<br>
+- Projet - Selection des meilleures tâche <br>
+- Planification employés - (Scheduling) - <br>
+- Affectation - Assignement <br>
+- Affectation - Assignement simple d'employés à des tâches<br>
+- Affectation - Assignement d'employés à des créneaux<br>
+- Plus court chemin - Shortest past<br>
+- Cash Flow<br>
+- Electric engineering<br>
+- Bin packin 1d ( fichier excel à trouver à trouver ou à créer)<br>
+- Bin packin 2d ( fichier excel à trouver à trouver ou à créer)<br>
 
 
 
