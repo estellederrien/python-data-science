@@ -10,7 +10,7 @@ Je stocke ici divers scripts de data science et de mathématiques descriptives o
 
 ## Dernières news du dépot : 
 
-- 21-04-2022 . Liste provisoire des programmes linéaires ( Fichiers solveur excel provenant de sources diverses ), vivement le tri final, quand tout sera traduit , testé , trié par catégorie et validé !:<br>
+21-04-2022 : Liste provisoire des programmes linéaires ( Fichiers solveur excel provenant de sources diverses ), vivement le tri final, quand tout sera traduit , testé , trié par catégorie et validé !:<br>
 - production mix<br>
 - production - affectaction (Alloc)<br>
 - production - selection de processus<br>
