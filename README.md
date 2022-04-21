@@ -22,6 +22,7 @@ transport - 2-stage-transport	<br>
 transport -facility location<br>
 transport - Production Transportation Problem (2-stage-transport, multi-commodity)<br>					
 sac à dos (knapsac)<br>
+sac à dos multiple (googleOr, fichier excel à trouver)<br>
 découpe 1 dimension ( cuttingstock)<br>
 découpe 2 dimensions ( cuttingstock)<br>
 FlowShop<br>
@@ -38,6 +39,8 @@ Affectation - Assignement d'employés à des créneaux<br>
 Plus court chemin - Shortest past<br>
 Cash Flow<br>
 Electric engineering<br>
+Bin packin 1d ( fichier excel à trouver à trouver ou à créer)<br>
+Bin packin 2d ( fichier excel à trouver à trouver ou à créer)<br>
 
 
 
