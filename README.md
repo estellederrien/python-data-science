@@ -10,6 +10,35 @@ Je stocke ici divers scripts de data science et de mathématiques descriptives o
 
 ## Dernières news du dépot : 
 
+- 21-04-2022 . Liste provisoire des programmes linéaires ( Fichiers solveur excel ), vivement le tri final, quand tout sera traduit et testé !:
+production mix
+production - affectaction (Alloc)
+production - selection de processus
+mélange - simple période
+mélange - multi période
+transport
+transport - 2-stage-transport	
+transport -facility location
+transport - Production Transportation Problem (2-stage-transport, multi-commodity)					
+sac à dos (knapsac)
+découpe 1 dimension ( cuttingstock)
+découpe 2 dimensions ( cuttingstock)
+FlowShop
+JobShob
+Equilibrage de ligne d'assemblage
+Portefeuille - investissement en portefeuille
+Investissement
+Projet - Minimisation de temps de projet MPM
+Projet - Selection des meilleures tâche 
+Planification employés - (Scheduling) - 
+Affectation - Assignement 
+Affectation - Assignement simple d'employés à des tâches
+Affectation - Assignement d'employés à des créneaux
+Plus court chemin - Shortest past
+Cash Flow
+Electric engineering
+
+
 - 08-04-2022 : 26. Recherche opérationnelle en Excel - > Je prends chaque problème linéaire EXCEL , valide les résultats, puis les traduits ( Quand ce ne sont pas ceux de Christian Prins et Marc Sevaux) et ajoute des légendes. A terme, j'aurais chaque catégories de programmes linéaires parfaitement triés et susceptibles d'êtres modifiés en fonction des besoins.
 
 
