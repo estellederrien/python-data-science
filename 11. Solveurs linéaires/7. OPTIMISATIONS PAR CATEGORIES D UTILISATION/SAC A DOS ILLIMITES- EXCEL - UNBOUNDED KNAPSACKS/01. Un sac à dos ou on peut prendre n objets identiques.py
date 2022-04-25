@@ -22,11 +22,12 @@ def unboundedKnapsack(W, n, val, wt):
     return dp[W]
  
 # Driver program
-W = 100
-val = [10, 30, 20]
-wt = [5, 10, 15]
+W = 30
+val = [4, 2, 10,1,2]
+wt = [12, 1, 4,1,2]
 n = len(val)
  
 print(unboundedKnapsack(W, n, val, wt))
- 
+
+
 # This code is contributed by Anant Agarwal.
