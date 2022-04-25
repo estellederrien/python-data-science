@@ -6,8 +6,9 @@
 
 ## Intro 
 Je stocke ici divers scripts de data science et de mathématiques descriptives ou prédictives en Python, en langue Française. Mes études sont principalement axées sur les solveurs linéaires, les régressions multiples, les lois de probabilité et les chaines de Markov. Un peu de finances aussi...<br>
-<br><B>New 2022</b> : Je vais dorénavant stocker des centaines de fichiers de recherche opérationnelle avec le solveur EXCEL (Optimisation linéaire mathématique), traduits en Français, avec leurs légendes simplifiées ( Produits mixs, Mélanges, Production multi périodes avec gestion des stocks, Job Shop multiples machines, Cutting stock, Bin Packing 2d et bien plus etc ..., je ne fais plus que ça ....<br> Important : Il faut savoir que les valeurs dans les programmes linéaires pourraient provenir de bases de données et non pas être des valeurs 'statiques'  , et donc se modifier en temps réel, et pas seulement être statiques, ce qui procure une puissance incroyable aux programmes linéaire et au solveur excel.<br>
-
+<br><B>New 2022</b> : Je vais dorénavant stocker des centaines de fichiers de recherche opérationnelle avec le solveur EXCEL (Optimisation linéaire mathématique), traduits en Français, avec leurs légendes simplifiées ( Produits mixs, Mélanges, Production multi périodes avec gestion des stocks, Job Shop multiples machines, Cutting stock, Bin Packing 2d et bien plus etc ..., je ne fais plus que ça ....<br> Important : Il faut savoir que les valeurs dans les programmes linéaires pourraient provenir de bases de données et non pas être des valeurs 'statiques'  , et donc se modifier en temps réel, et pas seulement être statiques, ce qui procure une puissance incroyable aux programmes linéaire et au solveur excel.
+<br>
+N'hésitez pas à consulter mon application commerciale www.solvgraph.com , pour comprendre plus facilement ce qu'est la Recherche opérationnelle, en mode graphique.<br>
 ## Dernières news du dépot : 
 
 21-04-2022 : Liste provisoire des programmes linéaires du répertoire 26 ' Recherche opérationnelle avec excel '( Fichiers solveur excel provenant de sources diverses ), vivement le tri final, quand tout sera traduit , testé , trié par catégorie et validé !:<br>
