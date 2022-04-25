@@ -11,6 +11,8 @@ Je stocke ici divers scripts de data science et de mathématiques descriptives o
 N'hésitez pas à consulter mon application commerciale www.solvgraph.com , pour comprendre plus facilement ce qu'est la Recherche opérationnelle, en mode graphique.<br>
 ## Dernières news du dépot : 
 
+25-04-2022 : Découverte du programme Lekin 2010  pour gérer les optimisations linéaires Job Shops / Flow Shop <br>
+
 21-04-2022 : Liste provisoire des programmes linéaires du répertoire 26 ' Recherche opérationnelle avec excel '( Fichiers solveur excel provenant de sources diverses ), vivement le tri final, quand tout sera traduit , testé , trié par catégorie et validé !:<br>
 - production mix<br>
 - production - affectaction (Alloc)<br>
