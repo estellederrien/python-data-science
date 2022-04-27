@@ -12,7 +12,7 @@ N'hésitez pas à consulter mon application commerciale www.solvgraph.com , pour
 ## Dernières news du dépot : 
 
 <p align="center" >
-  <img  src="https://github.com/estelle15000/python-data-science/blob/main/operationsresearch.png" >
+  <img  src="https://github.com/estelle15000/python-data-science/operationsresearch.png" >
 </p>
 
 
