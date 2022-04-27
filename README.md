@@ -10,7 +10,7 @@ Je stocke ici divers scripts de data science et de mathématiques descriptives o
 <br>
 N'hésitez pas à consulter mon application commerciale www.solvgraph.com , pour comprendre plus facilement ce qu'est la Recherche opérationnelle, en mode graphique.<br>
 ## Dernières news du dépot : 
-![Screenshot](operationsresearch.png.jpg)<br>
+![Screenshot](operationsresearch.png)<br>
 
 
 27-04-2022 : Découverte du superbe site http://mba.tuck.dartmouth.edu/opt/index.html du super livre "Optimization Modeling with Spreadsheets" - Présence et explication d'un modèle de Job Shop avec disjonctions + Ficher excel ! Ce livre fait partie de mes  4 livres d'optimisation linéaire avec Excel en Anglais que j'étudie désormais, Microsoft Excel 2013 Data Analysis and Business Modeling , et Step-By-Step_Optimization_S et Wayne_L._Winston_S._Christian_Albright_Practical_Management_Science</br>
