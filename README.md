@@ -6,13 +6,20 @@
 
 ## Introduction
 Je stocke ici divers scripts de data science et de mathématiques descriptives ou prédictives en Python, en langue Française. Mes études sont principalement axées sur les solveurs linéaires, les régressions multiples, les lois de probabilité et les chaines de Markov. Un peu de finances aussi...<br>
-<br><B>New 2022</b> : Je vais dorénavant stocker des centaines de fichiers de recherche opérationnelle avec le solveur EXCEL (Optimisation linéaire mathématique), traduits en Français, avec leurs légendes simplifiées ( Produits mixs, Mélanges, Production multi périodes avec gestion des stocks, Job Shop multiples machines, Cutting stock, Bin Packing 2d et bien plus etc ..., je ne fais plus que ça ....<br> Important : Il faut savoir que les valeurs dans les programmes linéaires pourraient provenir de bases de données et non pas être des valeurs 'statiques'  , et donc se modifier en temps réel, et pas seulement être statiques, ce qui procure une puissance incroyable aux programmes linéaire et au solveur excel. Je tente également de comparer les résultats des programmes linéaires en python à ceux en Excel dès que c'est possible, pour l'instant, c'est assez largement OK, et les solveurs trouvent les mêmes résultats (Excel -> Python).
+<br><B>New 2022</b> : Je vais dorénavant stocker des centaines de fichiers de recherche opérationnelle avec le solveur EXCEL (Optimisation linéaire mathématique), traduits en Français, avec leurs légendes simplifiées ( Produits mixs, Mélanges, Production multi périodes avec gestion des stocks, Job Shop multiples machines, Cutting stock, Bin Packing 2d et bien plus etc ...
+je ne fais plus que ça ....<br> 
+
+<p align="center" >
+  <img  src="https://github.com/estelle15000/python-data-science/blob/master/2007_solveur2.jpg" >
+</p>
+
+Important : Il faut savoir que les valeurs dans les programmes linéaires pourraient provenir de bases de données et non pas être des valeurs 'statiques'  , et donc se modifier en temps réel, et pas seulement être statiques, ce qui procure une puissance incroyable aux programmes linéaire et au solveur excel. Je tente également de comparer les résultats des programmes linéaires en python à ceux en Excel dès que c'est possible, pour l'instant, c'est assez largement OK, et les solveurs trouvent les mêmes résultats (Excel -> Python).
 <br><br>
 N'hésitez pas à consulter mon application commerciale www.solvgraph.com , pour comprendre plus facilement ce qu'est la Recherche opérationnelle, en mode graphique.<br>
 ## Dernières news du dépot : 
 
 <p align="center" >
-  <img  src="https://github.com/estelle15000/python-data-science/operationsresearch.png" >
+  <img  src="https://github.com/estelle15000/python-data-science/blob/master/operationsresearch.png" >
 </p>
 
 
