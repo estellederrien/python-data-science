@@ -5,6 +5,11 @@ There is a factory that processes two types of raw materials A and B to produce 
 The problem of making a production plan for the next three months. 
 The amount of raw materials used to produce one unit of each product, the production / inventory cost of each product, 
 the monthly shipment amount of each product, and the monthly available amount of each raw material are given.
+
+Il y a une usine qui transforme deux types de matières premières A et B pour produire deux types de produits I et II.
+Le problème de faire un plan de production pour les trois prochains mois.
+La quantité de matières premières utilisées pour produire une unité de chaque produit, le coût de production/inventaire de chaque produit,
+le montant de l'expédition mensuelle de chaque produit et la quantité mensuelle disponible de chaque matière première sont indiqués.
  """
 
 
