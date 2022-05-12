@@ -23,6 +23,11 @@ slack (RELACHEMENT):
 The amount of a resource that is unused.
 La quantité d'une ressource qui n'est pas utilisée.
 
+SHADOW PRICE :
+A shadow price of a resource constraint in linear programming is 
+usually defined as the maximum price which should be paid to obtain an additional unit of re- source
+Un prix fictif d'une contrainte de ressource dans la programmation linéaire 
+est généralement défini comme le prix maximum qui devrait être payé pour obtenir une unité supplémentaire de ressource.
 
 
 
