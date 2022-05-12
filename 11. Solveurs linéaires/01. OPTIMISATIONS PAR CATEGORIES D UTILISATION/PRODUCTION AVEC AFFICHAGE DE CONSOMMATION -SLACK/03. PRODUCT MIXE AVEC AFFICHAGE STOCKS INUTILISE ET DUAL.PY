@@ -97,6 +97,17 @@ print ("TotalProfit", value (prob.objective))
 # produits__produit_4 = 0.0
 # TotalProfit 147.0
 
-# AFFICHAGE DU DUAL ET DU SLACK (QUANTITE INUTILISEE)
+# AFFICHAGE DU DUAL (SHADOW PRICE) ET DU SLACK (QUANTITE INUTILISEE)
 for name, c in list(prob.constraints.items()):
     print(name, ":", c, "\t dual:", c.pi, "\t\t slack:", c.slack)
+
+
+# Autre option pour afficher le slack (QUANTITE INUTILISEE): 
+
+constraints = prob.constraints
+print(f'Les contraintes sont contenues dans {type(constraints)}')
+
+for name in constraints.keys():
+    value = constraints.get(name).value()
+    slack = constraints.get(name).slack
+    print(f'constraint {name} à la valeur de : {value} et une quantité inutilisée de: {slack}')
