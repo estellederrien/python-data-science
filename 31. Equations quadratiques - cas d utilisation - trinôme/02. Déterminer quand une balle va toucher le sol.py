@@ -2,7 +2,7 @@
 # Solve the quadratic equation ax**2 + bx + c = 0
 
 # Une balle est lancée tout droit, à 3 m au-dessus du sol, avec une vitesse de 14 m/s.
-# Quand touche-t-il le sol?
+# Quand touche-t-elle le sol?
 #Source : https://www.mathsisfun.com/algebra/quadratic-equation-real-world.html
 
 """ Ignorant la résistance de l’air, nous pouvons calculer sa hauteur en additionnant ces trois choses:
@@ -29,4 +29,4 @@ sol2 = (-b+cmath.sqrt(d))/(2*a)
 print('The solution are {0} and {1}'.format(sol1,sol2))#
 
 # The "t = −0.2" is a negative time, impossible in our case. /  La 1 ère solution trouvée est impossible
-# The "t = 3" is the answer we want: / L solution 3 eest ok , donc elle mets 3 secondes
+# The "t = 3" is the answer we want: / L solution 3 est ok , donc elle mets 3 secondes
