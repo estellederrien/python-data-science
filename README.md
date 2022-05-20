@@ -6,8 +6,8 @@
 ##  Français/French
 
 ## Introduction
-Je stocke ici divers scripts de data science et de mathématiques descriptives ou prédictives en Python, en langue Française. Mes études sont principalement axées sur les solveurs linéaires, les régressions multiples, les lois de probabilité et les chaines de Markov. Un peu de finances aussi...<br>
-<br><B>New 2022</b> : Je vais dorénavant stocker des centaines de fichiers de recherche opérationnelle avec le solveur EXCEL (Optimisation linéaire mathématique), que je traduis en Français, je leur crée des légendes simplifiées et les valide( Produits mixs, Mélanges, Production multi périodes avec gestion des stocks, Job Shop sur multiples machines, Cutting stock, Bin Packing 2d et bien plus etc ...
+Je stocke ici divers scripts de data science et de mathématiques <b>descriptives</b> ou <b>prédictives</b> en Python, en langue Française. Mes études sont principalement axées sur les solveurs linéaires, les régressions multiples, les lois de probabilité et les chaines de Markov. Un peu de finances aussi...<br>
+<br><B>New 2022</b> : Je vais dorénavant stocker des centaines de fichiers de recherche opérationnelle avec le solveur EXCEL , c'est donc désormais du <b>Prescriptif</b> (Optimisation linéaire mathématique), que je traduis en Français, je leur crée des légendes simplifiées et les valide( Produits mixs, Mélanges, Production multi périodes avec gestion des stocks, Job Shop sur multiples machines, Cutting stock, Bin Packing 2d et bien plus etc ...
 je ne fais plus que ça ....<br> 
 
 <p align="center" >
