@@ -23,7 +23,7 @@ N'hésitez pas à consulter mon application commerciale www.solvgraph.com , pour
   <img  src="https://github.com/estelle15000/python-data-science/blob/master/operationsresearch.png" >
 </p>
 
-20-05-2022 : Ajout du répertoire 31 , pour les scripts du solveur non linéaire GEKKO
+20-05-2022 : Ajout du répertoire 28 , pour les scripts du solveur non linéaire GEKKO
 
 12-04-2022 : Restructuration du répertoire 11 Solveurs linéaire + ajout de codes Product mixes incluant affichage des ressources inutilisées et shadow price en python pulp
 
