@@ -23,6 +23,13 @@ N'hésitez pas à consulter mon application commerciale www.solvgraph.com , pour
   <img  src="https://github.com/estelle15000/python-data-science/blob/master/operationsresearch.png" >
 </p>
 
+20-05-2022 : 2 excellents cours de R.O en Anglais : 
+Cours Coursera - Université Taïwan - Operation research :
+https://www.coursera.org/learn/operations-research-modeling?action=enroll
+
+Cours Udemy - Solveur Excel - optimisations linéaires et non linéaires :
+https://www.udemy.com/course/optimization-with-excel-operations-research-without-coding/
+
 20-05-2022 : Ajout du répertoire 28 , pour les scripts du solveur non linéaire GEKKO
 
 12-04-2022 : Restructuration du répertoire 11 Solveurs linéaire + ajout de codes Product mixes incluant affichage des ressources inutilisées et shadow price en python pulp
