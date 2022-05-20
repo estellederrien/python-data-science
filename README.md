@@ -23,6 +23,8 @@ N'hésitez pas à consulter mon application commerciale www.solvgraph.com , pour
   <img  src="https://github.com/estelle15000/python-data-science/blob/master/operationsresearch.png" >
 </p>
 
+20-05-2022 : Ajout du répertoire 31 , pour les scripts du solveur non linéaire GEKKO
+
 12-04-2022 : Restructuration du répertoire 11 Solveurs linéaire + ajout de codes Product mixes incluant affichage des ressources inutilisées et shadow price en python pulp
 
 27-04-2022 : Découverte du superbe site http://mba.tuck.dartmouth.edu/opt/index.html du super livre "Optimization Modeling with Spreadsheets" - Présence et explication d'un modèle de Job Shop avec disjonctions + Ficher excel ! Ce livre fait partie de mes  4 livres d'optimisation linéaire avec Excel en Anglais que j'étudie désormais, Microsoft Excel 2013 Data Analysis and Business Modeling , et Step-By-Step_Optimization_S et Wayne_L._Winston_S._Christian_Albright_Practical_Management_Science</br>
