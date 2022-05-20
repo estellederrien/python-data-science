@@ -7,16 +7,16 @@
 
 ## Introduction
 Je stocke ici divers scripts de data science et de mathématiques <b>descriptives</b> ou <b>prédictives</b> en Python, en langue Française. Mes études sont principalement axées sur les solveurs linéaires, les régressions multiples, les lois de probabilité et les chaines de Markov. Un peu de finances aussi...<br>
-<br><B>New 2022</b> : Je vais dorénavant stocker des centaines de fichiers de recherche opérationnelle avec le solveur EXCEL , c'est donc désormais du <b>Prescriptif</b> (Optimisation linéaire mathématique), que je traduis en Français, je leur crée des légendes simplifiées et les valide( Produits mixs, Mélanges, Production multi périodes avec gestion des stocks, Job Shop sur multiples machines, Cutting stock, Bin Packing 2d et bien plus etc ...
+<br><B>New 2022</b> : Je vais dorénavant stocker des centaines de fichiers de recherche opérationnelle avec le solveur EXCEL , c'est donc désormais du <b>Prescriptif</b> (Optimisation linéaire et non linéaires mathématique), que je traduis en Français, je leur crée des légendes simplifiées et les valide( Produits mixs, Produits mix non linéaires, Mélanges, Production multi périodes avec gestion des stocks, Job Shop sur multiples machines, Cutting stock, Bin Packing 2d et bien plus etc ...
 je ne fais plus que ça ....<br> 
 
 <p align="center" >
   <img  src="https://github.com/estelle15000/python-data-science/blob/master/2007_solveur2.jpg" >
 </p>
 
-Important : Il faut savoir que les valeurs dans les programmes linéaires Excel pourraient provenir de bases de données et non pas être des valeurs 'statiques'  , et donc se modifier en temps réel, et pas seulement être statiques, ce qui procure une puissance incroyable aux programmes linéaire et au Solveur Excel. Je tente également de comparer les résultats des programmes linéaires en python à ceux en Excel dès que c'est possible, pour l'instant, c'est assez largement OK, et les solveurs trouvent les mêmes résultats (Solveur Excel = Solveur Python).
+Important : Il faut savoir que les valeurs dans les fichiers Excel pourraient provenir de bases de données et non pas être des valeurs 'statiques'  , et donc se modifier en temps réel, et pas seulement être statiques, ce qui procure une puissance incroyable au Solveur Excel. Je tente également de comparer les résultats  en python à ceux en Excel dès que c'est possible, pour l'instant, c'est assez largement OK, et les solveurs trouvent les mêmes résultats (Solveur Excel = Solveur Python).
 <br><br>
-N'hésitez pas à consulter mon application commerciale www.solvgraph.com , pour comprendre plus facilement ce qu'est la Recherche opérationnelle, en mode graphique, ainsi que son grand intérêt pour les entreprises.<br>
+N'hésitez pas à consulter mon application commerciale qui débute,  www.solvgraph.com , pour comprendre plus facilement ce qu'est la Recherche opérationnelle, en mode graphique, ainsi que son grand intérêt pour les entreprises.<br>
 ## Dernières news du dépot : 
 
 <p align="center" >
