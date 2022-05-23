@@ -1,7 +1,7 @@
 """ 
  PLANIFICATION DE PRODUCTION AVEC STOCKS
  MINIMISATION DES COUTS
- 
+
 Source : Taiwan University  : 2022 https://www.coursera.org/learn/operations-research-modeling/lecture/vW447/2-8-simple-lp-formulation-production-and-inventory
 Source 2 :  https://machinelearninggeek.com/solvingmulti-period-production-scheduling-problem-in-python-using-pulp/
 Source 3 : http://www.columbia.edu/itc/sipa/U6033/client_edit/lectures/lec4.pdf
@@ -38,7 +38,7 @@ P3 = pulp.LpVariable('Prodution3', lowBound=0, cat='Integer')
 P4 = pulp.LpVariable('Prodution4', lowBound=0, cat='Integer')
 
 
-# stocks pour 4 jours
+# Stocks par jour 1 , 2 , 3 et 4
 S1 = pulp.LpVariable('Stock1', lowBound=0, cat='Integer')
 S2 = pulp.LpVariable('Stock2', lowBound=0, cat='Integer')
 S3 = pulp.LpVariable('Stock3', lowBound=0, cat='Integer')

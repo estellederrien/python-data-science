@@ -23,8 +23,8 @@ Si on prends un exmple sur 4 jours différents, on a donc
 - le côut de production par jour ( par exemple si c'est le dimanche , c'est plus cher de produire)
 - le coût de l'entretien des stocks est de 1 euro par jour par unité de produit vendu donc si on garde un produit 3 jours, le cout sera de 3 euros """
 
-# NOTE : Cette version utilise des boucles FOR à la place du premier exemple qui était écrit en dur ! ELLE TROUVE LE MEME RESULTAT
-# Ce code fonctionne et rtrouve le même résultat que http://www.columbia.edu/itc/sipa/U6033/client_edit/lectures/lec4.pdf sur le problème nuMéro 10
+# NOTE : Cette version utilise des boucles FOR à la place du premier exemple ou les vars de décision sont écrites en dur ! ELLE TROUVE LE MEME RESULTAT
+# Ce code fonctionne et retrouve le même résultat que http://www.columbia.edu/itc/sipa/U6033/client_edit/lectures/lec4.pdf sur le problème nuMéro 10
 
 
 
@@ -32,9 +32,9 @@ Si on prends un exmple sur 4 jours différents, on a donc
 from pulp import *
 
 # 1. On veut minimiser Les coûts de production, et d'inventaire.
-model = LpProblem("Minimize Cost",LpMinimize)
+model = LpProblem("Minimiser le cout",LpMinimize)
 
-# ON définit les couts de production et de stockage ; Dans quaters, c'est le nombre de jours . Define production cost, inventory cost, and demande.
+# ON définit les couts de production et de stockage pour les jours 1 2 3 ET 4 ; Dans quaters, c'est le nombre de jours SOIT 4. Define production cost, inventory cost, and demande.
 # Définir les couts de production par période, le cout de l'inventaire, et la demandee reportée par le service commercial
 quaters = list(range(4))
 cout_production=[9,12,10,12]
