@@ -1,5 +1,8 @@
 """
 Source  :  https://machinelearninggeek.com/solvingmulti-period-production-scheduling-problem-in-python-using-pulp/
+
+lE RéSULTAT EST IDENTIQUE à EXCEL ET COLUMBIA UNIVERSITY :
+http://www.columbia.edu/itc/sipa/U6033/client_edit/lectures/lec4.pdf
 """
 
 # Import all classes of PuLP module

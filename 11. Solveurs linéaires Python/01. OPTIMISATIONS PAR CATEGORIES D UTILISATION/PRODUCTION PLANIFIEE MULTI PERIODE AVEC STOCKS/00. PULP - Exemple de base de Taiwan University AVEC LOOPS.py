@@ -24,7 +24,7 @@ Si on prends un exmple sur 4 jours différents, on a donc
 - le coût de l'entretien des stocks est de 1 euro par jour par unité de produit vendu donc si on garde un produit 3 jours, le cout sera de 3 euros """
 
 # NOTE : Cette version utilise des boucles FOR à la place du premier exemple qui était écrit en dur ! ELLE TROUVE LE MEME RESULTAT
-
+# Ce code fonctionne et rtrouve le même résultat que http://www.columbia.edu/itc/sipa/U6033/client_edit/lectures/lec4.pdf sur le problème nuMéro 10
 
 
 
