@@ -13,8 +13,10 @@ Besoins de trésorerie (en millions de dollars)  20 30 40
 
 Le comité d'investissement envisage quatre obligations d'État pour
 éventuel achat. 
+
 Le prix et les flux de trésorerie des obligations (en $) sont :
 Flux de trésorerie des obligations
+
             Obligation 1 Obligation 2 Obligation 3 Obligation 4
 2001        -1,04       -1,00       -0,98           -0,92
 2002        0,05        0,04        1,00            0,00
