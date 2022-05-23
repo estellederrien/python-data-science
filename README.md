@@ -23,6 +23,8 @@ N'hésitez pas à consulter mon application commerciale ,  www.solvgraph.com , p
   <img  src="https://github.com/estelle15000/python-data-science/blob/master/operationsresearch.png" >
 </p>
 
+23-05-2022 : Ajout dans le rep 11 des scripts python pulp de planification de production multi période + Comparaison avec le solveur Excel = Python Pulp et le Solveur Excel trouvent exactement le même résultat !
+
 20-05-2022 : 2 excellents cours de R.O en Anglais, j'hallucine devant la qualité et précision du cours dispensé : 
 Cours Coursera - Université Taïwan - Operation research :<br>
 https://www.coursera.org/learn/operations-research-modeling?action=enroll
