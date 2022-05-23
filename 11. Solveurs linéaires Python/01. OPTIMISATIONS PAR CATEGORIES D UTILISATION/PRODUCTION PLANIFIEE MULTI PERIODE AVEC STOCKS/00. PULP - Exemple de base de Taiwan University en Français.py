@@ -1,6 +1,7 @@
 """ 
  PLANIFICATION DE PRODUCTION AVEC STOCKS
  MINIMISATION DES COUTS
+ EXAMPLE LE PLUS SIMPLIFIE POSSIBLE
 
 Source : Taiwan University  : 2022 https://www.coursera.org/learn/operations-research-modeling/lecture/vW447/2-8-simple-lp-formulation-production-and-inventory
 Source 2 :  https://machinelearninggeek.com/solvingmulti-period-production-scheduling-problem-in-python-using-pulp/
