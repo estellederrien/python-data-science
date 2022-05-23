@@ -1,4 +1,5 @@
 """
+ PLANIFICATION DE PRODUCTION MULTI PERIODE AVEC PRISE EN COMPTE DES STOCKS
 Source  :  https://machinelearninggeek.com/solvingmulti-period-production-scheduling-problem-in-python-using-pulp/
 
 lE RéSULTAT EST IDENTIQUE à EXCEL ET COLUMBIA UNIVERSITY :
