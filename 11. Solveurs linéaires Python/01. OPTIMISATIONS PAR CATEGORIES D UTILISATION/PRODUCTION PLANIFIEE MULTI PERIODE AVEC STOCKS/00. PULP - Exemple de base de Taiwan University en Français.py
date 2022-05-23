@@ -23,6 +23,15 @@ Si on prends un exmple sur 4 jours différents, on a donc
 - le coût de l'entretien des stocks est de 1 euro par jour par unité de produit vendu donc si on garde un produit 3 jours, le cout sera de 3 euros """
 
 
+""" HISTOIRE COMPLETE DE TAIWAN UNIVERSITY: 
+LE MANAGER DIT QUON VA VENDRE 100 , 150, 200 et 170 les jours 1 ,2 , 3 et 4 de la prochine semaine.
+LES COUTS DE PROD VARIENT EN FONCTION DES JOURS : 9e 12e 10e ET 12e les jours 1 ,2 , 3 et 4 de la prochine semaine.
+LE COUT DE STOCKAGE EST DE 1 E PAR OBJET STOCKE DONC SI ON LE GARDE 4 JOURS CA FAIT 4 EUROS DE COUT 
+QUEL EST LE MEILLEUR PLAN DE PRODUCTION POUR MINIMISER LES COUTS ET NE PAS AVOIR TROP DE STOCKS N
+
+"""
+
+
 # Importer PULP
 from pulp import *
 
