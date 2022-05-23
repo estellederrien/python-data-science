@@ -9,6 +9,8 @@
 Je stocke ici divers scripts de data science et de mathématiques <b>descriptives</b> ou <b>prédictives</b> en Python, en langue Française. Mes études sont principalement axées sur les solveurs linéaires, les régressions multiples, les lois de probabilité et les chaines de Markov. Un peu de finances aussi...<br>
 <br><B>New 2022</b> : Je vais dorénavant stocker des centaines de fichiers de recherche opérationnelle avec le solveur EXCEL , c'est donc désormais du <b>Prescriptif</b> (Optimisation linéaire et non linéaires mathématique), que je traduis en Français, je leur crée des légendes simplifiées et les valide( Produits mixs, Produits mix non linéaires, Mélanges, Production multi périodes avec gestion des stocks, Job Shop sur multiples machines, Cutting stock, Bin Packing 2d et bien plus etc ...
 je ne fais plus que ça ....<br> 
+<br><B>New 2022</b>: I will now store hundreds of operational research files with the EXCEL solver, so it is now <b>Prescriptive</b> (Linear and nonlinear mathematical optimization ), which I translate into French, I create simplified legends for them and validate them (mixed products, non-linear mixed products, mixtures, multi-period production with inventory management, Job Shop on multiple machines, Cutting stock, Bin Packing 2d and many more etc. I will creae the corresponding Python solver code too ...
+I just do that....<br>
 
 <p align="center" >
   <img  src="https://github.com/estelle15000/python-data-science/blob/master/2007_solveur2.jpg" >
@@ -24,6 +26,9 @@ N'hésitez pas à consulter mon application commerciale ,  www.solvgraph.com , p
 </p>
 
 23-05-2022 : Ajout dans le rep 11 des scripts python pulp de planification de production multi période + Comparaison avec le solveur Excel = Python Pulp et le Solveur Excel trouvent exactement le même résultat !
+05-23-2022: Addition in rep 11 of the python pulp scripts for multi-period production planning + Comparison with the Excel solver = Python Pulp and the Excel Solver find exactly the same result!
+
+
 
 20-05-2022 : 2 excellents cours de R.O en Anglais, j'hallucine devant la qualité et précision du cours dispensé : 
 Cours Coursera - Université Taïwan - Operation research :<br>
