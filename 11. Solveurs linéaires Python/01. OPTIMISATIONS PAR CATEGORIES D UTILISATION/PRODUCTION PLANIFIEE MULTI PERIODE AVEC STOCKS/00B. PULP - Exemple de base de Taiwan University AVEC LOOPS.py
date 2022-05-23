@@ -23,7 +23,7 @@ Si on prends un exmple sur 4 jours différents, on a donc
 - le côut de production par jour ( par exemple si c'est le dimanche , c'est plus cher de produire)
 - le coût de l'entretien des stocks est de 1 euro par jour par unité de produit vendu donc si on garde un produit 3 jours, le cout sera de 3 euros """
 
-# NOTE : Cette version utilise des boucles FOR à la place du premier exemple qui était écrit en dur !
+# NOTE : Cette version utilise des boucles FOR à la place du premier exemple qui était écrit en dur ! ELLE TROUVE LE MEME RESULTAT
 
 
 
@@ -51,15 +51,15 @@ y = LpVariable.dicts('quater_stock_', quaters,lowBound=0, cat='Continuous')
 model += lpSum([cout_production[i]*x[i] for i in quaters]) + lpSum([cout_stockage[i]*y[i] for i in quaters])
 
 # Définir les contraintes
-# Constrainte de capacité de production - Production-capacity constraints
+# Constrainte de capacité de production (Production-capacity constraints)
 for i in quaters:
     model.addConstraint(x[i]<=3000)
 
-# Contrainte de balance de stocks - Inventory-balance constraints
+# Contrainte de balance de stocks ( Inventory-balance constraints)
 model.addConstraint(x[0] - y[0] == demande[0]) # (Month 1)
 
 for i in quaters[1:]:
-    model.addConstraint(x[i] - y[i] + y[i-1] == demande[i]) # for (Month 2, 3, 4) 
+    model.addConstraint(x[i] - y[i] + y[i-1] == demande[i]) # par (jour 2, 3, 4) 
 
 #ON résouds avec le solveur pulp ou un autre entre parenthèses
 model.solve()
