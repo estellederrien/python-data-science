@@ -68,6 +68,9 @@ Optimal objective 6206377.5 - 4 iterations time 0.002, Presolve 0.00
 Option for printingOptions changed from normal to all
 Total time (CPU seconds):       0.05   (Wallclock seconds):       0.05
 
+LA , LE SOLVEUR NOUS DIT COMBIEN PRODUIRE PAR MOIS 
+TOUT EN TENANT COMPTE DES STOCKS AFIN DE MINIMISER TOUS LES COUTS POUR CES PERIODES !!
+
 production__0 = 4000.0
 production__1 = 3500.0
 production__2 = 4000.0
