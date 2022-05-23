@@ -25,12 +25,11 @@ N'hésitez pas à consulter mon application commerciale ,  www.solvgraph.com , p
   <img  src="https://github.com/estelle15000/python-data-science/blob/master/operationsresearch.png" >
 </p>
 
-23-05-2022 : Très bien : Elaboration Python Pulp et Comparaison de résultat Solveur excel 100% OK du P.L de planification de production multi période ( Répertoire 11 - Par catégories - Planification multipériode, fichier 03, 100% OK !! )
 
 23-05-2022 : Découverte de l'excellente page wikipedia traitant de l'ordonnancement d'atelier, très très claire !  (Job shop, flow shop): 
 https://fr.wikipedia.org/wiki/Ordonnancement_d%27atelier
 
-23-05-2022 : Découverte du magnifique site du cours B6015: Decision Models de Columbia university, avec des tas d'exemples du solveur excel opérationnels et de la finance ! 
+23-05-2022 : Découverte du magnifique site du cours B6015: Decision Models de Columbia university, avec des tas d'exemples du solveur excel opérationnels et de la finance ( En particulier, l'allocation de fonds) ! 
 https://www.meiss.com/columbia/en/teaching/2000/fall/B6015/#Download
 
 23-05-2022 : Ajout dans le rep 11 des scripts python pulp de planification de production multi période + Comparaison avec le solveur Excel = Python Pulp et le Solveur Excel trouvent exactement le même résultat !
