@@ -52,7 +52,7 @@ for i in periodes:
 model.addConstraint(x[0] - (y[0] - 2750) == demande[0]) # (Mois 1)
 
 for i in periodes[1:]:
-    model.addConstraint(x[i] - y[i] + y[i-1] == demande[i]) # par mois 1 , 2 , 3 , 4 , 5 , 6
+    model.addConstraint(x[i] - y[i] + y[i-1] == demande[i]) # par mois  2 , 3 , 4 , 5 , 6
 
 #ON résouds avec le solveur pulp ou un autre entre parenthèses
 model.solve()
