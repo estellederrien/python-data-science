@@ -65,20 +65,20 @@ print(problem)
 result = problem.solve()
 
 #On imprime les résultats
-print("---Premier mois---")
+print("---Premier jour---")
 print("Production:" ,pulp.value(P1))
 print("Stock:" ,pulp.value(S1))
 
 
-print("---2nd mois---")
+print("---2nd jour---")
 print("Production:" ,pulp.value(P2))
 print("Stock:" ,pulp.value(S2))
 
-print("---3rd mois---")
+print("---3rd jour---")
 print("Production3:" ,pulp.value(P3))
 print("Stock:" ,pulp.value(S3))
 
-print("---4eme mois---")
+print("---4eme jour---")
 print("Production:" ,pulp.value(P4))
 print("Stock:" ,pulp.value(S4))
 
