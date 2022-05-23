@@ -4,6 +4,8 @@
 
 COMPARAISON ENTRE LE SOLVEUR EXCEL ET PYTHON PULP = RESULTAT 100% IDENTIQUE AU FEUILLET 6 DU FICHIER EXCEL CI JOINT !
 
+REGARDER LE FICHIER EXCEL SOLVER CI JOINT ET VOIR LES RESULTATS, ILS SONT 100% IDENTIQUES ET OK ET POURTANT DE PROVENANCE DIFFERENTES!
+
 THE EXCEL SOLVER AND PYTHON PULP RESULTS ARE 100% IDENTICALS !!!
 """
 
@@ -14,7 +16,7 @@ from pulp import *
 # 1. On veut minimiser Les coûts de production, et d'inventaire.
 model = LpProblem("Minimiser le cout",LpMinimize)
 
-# ON définit les couts de production et de stockage pour les 6 mois différents ; Dans periodes, c'est le nombre de jours SOIT 6. Define production cost, inventory cost, and demande.
+# ON définit les couts de production et de stockage pour les 6 mois différents ; Dans periodes, c'est le nombre de mois SOIT 6. Define production cost, inventory cost, and demande.
 # Définir les couts de production par période, le cout de l'inventaire, et la demandee reportée par le service commercial
 periodes = list(range(6))
 cout_production=[240,250,265,285,280,260]
