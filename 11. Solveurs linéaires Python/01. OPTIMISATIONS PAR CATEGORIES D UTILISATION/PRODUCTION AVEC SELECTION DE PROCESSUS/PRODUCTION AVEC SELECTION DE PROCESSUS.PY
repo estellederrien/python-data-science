@@ -98,6 +98,8 @@ import pulp
 model = pulp.LpProblem("Maximize", pulp.LpMaximize)
 
 # Définir les vars de décision, ce sont les machines
+# B34 et B38 sont les mêmes machines, ca veut dire q'uelle peut produire du matériel de 1/4 OU 3/8 de largeur
+# idem pour le reste
 
 B34 = pulp.LpVariable('B34', lowBound=0, cat='Continuous')
 B38 = pulp.LpVariable('B38', lowBound=0, cat='Continuous')
@@ -138,7 +140,8 @@ print(o)
 """ 
 Le résultat nous donne le nombre de pieds en 1000 d'unités à produire par machines, afin de maximiser le profit.
 C'est un genre de Job Shop mais compliqué.
-Par exemple, B34 doit produire 218 000 pieds .
+Par exemple, B34 doit produire 218 000 pieds de matériel de 1/4 de largeur .
+et B38, qui est la même machine doit produire 97.00315 de matériel de 3/8 de largeur
 
 Model Status: Optimal
 B34 = 218.0
