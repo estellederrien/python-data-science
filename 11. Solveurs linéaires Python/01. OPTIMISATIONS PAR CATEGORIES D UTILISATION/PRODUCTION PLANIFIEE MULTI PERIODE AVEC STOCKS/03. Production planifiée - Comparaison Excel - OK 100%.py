@@ -18,18 +18,23 @@ model = LpProblem("Minimiser le cout",LpMinimize)
 
 # ON définit les couts de production et de stockage pour les 6 mois différents ; Dans periodes, c'est le nombre de mois SOIT 6. Define production cost, inventory cost, and demande.
 # Définir les couts de production par période, le cout de l'inventaire, et la demandee reportée par le service commercial
-periodes = list(range(6))
+
+periodes = list(range(6)) 
+demande=[1000,4500,6000,5500,3500,4000]
 cout_production=[240,250,265,285,280,260]
 cout_stockage=[3.60,3.75,3.98,4.28,4.20,3.90]
-demande=[1000,4500,6000,5500,3500,4000]
-max_production=[4000,3500,4000,4500,4000,3500]
+
+
+# Facultatif : On spécifie les max min de prod et stock par période, ce sont des contraintes en plus 
 min_production=[2000,1750,2000,2250,2000,1750]
+max_production=[4000,3500,4000,4500,4000,3500]
+
 min_stock = [1500,1500,1500,1500,1500,1500] # Par sécurité on garde 1500 objets min en stock
 max_stock = [6000,6000,6000,6000,6000,6000]
 
 # 2. Définir les variables de décision : Production et Stock - Define Decision Variables: Production and Inventory
 x = LpVariable.dicts('production_', periodes,lowBound=0, cat='Continuous')
-y = LpVariable.dicts('stock_', periodes,lowBound=0, cat='Continuous')
+y = LpVariable.dicts('stock_', periodes,lowBound=0, cat='Continuous') # Ces stocks seront calculés par l'algorithme lors de l'optimisation, au début on en a pas vuq u'on ne peut pas prédire les ventes futures
 
 
 # 3. Définir l'objectif , On veut minimiser les coûts de production + de stockage comme dans le problème de université taiwan
