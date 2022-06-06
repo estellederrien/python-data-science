@@ -112,8 +112,11 @@ B52 = pulp.LpVariable('B52', lowBound=0, cat='Continuous')
 
 model += 15.89 * B34 + 17.89 * B38 + 16.5 * B48 + 15.22 * B58 + 17.5 * B42 + 16.22 * B52, "Profit"
  
-# On a ici les contraintes habituelles de produits mix 0.11111 c'est un fraction horaire pour 1000 pieds qu'il a caclulé grâce à son tableau
-model += 0.11111 * B34 + 0.11111 * B38 <= 35 , "1st machine temps de travail" # sa formule : 1,000/(60 min./hr.)  (150 ft./min.) = 0.111111 hours per 1,000 ft
+# On a ici les contraintes habituelles de produits mix  . 
+# Ca nous dit qu'on doit utiliser chaque machine moins de 35 heures.
+# Dans la partie gauche, 0.11111 c'est une fraction horaire pour 1000 pieds qu'il a calculé grâce à son tableau initial
+# il prends en compte la vitesse différente de chaque machine pour le calcul
+model += 0.11111 * B34 + 0.11111 * B38 <= 35 , "1st machine temps de travail" # sa formule : 1,000/(60 min./hr.) * (150 ft./min.) = 0.111111 hours per 1,000 ft
 model += 0.16667 * B48 + 0.16667 * B42 <= 35 , "2nd machine temps de travail"
 model += 0.22222 * B58 + 0.22222 * B52 <= 35 , "3rd machine temps de travail"
 model += B34 + B38 + B48 + B58 + B42 + B52 <= 600 , "Capacité de livraison max"
