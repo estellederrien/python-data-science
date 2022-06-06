@@ -92,10 +92,12 @@ B42 + B52 >= 111                en milliers de pieds
 
 
 import pulp
-# import panda as pd
 
-# Define Constraints, Solve, Print Status, Variables, Objective
+
+# Definir le type du pb
 model = pulp.LpProblem("Maximize", pulp.LpMaximize)
+
+# Définir les vars de décision, ce sont les machines
 
 B34 = pulp.LpVariable('B34', lowBound=0, cat='Continuous')
 B38 = pulp.LpVariable('B38', lowBound=0, cat='Continuous')
@@ -104,15 +106,17 @@ B58 = pulp.LpVariable('B58', lowBound=0, cat='Continuous')
 B42 = pulp.LpVariable('B42', lowBound=0, cat='Continuous')
 B52 = pulp.LpVariable('B52', lowBound=0, cat='Continuous')
 
+# La fonction objectif , il a calculé dans le document en soustrayant les couts au profit avant d'écrire la fonction objectif
+
 model += 15.89 * B34 + 17.89 * B38 + 16.5 * B48 + 15.22 * B58 + 17.5 * B42 + 16.22 * B52, "Profit"
  
-# Adjust the constraint
-model += 0.11111 * B34 + 0.11111 * B38 <= 35 , "1st machine worktime"
-model += 0.16667 * B48 + 0.16667 * B42 <= 35 , "2nd machine worktime"
-model += 0.22222 * B58 + 0.22222 * B52 <= 35 , "3rd machine worktime"
+# On a ici les contraintes habituelles de produits mix 0.11111 c'est un fraction horaire pour 1000 pieds qu'il a caclulé grâce à son tableau
+model += 0.11111 * B34 + 0.11111 * B38 <= 35 , "1st machine temps de travail"
+model += 0.16667 * B48 + 0.16667 * B42 <= 35 , "2nd machine temps de travail"
+model += 0.22222 * B58 + 0.22222 * B52 <= 35 , "3rd machine temps de travail"
+model += B34 + B38+ B48 + B58 + B42 + B52 <= 600 , "Capacité de livraison max"
 
-model += B34 + B38+ B48 + B58 + B42 + B52 <= 600 , "Shipping capacity"
-# 
+# Ces 3 prochaines contraintes sont spéciales, et ont été calculées au préalable par l'auteur LINDO dans sa doc
 model += B34 >= 218  , "1/4 done on B34 only"                   
 model += B38 + B48 + B58 >= 114 , "5th constraint" 
 model += B42 + B52 >= 111 , "6xt constraint"              
