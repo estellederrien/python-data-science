@@ -155,11 +155,11 @@ B48 = 16.99685
 B52 = 75.00105
 B58 = 0.0
 Objective =  10073.8530345
-[{'name': '1st_machine_worktime', 'shadow price': 24.03024, 'slack': -0.0},
-{'name': '2nd_machine_worktime', 'shadow price': 7.6798464, 'slack': -0.0}, 
-{'name': '3rd_machine_worktime', 'shadow price': -0.0, 'slack': 18.333267},
-{'name': 'Shipping_capacity', 'shadow price': 16.22, 'slack': -0.0}, 
-{'name': '1/4_done_on_B34_only', 'shadow price': -3.0, 'slack': -0.0}, 
-{'name': '5th_constraint', 'shadow price': -1.0, 'slack': -0.0},
-{'name': '6xt_constraint', 'shadow price': -0.0, 'slack': -157.0}]
+[{'name': '1st_machine_temps_de_travail', 'shadow price': 24.03024, 'slack': -0.0}, 
+{'name': '2nd_machine_temps_de_travail', 'shadow price': 7.6798464, 'slack': -0.0}, 
+{'name': '3rd_machine_temps_de_travail', 'shadow price': -0.0, 'slack': 18.333267}, 
+{'name': 'Capacité_de_livraison_max', 'shadow price': 16.22, 'slack': -0.0}, 
+{'name': '1/4_de_largeur_de_materiel_fait_sur_B34_seulement', 'shadow price': -3.0, 'slack': -0.0}, 
+{'name': '3/8_de_largeur_materiel_dispo_sur_3_machines', 'shadow price': -1.0, 'slack': -0.0}, 
+{'name': '1/2_de_largeur_sur_les_2_machines_qui_le_peuvent', 'shadow price': -0.0, 'slack': -157.0}]
 """
