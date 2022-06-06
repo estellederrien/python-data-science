@@ -83,23 +83,18 @@ B34 >= 218                      Fabrication
 B38 + B48 + B58 >= 114          exigences
 B42 + B52 >= 111                en milliers de pieds
 
-
-
-
-
-
 """
 
-
+# Maintenant, on utilise le solveur PULP pour résoudre le p.l de la documentation LINDO Chapitre 6
 import pulp
 
 
 # Definir le type du pb
 model = pulp.LpProblem("Maximize", pulp.LpMaximize)
 
-# Définir les vars de décision, ce sont les machines
-# B34 et B38 sont les mêmes machines, ca veut dire q'uelle peut produire du matériel de 1/4 OU 3/8 de largeur
-# idem pour le reste
+# Définir les vars de décision, c'est ce que vont produire les 3 machines .
+# B34 et B38 sont les mêmes machines, ca veut dire qu'elle peut produire du matériel de 1/4 OU 3/8 de largeur
+# idem pour le reste (convention de nommmage)
 
 B34 = pulp.LpVariable('B34', lowBound=0, cat='Continuous')
 B38 = pulp.LpVariable('B38', lowBound=0, cat='Continuous')
@@ -142,7 +137,7 @@ print(o)
 
 """ 
 Le résultat nous donne le nombre de pieds en 1000 d'unités à produire par machines, afin de maximiser le profit.
-Ca fait penser à un flow shop machine multiples / Ordonnancement ( A vérifier).
+Ca fait penser à un flow shop machine multiples / Ordonnancement mais c'est est pas un.
 Par exemple, B34 doit produire 218 000 pieds de matériel de 1/4 de largeur .
 et B38, qui est la même machine doit produire 97.00315 de matériel de 3/8 de largeur
 Le résultat est le même qu'avec le solveur LINDO - AMP
