@@ -116,7 +116,7 @@ model += 15.89 * B34 + 17.89 * B38 + 16.5 * B48 + 15.22 * B58 + 17.5 * B42 + 16.
 model += 0.11111 * B34 + 0.11111 * B38 <= 35 , "1st machine temps de travail" # sa formule : 1,000/(60 min./hr.)  (150 ft./min.) = 0.111111 hours per 1,000 ft
 model += 0.16667 * B48 + 0.16667 * B42 <= 35 , "2nd machine temps de travail"
 model += 0.22222 * B58 + 0.22222 * B52 <= 35 , "3rd machine temps de travail"
-model += B34 + B38+ B48 + B58 + B42 + B52 <= 600 , "Capacité de livraison max"
+model += B34 + B38 + B48 + B58 + B42 + B52 <= 600 , "Capacité de livraison max"
 
 # Ces 3 prochaines contraintes sont spéciales, et ont été calculées au préalable par l'auteur LINDO dans sa doc
 model += B34 >= 218  , "1/4 de largeur de materiel fait sur B34 seulement"   # normal car seul la machine B34 peut produire du 1/4 d'épaisseur , et il faut en produire 218 000 pieds comme dans sa doc                
@@ -142,6 +142,7 @@ Le résultat nous donne le nombre de pieds en 1000 d'unités à produire par mac
 C'est un genre de Job Shop mais compliqué.
 Par exemple, B34 doit produire 218 000 pieds de matériel de 1/4 de largeur .
 et B38, qui est la même machine doit produire 97.00315 de matériel de 3/8 de largeur
+Le résultat est le même qu'avec le solveur LINDO - AMP
 
 Model Status: Optimal
 B34 = 218.0
