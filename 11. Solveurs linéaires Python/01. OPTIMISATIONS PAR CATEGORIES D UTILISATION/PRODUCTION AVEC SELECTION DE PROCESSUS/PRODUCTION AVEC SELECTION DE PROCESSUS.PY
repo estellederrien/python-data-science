@@ -44,5 +44,107 @@ trois façons de produire du 3 / 8 " et deux façons de produire du 1 / 2 ".
 Ainsi, vous voudrez avoir au moins les variables de décision suivantes. 
 Pour commodité numérique, nous mesurons la longueur en milliers de pieds :
 
+B34 = 1,000’s of feet of1 4 " produced on B3,
+B38 = 1,000’s of feet of3 8 " produced on B3,
+B48 = 1,000’s of feet of3 8 " produced on B4,
+B58 = 1,000’s of feet of3 8 " produced on B5,
+B42 = 1,000’s of feet of1 2 " produced on B4,
+B52 = 1,000’s of feet of1 2 " produced on B5.
 
+Pour la fonction objectif, nous devons avoir la contribution au profit,
+y compris les coûts de main-d'œuvre. Quand c'est fait, on obtient :
+
+                Profit Contribution
+Variable        per Foot
+B34             0.01589
+B38             0.01789
+B48             0.01650
+B58             0.01522
+B42             0.01750
+B52             0.01622
+
+
+En clair, il y aura quatre contraintes correspondant aux trois ressources machines rares d'AMFC et
+sa capacité de service d'expédition. 
+Il devrait y avoir trois autres contraintes dues aux exigences de la production pour les trois produits. 
+Pour les contraintes de capacité machine, on veut le nombre d'heures requis pour 1 000 pieds traités. 
+Pour la machine B3, ce chiffre est de 1 000/(60 min./hr.) * (150 ft./min.) = 0,111111 heures par 1 000 pieds. 
+Des chiffres similaires pour B4 et B5 sont 0,16667 heures par 1 000 pieds et 0,22222
+heures par 1 000 pieds.
+
+La formulation peut maintenant s'écrire :
+Maximiser=15.89B34+17.89B38+16.5B48+15.22B58+17.5B42+16.22B52
+sujet à
+0.11111B34 + 0.11111B38 <= 35   Machine
+0.16667B48 + 0.16667B42 <= 35   capacités
+0,22222B58 + 0,22222B52 <= 35   en heures
+B34+B38+B48+B58+B42+B52 <= 600  Capacité d'expédition en milliers de pieds
+B34 >= 218                      Fabrication
+B38 + B48 + B58 >= 114          exigences
+B42 + B52 >= 111                en milliers de pieds
+
+
+
+
+
+
+"""
+
+
+import pulp
+# import panda as pd
+
+# Define Constraints, Solve, Print Status, Variables, Objective
+model = pulp.LpProblem("Maximize", pulp.LpMaximize)
+
+B34 = pulp.LpVariable('B34', lowBound=0, cat='Continuous')
+B38 = pulp.LpVariable('B38', lowBound=0, cat='Continuous')
+B48 = pulp.LpVariable('B48', lowBound=0, cat='Continuous')
+B58 = pulp.LpVariable('B58', lowBound=0, cat='Continuous')
+B42 = pulp.LpVariable('B42', lowBound=0, cat='Continuous')
+B52 = pulp.LpVariable('B52', lowBound=0, cat='Continuous')
+
+model += 15.89 * B34 + 17.89 * B38 + 16.5 * B48 + 15.22 * B58 + 17.5 * B42 + 16.22 * B52, "Profit"
+ 
+# Adjust the constraint
+model += 0.11111 * B34 + 0.11111 * B38 <= 35 , "1st machine worktime"
+model += 0.16667 * B48 + 0.16667 * B42 <= 35 , "2nd machine worktime"
+model += 0.22222 * B58 + 0.22222 * B52 <= 35 , "3rd machine worktime"
+
+model += B34 + B38+ B48 + B58 + B42 + B52 <= 600 , "Shipping capacity"
+# 
+model += B34 >= 218  , "1/4 done on B34 only"                   
+model += B38 + B48 + B58 >= 114 , "5th constraint" 
+model += B42 + B52 >= 111 , "6xt constraint"              
+
+# Solve Model, Print Status, Variables, Objective, Shadow and Slack
+model.solve()
+
+print("Model Status: {}".format(pulp.LpStatus[model.status]))
+
+for v in model.variables():
+    print(v.name, "=", v.varValue)
+
+print("Objective = ", pulp.value(model.objective))
+
+o = [{'name':name, 'shadow price':c.pi, 'slack': c.slack} for name, c in model.constraints.items()]
+print(o)
+
+
+""" 
+Model Status: Optimal
+B34 = 218.0
+B38 = 97.00315
+B42 = 192.99895
+B48 = 16.99685
+B52 = 75.00105
+B58 = 0.0
+Objective =  10073.8530345
+[{'name': '1st_machine_worktime', 'shadow price': 24.03024, 'slack': -0.0},
+{'name': '2nd_machine_worktime', 'shadow price': 7.6798464, 'slack': -0.0}, 
+{'name': '3rd_machine_worktime', 'shadow price': -0.0, 'slack': 18.333267},
+{'name': 'Shipping_capacity', 'shadow price': 16.22, 'slack': -0.0}, 
+{'name': '1/4_done_on_B34_only', 'shadow price': -3.0, 'slack': -0.0}, 
+{'name': '5th_constraint', 'shadow price': -1.0, 'slack': -0.0},
+{'name': '6xt_constraint', 'shadow price': -0.0, 'slack': -157.0}]
 """
