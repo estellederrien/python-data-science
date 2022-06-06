@@ -136,6 +136,10 @@ print(o)
 
 
 """ 
+Le résultat nous donne le nombre de pieds en 1000 d'unités à produire par machines, afin de maximiser le profit.
+C'est un genre de Job Shop mais compliqué.
+Par exemple, B34 doit produire 218 000 pieds .
+
 Model Status: Optimal
 B34 = 218.0
 B38 = 97.00315
