@@ -24,8 +24,7 @@ N'hésitez pas à consulter mon application commerciale ,  www.solvgraph.com , p
 <p align="center" >
   <img  src="https://github.com/estelle15000/python-data-science/blob/master/operationsresearch.png" >
 </p>
-10-06-2022 : 03. Production planifiée - Comparaison Excel .py : Le fichier excel et python ne donnent pas le même résultat - Etrange, car le fichier Python propose un coût final de stockage et de coût de productioninférieur, le résultat est donc "meilleur" dans le script Python, Contrôles et calculs en cours pour voir 
-si le résultat est vraiment valide  ...
+10-06-2022 : 03. Production planifiée - Comparaison Excel .py : Le fichier excel et python ne donnent pas le même résultat objectif - mais les mêmes ordonnances de planification de production. La raison est que le calcul de la fonction objectif utilise une valeur de stock moyen ' average ' dans Excel, mais  le script Python ( Qui est exact) , lui, ne calcule pas le résultat de l'objectif ( Minimiser le cout ) en utilisant cette valeur de stock moyen (average inventory), qui est optionnelle.
 
 23-05-2022 : Découverte de l'excellente page wikipedia traitant de l'ordonnancement d'atelier, très très claire !  (Job shop, flow shop): 
 https://fr.wikipedia.org/wiki/Ordonnancement_d%27atelier
