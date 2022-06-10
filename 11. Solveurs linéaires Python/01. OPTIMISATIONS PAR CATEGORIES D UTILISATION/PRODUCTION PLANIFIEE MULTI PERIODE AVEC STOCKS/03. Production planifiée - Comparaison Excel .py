@@ -26,7 +26,7 @@ cout_stockage=[3.60,3.75,3.98,4.28,4.20,3.90]
 min_production=[2000,1750,2000,2250,2000,1750]
 max_production=[4000,3500,4000,4500,4000,3500]
 
-min_stock = [2000,2000,2000,2000,2000,2000] # Par sécurité on garde 1500 objets min en stock
+min_stock = [1500,1500,1500,1500,1500,1500] # Par sécurité on garde 1500 objets min en stock
 max_stock = [6000,6000,6000,6000,6000,6000]
 
 # 2. Définir les variables de décision : Production et Stock - Define Decision Variables: Production and Inventory
@@ -66,7 +66,7 @@ for i in periodes:
 
 
 # Contrainte de balance de stocks ( Inventory-balance constraints)
-model.addConstraint(x[0] - (y[0] - 3750) == demande[0]) # (Mois 1) On pars avec 2750 unités du stock précédent comme dans l'exemple du fichier excel
+model.addConstraint(x[0] - (y[0] - 2750) == demande[0]) # (Mois 1) On pars avec 2750 unités du stock précédent comme dans l'exemple du fichier excel
 # model.addConstraint(x[0] - (y[0]) == demande[0])
 
 for i in periodes[1:]:
