@@ -24,7 +24,7 @@ N'hésitez pas à consulter mon application commerciale ,  www.solvgraph.com , p
 <p align="center" >
   <img  src="https://github.com/estelle15000/python-data-science/blob/master/operationsresearch.png" >
 </p>
-
+10-06-2022 : 03. Production planifiée - Comparaison Excel .py : Le fichier excel et python ne donnent pas le même résultat - Cause : Les contraintes "beggining inventory" autrement dit " stock de début de mois " ne sont pas présente dans le fichier PYTHON -> Résolution en cours et création des contraintes manquantes por obtenir exactement le même résultat !
 
 23-05-2022 : Découverte de l'excellente page wikipedia traitant de l'ordonnancement d'atelier, très très claire !  (Job shop, flow shop): 
 https://fr.wikipedia.org/wiki/Ordonnancement_d%27atelier
