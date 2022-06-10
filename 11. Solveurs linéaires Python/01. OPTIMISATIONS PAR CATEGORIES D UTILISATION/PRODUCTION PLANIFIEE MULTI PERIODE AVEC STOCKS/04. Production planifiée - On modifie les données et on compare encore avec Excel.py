@@ -4,6 +4,12 @@
 
 COMPARAISON ENTRE LE SOLVEUR EXCEL ET PYTHON PULP 
 
+Répertoire 11 / 03. Production planifiée - Comparaison Excel/Python Pulp : 
+Le fichier excel et python ne donnent pas le même résultat objectif - 
+mais les mêmes ordonnances de planification de production par mois. 
+La raison est que le calcul de la fonction objectif utilise une valeur de stock moyen ' average ' 
+dans Excel, mais le script Python ( Qui est exact) , lui, ne calcule pas le résultat de l'objectif 
+( Minimiser le cout ) en utilisant cette valeur de stock moyen (average inventory), qui est optionnelle.
 """
 
 
