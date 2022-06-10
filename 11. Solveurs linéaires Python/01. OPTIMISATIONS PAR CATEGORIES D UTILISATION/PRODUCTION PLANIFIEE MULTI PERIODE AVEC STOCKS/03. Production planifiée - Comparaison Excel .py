@@ -43,16 +43,21 @@ model += lpSum([cout_production[i]*x[i] for i in periodes]) + lpSum([cout_stocka
 # Définir les contraintes
 
 # Voici celles du fichier excel : 
-# Ending inventory >= Min Inventory (safety stock)
+# Ending inventory >= Min Inventory (safety stock) ( En anglais : Inventory = stock)
 # Ending inventory >= Max Inventory
 # Beggining inventory <= Max production capacity
 # Beggining inventory >= Min production capacity
 
 
-# Data "Beggining inventory"
+# Par rapport au problème classique, il ajoute la difficulté de prendre en compte 
+# le stock présent AVANT les périodes que l'on va optimiser, donc le premier mois !
 
 
-
+# Constrainte de stocks min et max
+for i in periodes:
+    model.addConstraint(y[i]<=max_stock[i])
+for i in periodes:
+    model.addConstraint(y[i]>=min_stock[i])
 
 
 # Constrainte de capacité de production (Production-capacity constraints)
@@ -61,15 +66,11 @@ for i in periodes:
 for i in periodes:
     model.addConstraint(x[i]>=min_production[i])
 
-# Constrainte de stocks min et max
-for i in periodes:
-    model.addConstraint(y[i]<=max_stock[i])
-for i in periodes:
-    model.addConstraint(y[i]>=min_stock[i])
+
 
 # Contrainte de balance de stocks ( Inventory-balance constraints)
-# model.addConstraint(x[0] - (y[0] - 2750) == demande[0]) # (Mois 1) On pars avec 2750 unités du stock précédent comme dans l'exemple du fichier excel
-model.addConstraint(x[0] - (y[0]) == demande[0])
+model.addConstraint(x[0] - (y[0] - 2750) == demande[0]) # (Mois 1) On pars avec 2750 unités du stock précédent comme dans l'exemple du fichier excel
+# model.addConstraint(x[0] - (y[0]) == demande[0])
 
 for i in periodes[1:]:
     model.addConstraint(x[i] - y[i] + y[i-1] == demande[i]) # par mois  2 , 3 , 4 , 5 , 6
