@@ -24,7 +24,7 @@ N'hésitez pas à consulter mon application commerciale ,  www.solvgraph.com , p
 <p align="center" >
   <img  src="https://github.com/estelle15000/python-data-science/blob/master/operationsresearch.png" >
 </p>
-10-06-2022 : Répertoire 11 / 03. Production planifiée - Comparaison Excel/Python Pulp : Le fichier excel et python ne donnent pas le même résultat objectif - mais les mêmes ordonnances de planification de production par mois. La raison est que le calcul de la fonction objectif utilise une valeur de stock moyen ' average ' dans Excel, mais  le script Python ( Qui est exact) , lui, ne calcule pas le résultat de l'objectif ( Minimiser le cout ) en utilisant cette valeur de stock moyen (average inventory), qui est optionnelle.<br>
+10-06-2022 : Répertoire 11 / 03. Production planifiée - Comparaison Excel/Python Pulp : Le fichier excel et python ne donnent pas le même résultat objectif - mais les mêmes ordonnances de planification de production par mois. La raison est que le calcul de la fonction objectif utilise une valeur de stock moyen ' average ' dans Excel, mais  le script Python ( Qui est exact) , lui, ne calcule pas le résultat de l'objectif ( Minimiser le cout ) en utilisant cette valeur de stock moyen (average inventory), qui est optionnelle.<br><br>
 
 23-05-2022 : Découverte de l'excellente page wikipedia traitant de l'ordonnancement d'atelier, très très claire !  (Job shop, flow shop): 
 https://fr.wikipedia.org/wiki/Ordonnancement_d%27atelier

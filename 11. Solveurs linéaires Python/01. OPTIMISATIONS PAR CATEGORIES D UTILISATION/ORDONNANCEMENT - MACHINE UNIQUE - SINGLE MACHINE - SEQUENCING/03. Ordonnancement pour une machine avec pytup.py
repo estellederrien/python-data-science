@@ -1,5 +1,3 @@
-# https://pchtsp.github.io/pytups/pulp.html
-
 import pulp as pl
 import pytups as pt
 
@@ -85,3 +83,4 @@ task_count = pt.SuperDict().fill_with_default(keys=duration.keys())
 for period, task in enumerate(solution):
     task_count[task] += 1
 task_count.apply(lambda k, v: duration[k] - v).clean()
+
