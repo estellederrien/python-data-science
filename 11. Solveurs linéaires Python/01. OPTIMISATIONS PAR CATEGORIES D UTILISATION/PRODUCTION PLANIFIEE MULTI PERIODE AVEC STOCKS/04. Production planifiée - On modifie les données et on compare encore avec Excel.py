@@ -79,24 +79,3 @@ model.solve()
 for v in model.variables():
     print(v.name, "=", v.varValue)
     
-""" 
-
-Optimal objective 6206377.5 - 4 iterations time 0.002, Presolve 0.00
-Option for printingOptions changed from normal to all
-Total time (CPU seconds):       0.05   (Wallclock seconds):       0.05
-
-LA , LE SOLVEUR NOUS DIT COMBIEN PRODUIRE PAR MOIS 
-TOUT EN TENANT COMPTE DES STOCKS AFIN DE MINIMISER TOUS LES COUTS POUR CES PERIODES !!
-
-production__0 = 4000.0
-production__1 = 3500.0
-production__2 = 4000.0
-production__3 = 4250.0
-production__4 = 4000.0
-production__5 = 3500.0
-stock__0 = 5750.0
-stock__1 = 4750.0
-stock__2 = 2750.0
-stock__3 = 1500.0
-stock__4 = 2000.0
-stock__5 = 1500.0 """
