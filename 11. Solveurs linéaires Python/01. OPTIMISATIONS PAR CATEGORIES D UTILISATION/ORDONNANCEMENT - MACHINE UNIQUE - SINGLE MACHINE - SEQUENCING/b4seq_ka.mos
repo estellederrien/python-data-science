@@ -1,0 +1,146 @@
+(!******************************************************
+   CP Example Problems
+   ===================
+
+   file b4seq_ka.mos
+   `````````````````
+   Sequencing jobs on a bottleneck machine
+   (See "Applications of optimization with Xpress-MP",
+        Section 7.4 Sequencing jobs on a bottleneck machine)
+	   
+   (c) 2008 Artelys S.A. and Fair Isaac Corporation
+       
+*******************************************************!)
+
+model "B-4 Sequencing (CP)"
+ uses "kalis"
+
+ forward procedure print_sol
+ forward procedure print_sol3
+ 
+ declarations   
+  NJ = 7                          ! Number of jobs
+  JOBS=1..NJ
+
+  REL: array(JOBS) of integer     ! Release dates of jobs
+  DUR: array(JOBS) of integer     ! Durations of jobs
+  DUE: array(JOBS) of integer     ! Due dates of jobs
+
+  rank: array(JOBS) of cpvar      ! Number of job at position k
+  start: array(JOBS) of cpvar     ! Start time of job at position k
+  dur: array(JOBS) of cpvar       ! Duration of job at position k
+  comp: array(JOBS) of cpvar      ! Completion time of job at position k
+  rel: array(JOBS) of cpvar       ! Release date of job at position k
+ end-declarations
+ 
+ initializations from 'Data/b4seq.dat'
+  DUR REL DUE
+ end-initializations
+
+ MAXTIME:= max(j in JOBS) REL(j) + sum(j in JOBS) DUR(j)
+ MINDUR:= min(j in JOBS) DUR(j); MAXDUR:= max(j in JOBS) DUR(j)
+ MINREL:= min(j in JOBS) REL(j); MAXREL:= max(j in JOBS) REL(j)
+
+ forall(j in JOBS) do
+  1 <= rank(j); rank(j) <= NJ
+  0 <= start(j); start(j) <= MAXTIME 
+  MINDUR <= dur(j); dur(j) <= MAXDUR
+  0 <= comp(j); comp(j) <= MAXTIME
+  MINREL <= rel(j); rel(j) <= MAXREL
+ end-do 
+
+! One posistion per job
+ all_different(rank)
+
+! Duration of job at position k
+ forall(k in JOBS) dur(k) = element(DUR, rank(k))
+
+! Release date of job at position k
+ forall(k in JOBS) rel(k) = element(REL, rank(k))
+ 
+! Sequence of jobs
+ forall(k in 1..NJ-1) start(k+1) >= start(k) + dur(k)
+
+! Start times
+ forall(k in JOBS) start(k) >= rel(k)
+
+! Completion times
+ forall(k in JOBS) comp(k) = start(k) + dur(k)
+
+! Set the branching strategy
+ cp_set_branching(split_domain(KALIS_SMALLEST_DOMAIN, KALIS_MIN_TO_MAX))
+
+!**** Objective function 1: minimize latest completion time ****
+ if cp_minimize(comp(NJ)) then
+  print_sol
+ end-if
+
+
+!**** Objective function 2: minimize average completion time ****
+ declarations   
+  totComp: cpvar
+ end-declarations
+ 
+ totComp = sum(k in JOBS) comp(k)
+
+ if cp_minimize(totComp) then
+  print_sol
+ end-if
+
+
+!**** Objective function 3: minimize total tardiness ****
+ declarations   
+  late: array(JOBS) of cpvar      ! Lateness of job at position k
+  due: array(JOBS) of cpvar       ! Due date of job at position k
+  totLate: cpvar
+ end-declarations
+
+ MINDUE:= min(k in JOBS) DUE(k); MAXDUE:= max(k in JOBS) DUE(k)
+
+ forall(k in JOBS) do
+  MINDUE <= due(k); due(k) <= MAXDUE
+  0 <= late(k); late(k) <= MAXTIME
+ end-do 
+
+! Due date of job at position k
+ forall(k in JOBS) due(k) = element(DUE, rank(k))
+ 
+! Late jobs: completion time exceeds the due date
+ forall(k in JOBS) late(k) >= comp(k) - due(k) 
+
+ totLate = sum(k in JOBS) late(k)
+
+ if cp_minimize(totLate) then
+  writeln("Tardiness: ", getsol(totLate))
+  print_sol
+  print_sol3
+ end-if
+
+!-----------------------------------------------------------------
+
+! Solution printing
+ procedure print_sol   
+  writeln("Completion time: ", getsol(comp(NJ)) ,
+          "  average: ", getsol(sum(k in JOBS) comp(k)))
+  write("\t")
+  forall(k in JOBS) write(strfmt(getsol(rank(k)),4))
+  write("\nRel\t")
+  forall(k in JOBS) write(strfmt(getsol(rel(k)),4))
+  write("\nDur\t")
+  forall(k in JOBS) write(strfmt(getsol(dur(k)),4))
+  write("\nStart\t")
+  forall(k in JOBS) write(strfmt(getsol(start(k)),4))
+  write("\nEnd\t")
+  forall(k in JOBS) write(strfmt(getsol(comp(k)),4))
+  writeln
+ end-procedure
+
+ procedure print_sol3
+  write("Due\t")
+  forall(k in JOBS) write(strfmt(getsol(due(k)),4))
+  write("\nLate\t")
+  forall(k in JOBS) write(strfmt(getsol(late(k)),4))
+  writeln
+ end-procedure 
+ 
+end-model
