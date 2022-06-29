@@ -1,1 +1,4 @@
 Trouver un juste milieu entre  les bénéfices de couvrir les demandes, et le cout de batir des batiments fournisseurs
+
+
+Comment allouer les dépots pour minimiser le cout d'envoi et le cout de construction
