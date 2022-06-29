@@ -1,0 +1,1 @@
+Batir le nombre minimal de fournisseurs afin de satisfaire toutes les demande
