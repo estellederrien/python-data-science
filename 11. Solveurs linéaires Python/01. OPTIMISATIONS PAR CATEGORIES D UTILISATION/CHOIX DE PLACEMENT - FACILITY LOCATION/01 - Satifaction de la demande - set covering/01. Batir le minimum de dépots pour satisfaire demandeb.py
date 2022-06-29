@@ -57,12 +57,9 @@ print("--------------------vars-------------------------------------")
 # The objective function is added to 'prob' first
 prob += lpSum(I)
 
-# The supply maximum constraints are added to prob for each supply node (warehouse)
-# for w in Locations:
-# prob += (
-#     lpSum([vars[w][b] for b in Demands]) <= 1,
-#     "Sum_of_Products_out_of_Warehouse_%s" % w,
-# )
+# Is it covered or not ?
+for w in Locations:
+prob += (lpSum([vars[w][b] for b in Demands]) <= 1,"Sum_of_Products_out_of_Warehouse_%s" % w,)
 
 # The demand minimum constraints are added to prob for each demand node (bar)
 # for b in Demands:
