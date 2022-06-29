@@ -6,7 +6,7 @@ https://www.coursera.org/learn/operations-research-modeling/lecture/gAB39/3-5-fa
 # Import PuLP modeler functions
 from pulp import *
 
-# SET OF LOCATIONS J
+# SET OF INVENTORY LOCATIONS J
 Locations = ["A", "B"]
 
 # SET OF DEMANDS I
@@ -22,21 +22,21 @@ distances = [  # Demands I
 # Min value to get covered
 s = 5
 
-covered = [[
+covered = [
     [1,0,1,1,1],
     [1,1,0,1,1]
-]]
+]
 
 # Creates the 'prob' variable to contain the problem data
 prob = LpProblem("Set covering", LpMinimize)
 
 # # Problem variables 
-I = LpVariable.dicts("locations", Locations, cat='Binary')
-J = LpVariable.dicts("demand", Demands, cat='Binary')
+J = LpVariable.dicts("locations", Locations, cat='Binary')
+# I = LpVariable.dicts("demand", Demands, cat='Binary')
 
 
 # The distance data is made into a dictionary
-distances = makeDict([Locations, Demands], distances, 0)
+distances = makeDict([Locations, Demands], covered, 0)
 
 print("--------------------distances-------------------------------------")
 print(distances)
@@ -50,16 +50,19 @@ print("--------------------routes-------------------------------------")
 
 # A dictionary called 'Vars' is created to contain the referenced variables(the routes)
 vars = LpVariable.dicts("Route", (Locations, Demands), 0, None, LpInteger)
+
+
 print("--------------------vars-------------------------------------")
 print(vars)
 print("--------------------vars-------------------------------------")
 
-# The objective function is added to 'prob' first
-prob += lpSum(I)
+# The objective function 
+# Minimize J, which is the number of locations
+prob += lpSum(J) 
 
 # Is it covered or not ?
 for w in Locations:
-prob += (lpSum([vars[w][b] for b in Demands]) <= 1,"Sum_of_Products_out_of_Warehouse_%s" % w,)
+    prob += (lpSum([distances[w][b] * J[w] for b in Demands]) >= 1,"Pick%s" % w,)
 
 # The demand minimum constraints are added to prob for each demand node (bar)
 # for b in Demands:
