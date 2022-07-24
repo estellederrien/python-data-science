@@ -25,6 +25,17 @@ N'hésitez pas à consulter mon application commerciale ,  www.solvgraph.com , p
   <img  src="https://github.com/estelle15000/python-data-science/blob/master/operationsresearch.png" >
 </p>
 
+27-07-2022 : Très important, découverte de 2 livres majeurs de référence en anglais, abordant tous les topics :
+
+- B W Taylor - Introduction to management science  - Pearson
+- Wyane Winston  - Practical Management science - winston Albright 
+J'aurais préféré les trouver tout de suite.
+
+- Step by step optimization with excel solver - Mark Hamon mba
+- optimizations modeling with spreadsheets - Wiley
+
+
+
 10-06-2022 : Découverte d'une librairie dédiées aux problèmes à objectifs multiples : https://pymoo.org/getting_started
 
 
