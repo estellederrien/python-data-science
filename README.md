@@ -25,14 +25,22 @@ N'hésitez pas à consulter mon application commerciale ,  www.solvgraph.com , p
   <img  src="https://github.com/estelle15000/python-data-science/blob/master/operationsresearch.png" >
 </p>
 
-27-07-2022 : Très important, découverte de 2 livres majeurs de référence en anglais, abordant tous les topics :
+27-07-2022 : Très important, découverte de 2 livres majeurs de référence en anglais, abordant tous les thèmes et modèles mathématiques , au moins 800 pages:
 
 - B W Taylor - Introduction to management science  - Pearson
 - Wyane Winston  - Practical Management science - winston Albright 
+<br>
 J'aurais préféré les trouver tout de suite.
 
+Pour les exercices :
 - Step by step optimization with excel solver - Mark Hamon mba
 - optimizations modeling with spreadsheets - Wiley
+
+Pour les statistiques (descriptif): 
+- Aide mémoire Statistiques et probabilités - Dunod 2 ème édition
+- Premiers pas en statistiques de Pearson
+
+
 
 
 
