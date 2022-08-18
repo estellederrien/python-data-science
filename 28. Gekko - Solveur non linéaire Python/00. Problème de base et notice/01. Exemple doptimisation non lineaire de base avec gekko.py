@@ -1,6 +1,12 @@
 from gekko import GEKKO
 m = GEKKO(remote=False) # Initialize gekko sans faire appel au serveur, en local
 
+#Another option would be to switch to using a different server if you have access to one or set one up. 
+# The default server is at http://byu.apmonitor.com/,
+#  but you can follow the instructions for setting up your own server on Windows or Linux.
+#m = GEKKO(server="server address here")
+
+
 # Use IPOPT solver (default)
 m.options.SOLVER = 3
 

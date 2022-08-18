@@ -2,12 +2,12 @@ from gekko import GEKKO
 
 m = GEKKO(remote=False) # Initialize gekko
 
-# Use IPOPT solver (default)
-m.options.SOLVER = 3
+#The example problem that you referenced uses the default IPOPT solver. To get a binary or integer solution, switch to the APOPT solver.
+m.options.SOLVER = 1
 
 # Initialize variables
-x1 = m.Var(value=1,lb=1,ub=1000)
-x2 = m.Var(value=1,lb=1,ub=1000)
+x1 = m.Var(value=1,lb=0,ub=1000,integer=True)
+x2 = m.Var(value=1,lb=0,ub=1000,integer=True)
 
 # Equations
 m.Equation(2 * x1 + 3 * x2 <= 800)
