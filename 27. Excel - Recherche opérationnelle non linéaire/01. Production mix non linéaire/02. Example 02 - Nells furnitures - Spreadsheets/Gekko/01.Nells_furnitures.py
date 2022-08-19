@@ -14,8 +14,8 @@ m.Equation(2 * x1 + 3 * x2 <= 800)
 m.Equation(2 * x1 + x2 <= 500)
 
 # Objective
-# m.Maximize( 2 * x1 + 1 * x2) 
-m.Maximize((160 - 0,4 * x1) * x1 + (135 - 0,2 * x2 ) * x2) 
+m.Maximize((160 - (0.4 * x1)) * x1 + (135 - (0.2 * x2 )) * x2) 
+
 
 m.options.IMODE = 3 # Steady state optimization
 
@@ -25,5 +25,12 @@ print('Results')
 print('x1: ' + str(x1.value))
 print('x2: ' + str(x2.value))
 print('Objective: ' + str(m.options.objfcnval))
+
+# Les résultats sont identiques au fichier EXCEL, sauf le profit un peu différent.
+# Results
+# x1: [144.0]
+# x2: [170.0]
+# Objective: -31915.6
+
 
 
