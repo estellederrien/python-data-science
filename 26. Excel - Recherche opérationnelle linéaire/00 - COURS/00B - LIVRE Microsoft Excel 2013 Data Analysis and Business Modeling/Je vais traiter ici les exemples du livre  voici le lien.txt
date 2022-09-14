@@ -1,3 +1,0 @@
-Tous les exemples du livre microsoft sont ici , à cloner : 
-
-https://resources.oreilly.com/examples/9780735669130-files.git
