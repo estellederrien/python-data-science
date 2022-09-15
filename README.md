@@ -25,6 +25,8 @@ N'hésitez pas à consulter mon application commerciale ,  www.solvgraph.com , p
   <img  src="https://github.com/estelle15000/python-data-science/blob/master/operationsresearch.png" >
 </p>
 
+15-09-2022 : Création du nouveau répertoire 33 recherche opérationnelle , trié par catégories, ou il y aura dans chaque cas le code Excel, Pulp et Gekko
+
 27-07-2022 : Très important, découverte de 2 livres majeurs de référence en anglais, abordant tous les thèmes et modèles mathématiques , au moins 800 pages:
 
 - B W Taylor - Introduction to management science  - Pearson
