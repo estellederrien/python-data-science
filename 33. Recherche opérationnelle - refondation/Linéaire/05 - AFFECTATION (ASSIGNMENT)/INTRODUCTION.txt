@@ -1,0 +1,4 @@
+Un problème qui nécessite d'apparier deux ensembles d'éléments étant donné un ensemble de coûts ou de bénéfices appariés de telle sorte que le coût total des appariements soit minimisé ou maximisé. Le problème d'affectation est un cas particulier de la programmation linéaire.
+
+Par exemple, un responsable des opérations doit affecter quatre tâches à quatre machines. Le chef de projet doit attribuer quatre projets à quatre membres du personnel. De même, le responsable marketing doit affecter 4 vendeurs à 4 territoires. L'objectif du gestionnaire est de minimiser le temps ou le coût total.
+
