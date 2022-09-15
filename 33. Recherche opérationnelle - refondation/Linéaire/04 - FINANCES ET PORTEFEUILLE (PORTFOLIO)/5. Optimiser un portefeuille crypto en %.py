@@ -7,7 +7,7 @@ note :
 - Les contraintes sont exprimées en % lors de l'initialisation des datas
 - Par contre, dans les functions, on transforme tout en décimal, et on indique la loi de conservation == 100
 
-Expérimental by Nicolas Estel HULEUX
+Expérimental by  Estel HULEUX
 
 """
 
