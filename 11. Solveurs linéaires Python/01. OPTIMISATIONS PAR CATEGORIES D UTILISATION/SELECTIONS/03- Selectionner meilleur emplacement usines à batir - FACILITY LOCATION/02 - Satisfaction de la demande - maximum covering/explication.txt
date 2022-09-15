@@ -1,0 +1,1 @@
+Batir un certain nombre de fournisseurs afin de satisfaire autant de demandes que possible
