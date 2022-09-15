@@ -1,3 +1,0 @@
-Batir le nombre minimal de fournisseurs afin de satisfaire toutes les demande
-
-Comment batir le minimum de batiments et couvrir toutes les demandes ?
