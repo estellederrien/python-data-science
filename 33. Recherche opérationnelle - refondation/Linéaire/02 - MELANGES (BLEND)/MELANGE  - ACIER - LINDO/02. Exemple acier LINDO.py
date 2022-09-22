@@ -1,6 +1,6 @@
 #Source :https://www.lindo.com/downloads/LINGO_text/10-Blending_of_Input_Materials.pdf
 
-# Programme pulp créé par (nicolas) Estelle HULEUX
+# Programme pulp créé par Estelle HULEUX
 # Intérêt : On a des contraintes en pourcentages, et on sait désormais comment gérer cela.
 # Pulp trouve pareil que Lindo ! Donc, le programme linéaire gère bien les pourcentages
 # dans le fichier num 8 on va comparer avec un programme EXCEL et voir si on trouve pareil!
