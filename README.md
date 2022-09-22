@@ -25,6 +25,8 @@ N'hésitez pas à consulter mon application commerciale ,  www.solvgraph.com , p
   <img  src="https://github.com/estelle15000/python-data-science/blob/master/operationsresearch.png" >
 </p>
 
+22-09-2022 : Passage définitif en fichiers ipynb, Notebook python pour plus de simplicité pour les optimisations en Python Pulp et Gekko.
+
 15-09-2022 : Création du nouveau répertoire 33 recherche opérationnelle , trié par catégories d'optimisations , ou il y aura dans chaque cas le code Excel, Pulp et Gekko. Ce sera beaucoup plus simple ! Les catégories sont tirées des livres référence d'optimisation Excel et aussi d'Internet, comme ça, c'est standardisé.
 
 27-07-2022 : Très important, découverte de 2 livres majeurs de référence en anglais, abordant tous les thèmes et modèles mathématiques , au moins 800 pages:
