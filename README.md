@@ -19,7 +19,7 @@ I just do that....<br>
 
 Important : Il faut savoir que les valeurs dans les fichiers Excel pourraient provenir de bases de données et non pas être des valeurs 'statiques'  , et donc se modifier en temps réel, et pas seulement être statiques, ce qui procure une puissance incroyable au Solveur Excel. Je tente également de comparer les résultats  en python à ceux en Excel dès que c'est possible, pour l'instant, c'est assez largement OK, et les solveurs trouvent les mêmes résultats (Solveur Excel = Solveur Python).
 <br><br>
-N'hésitez pas à consulter mon application commerciale ,  www.solvgraph.com , pour comprendre plus facilement ce qu'est la Recherche opérationnelle, en mode graphique, ainsi que son grand intérêt pour les entreprises.<br><br>
+N'hésitez pas à consulter mon application commerciale ,  www.solvgraph.com ,![alt text](http://www.solvgraph.com/static/img/output-onlinepngtools.213abb5a.png) pour comprendre plus facilement ce qu'est la Recherche opérationnelle, en mode graphique, ainsi que son grand intérêt pour les entreprises.<br><br>
 Do not hesitate to consult my commercial application, www.solvgraph.com, to understand more easily what Operational Research is, in graphic mode, as well as its great interest for companies.
 
 
