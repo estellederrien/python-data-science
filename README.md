@@ -1,5 +1,6 @@
-# SCRIPTS DE DATA SCIENCE PYTHON EN FRANCAIS
-# FICHIERS EXCEL DE RECHERCHE OPERATIONNELLE AVEC LE SOLVEUR
+# Fichiers Excel et python de recherche opérationnelle ( Optimisations linéaires et non linéaires)
+# Scripts de Data sciences, probabilités et machine learning en Python
+
 <b>CAS D'UTILISATIONS .</b>
 ![Screenshot](iconb.jpg)<br>
 
