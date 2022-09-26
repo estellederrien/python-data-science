@@ -1,0 +1,2 @@
+Organisation de Répertoires principalement tirée du livre de O reilly Machine learning cook book
+Exemples divers d'internet ou de livres.
