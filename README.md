@@ -50,7 +50,14 @@ Pour les statistiques (descriptif):
 - Aide mémoire Statistiques et probabilités - Dunod 2 ème édition
 - Premiers pas en statistiques de Pearson
 
+Cours Coursera - Université Taïwan - Operation research :
+https://lnkd.in/e_UhSs-k
 
+Udemy - Solveur Excel - optimisations linéaires et non linéaires :
+https://lnkd.in/e2y8AGJS
+
+Le cours Pyomo est vraiment spécifique et mathématique,voir mécanique, mais très bien ( Optimisation d'objet dans un container cylindrique etc ...)
+https://lnkd.in/ekZeQmpx
 
 
 
