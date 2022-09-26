@@ -25,6 +25,8 @@ N'hésitez pas à consulter mon application commerciale ,  www.solvgraph.com , p
   <img  src="https://github.com/estelle15000/python-data-science/blob/master/operationsresearch.png" >
 </p>
 
+26/09/2022 : Réduction drastique du nombre de répertoire ! Les optimisations avec le solveur Excel sont encore en cours de tri mais à la fin , ca va être très bien , et je crée les fichiers en python équivalents dès que je peut et les place dans le même répertoire...
+
 22-09-2022 : Passage définitif en fichiers ipynb, Notebook python pour plus de simplicité pour les optimisations en Python Pulp et Gekko.
 
 15-09-2022 : Création du nouveau répertoire 33 recherche opérationnelle , trié par catégories d'optimisations , ou il y aura dans chaque cas le code Excel, Pulp et Gekko. Ce sera beaucoup plus simple ! Les catégories sont tirées des livres référence d'optimisation Excel et aussi d'Internet, comme ça, c'est standardisé.
@@ -79,38 +81,6 @@ https://www.udemy.com/course/optimization-with-excel-operations-research-without
 
 25-04-2022 : Découverte du programme Lekin 2010  pour gérer les optimisations linéaires Job Shops / Flow Shop <br>
 
-21-04-2022 : Liste provisoire des programmes linéaires du répertoire 26 ' Recherche opérationnelle avec excel '( Fichiers solveur excel provenant de sources diverses ), vivement le tri final, quand tout sera traduit , testé , trié par catégorie et validé !:<br>
-- production mix<br>
-- production - affectaction (Alloc)<br>
-- production - selection de processus<br>
-- Production - avec gestion des stocks et invendus (commerce)<br>
-- mélange - simple période<br>
-- mélange - multi période<br>
-- transport<br>
-- transport - 2-stage-transport	<br>
-- transport -facility location<br>
-- transport - Production Transportation Problem (2-stage-transport, multi-commodity)<br>					
-- sac à dos (knapsac)<br>
-- sac à dos multiple (googleOr, fichier excel à trouver)<br>
-- découpe 1 dimension ( cuttingstock)<br>
-- découpe 2 dimensions ( cuttingstock)<br>
-- FlowShop<br>
-- JobShob<br>
-- Equilibrage de ligne d'assemblage<br>
-- Portefeuille - investissement en portefeuille<br>
-- Investissement<br>
-- Projet - Minimisation de temps de projet MPM<br>
-- Projet - Selection des meilleures tâche <br>
-- Planification employés - (Scheduling) - <br>
-- Affectation - Assignement <br>
-- Affectation - Assignement simple d'employés à des tâches<br>
-- Affectation - Assignement d'employés à des créneaux<br>
-- Plus court chemin - Shortest past<br>
-- Cash Flow<br>
-- Electric engineering<br>
-- Bin packin 1d ( fichier excel à trouver à trouver ou à créer)<br>
-- Bin packin 2d ( fichier excel à trouver à trouver ou à créer)<br>
-
 
 
 - 08-04-2022 : 26. Recherche opérationnelle en Excel - > Je prends chaque problème linéaire EXCEL , valide les résultats, puis les traduits ( Quand ce ne sont pas ceux de Christian Prins et Marc Sevaux) et ajoute des légendes. A terme, j'aurais chaque catégories de programmes linéaires parfaitement triés et susceptibles d'êtres modifiés en fonction des besoins.
@@ -121,8 +91,7 @@ L'objectif est de parvenir à programmer les 'objectifs multiples' et les 'group
 
 
 
-- 21-03-2022 : Création du répertoire '26. Recherche opérationnelle avec Excel' pour stocker et appliquer précisement chaque catégories d'optimisations linéaires du solveur EXCEL par répertoire ( Productions , mélanges, Job Shop, flots, affectation , planification,  Bin Packing, Cutting Stock, gestion des stocks invendus) , contrôle des résultats, ajout de documentations et légendes en français dans les fichiers Excel et validations de P.ls...
-- Etudes de toutes les parties du livre Programmation linéaire avec Excel - Eyrolles de Marc Sevaux et Christian Prins, avec en particulier le gestion des stocks dans les optimisations , ce que mon application www.SolvGraph.com ne fait pas encore (Car c'est très difficile à programmer en Full Stack...). Ajout d'autres fichiers Excels tirés de livres en Anglais. Je ne fais plus que ça en ce moment, pour des années ...
+
 
 - 30-04-2021 : Ajout du répertoire de la théorie des files d'attente. Découverte du site de cours de mathématiques de université Lille L1 L2 et L3 : http://exo7.emath.fr/index.html
 
