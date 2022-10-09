@@ -1,0 +1,4 @@
+Le problème de couverture consiste à minimiser un objectif (généralement lié au coût)
+sous les contraintes " PLUS GRAND QUE " sur la couverture requise. 
+Alors que le modèle d'allocation divise ressources et les affecte à des activités concurrentes, 
+le modèle de couverture combine ressources et coordonne les activités. 
