@@ -1,0 +1,128 @@
+(!******************************************************
+   CP Example Problems
+   ===================
+
+   file b4seq2_ka.mos
+   ``````````````````
+   Sequencing jobs on a bottleneck machine
+   (See "Applications of optimization with Xpress-MP",
+        Section 7.4 Sequencing jobs on a bottleneck machine)
+   - Alternative formulation using disjunctions -
+   
+   (c) 2008 Artelys S.A. and Fair Isaac Corporation
+       
+*******************************************************!)
+
+model "B-4 Sequencing (CP)"
+ uses "kalis"
+
+ forward procedure print_sol
+ forward procedure print_sol3
+ 
+ declarations   
+  NJ = 7                          ! Number of jobs
+  JOBS=1..NJ
+
+  REL: array(JOBS) of integer     ! Release dates of jobs
+  DUR: array(JOBS) of integer     ! Durations of jobs
+  DUE: array(JOBS) of integer     ! Due dates of jobs
+  DURS: array(set of cpvar) of integer  ! Dur.s indexed by start variables
+
+  start: array(JOBS) of cpvar     ! Start time of jobs
+  comp: array(JOBS) of cpvar      ! Completion time of jobs
+  finish: cpvar                   ! Completion time of the entire schedule
+  Disj: set of cpctr              ! Disjunction constraints 
+  Strategy: array(range) of cpbranching  ! Branching strategy
+ end-declarations
+ 
+ initializations from 'Data/b4seq.dat'
+  DUR REL DUE
+ end-initializations
+
+ MAXTIME:= max(j in JOBS) REL(j) + sum(j in JOBS) DUR(j)
+
+ forall(j in JOBS) do
+  0 <= start(j); start(j) <= MAXTIME 
+  0 <= comp(j); comp(j) <= MAXTIME
+ end-do 
+
+! Disjunctions between jobs
+ forall(j in JOBS) DURS(start(j)):= DUR(j)
+ disjunctive(union(j in JOBS) {start(j)}, DURS, Disj, 1)
+
+! Start times
+ forall(j in JOBS) start(j) >= REL(j)
+
+! Completion times
+ forall(j in JOBS) comp(j) = start(j) + DUR(j)
+
+!**** Objective function 1: minimize latest completion time ****
+ finish = maximum(comp)
+
+ Strategy(1):= settle_disjunction(Disj)
+ Strategy(2):= split_domain(KALIS_LARGEST_MAX, KALIS_MIN_TO_MAX)
+ cp_set_branching(Strategy)
+ 
+ if cp_minimize(finish) then
+  print_sol
+ end-if
+
+
+!**** Objective function 2: minimize average completion time ****
+ declarations   
+  totComp: cpvar
+ end-declarations
+
+ totComp = sum(k in JOBS) comp(k)
+
+ if cp_minimize(totComp) then
+  print_sol
+ end-if
+
+
+!**** Objective function 3: minimize total tardiness ****
+ declarations   
+  late: array(JOBS) of cpvar      ! Lateness of jobs
+  totLate: cpvar
+ end-declarations
+
+ forall(k in JOBS) do
+  0 <= late(k); late(k) <= MAXTIME
+ end-do 
+ 
+! Late jobs: completion time exceeds the due date
+ forall(j in JOBS) late(j) >= comp(j) - DUE(j) 
+
+ totLate = sum(k in JOBS) late(k)
+ if cp_minimize(totLate) then
+  writeln("Tardiness: ", getsol(totLate))
+  print_sol
+  print_sol3
+ end-if
+
+!-----------------------------------------------------------------
+
+! Solution printing
+ procedure print_sol
+  writeln("Completion time: ", getsol(finish) ,
+          "  average: ", getsol(sum(j in JOBS) comp(j)))
+  write("Rel\t")
+  forall(j in JOBS) write(strfmt(REL(j),4))
+  write("\nDur\t")
+  forall(j in JOBS) write(strfmt(DUR(j),4))
+  write("\nStart\t")
+  forall(j in JOBS) write(strfmt(getsol(start(j)),4))
+  write("\nEnd\t")
+  forall(j in JOBS) write(strfmt(getsol(comp(j)),4))
+  writeln
+ end-procedure
+
+ procedure print_sol3
+  write("Due\t")
+  forall(j in JOBS) write(strfmt(DUE(j),4))
+  write("\nLate\t")
+  forall(j in JOBS) write(strfmt(getsol(late(j)),4))
+  writeln
+ end-procedure 
+ 
+end-model
