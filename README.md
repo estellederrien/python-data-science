@@ -1,5 +1,6 @@
-# SCRIPTS DE DATA SCIENCE PYTHON EN FRANCAIS
-# FICHIERS EXCEL DE RECHERCHE OPERATIONNELLE AVEC LE SOLVEUR
+# Fichiers Excel et python de recherche opérationnelle ( Optimisations linéaires et non linéaires)
+# Scripts de Data sciences, probabilités et machine learning en Python
+
 <b>CAS D'UTILISATIONS .</b>
 ![Screenshot](iconb.jpg)<br>
 
@@ -18,14 +19,19 @@ I just do that....<br>
 
 Important : Il faut savoir que les valeurs dans les fichiers Excel pourraient provenir de bases de données et non pas être des valeurs 'statiques'  , et donc se modifier en temps réel, et pas seulement être statiques, ce qui procure une puissance incroyable au Solveur Excel. Je tente également de comparer les résultats  en python à ceux en Excel dès que c'est possible, pour l'instant, c'est assez largement OK, et les solveurs trouvent les mêmes résultats (Solveur Excel = Solveur Python).
 <br><br>
-N'hésitez pas à consulter mon application commerciale ,  www.solvgraph.com , pour comprendre plus facilement ce qu'est la Recherche opérationnelle, en mode graphique, ainsi que son grand intérêt pour les entreprises.<br>
+N'hésitez pas à consulter mon application commerciale ,  www.solvgraph.com ,![alt text](http://www.solvgraph.com/static/img/output-onlinepngtools.213abb5a.png) pour comprendre plus facilement ce qu'est la Recherche opérationnelle, en mode graphique, ainsi que son grand intérêt pour les entreprises.<br><br>
+Do not hesitate to consult my commercial application, www.solvgraph.com, to understand more easily what Operational Research is, in graphic mode, as well as its great interest for companies.
+
+
 ## Dernières news du dépot : 
 
 <p align="center" >
   <img  src="https://github.com/estelle15000/python-data-science/blob/master/operationsresearch.png" >
 </p>
 
-22-09-2022 : Passage définitif en fichiers ipynb, Notebook python pour plus de simplicité pour les optimisations en Python Pulp et Gekko.
+26/09/2022 : Réduction drastique du nombre de répertoires ! Les optimisations avec le solveur Excel sont encore en cours de tri mais à la fin , ca va être très bien , et je crée les fichiers en python équivalents dès que je peux et les place dans le même répertoire... Pour le machine learning, j'ai pleins de nouveaux livres ( Surtout du O'reilly) et j'en fait 35% du temps par rapport à la Recherche opérationnelle.
+
+22-09-2022 : Passage définitif en fichiers ipynb, Notebook python pour plus de simplicité pour les optimisations en Python Pulp et Gekko. On peut voir directement les fichiers fonctionner dans Github, c'est beaucoup plus ludique.
 
 15-09-2022 : Création du nouveau répertoire 33 recherche opérationnelle , trié par catégories d'optimisations , ou il y aura dans chaque cas le code Excel, Pulp et Gekko. Ce sera beaucoup plus simple ! Les catégories sont tirées des livres référence d'optimisation Excel et aussi d'Internet, comme ça, c'est standardisé.
 
@@ -44,7 +50,14 @@ Pour les statistiques (descriptif):
 - Aide mémoire Statistiques et probabilités - Dunod 2 ème édition
 - Premiers pas en statistiques de Pearson
 
+Cours Coursera - Université Taïwan - Operation research :
+https://lnkd.in/e_UhSs-k
 
+Udemy - Solveur Excel - optimisations linéaires et non linéaires :
+https://lnkd.in/e2y8AGJS
+
+Le cours Pyomo est vraiment spécifique et mathématique,voir mécanique, mais très bien ( Optimisation d'objet dans un container cylindrique etc ...)
+https://lnkd.in/ekZeQmpx
 
 
 
@@ -79,38 +92,6 @@ https://www.udemy.com/course/optimization-with-excel-operations-research-without
 
 25-04-2022 : Découverte du programme Lekin 2010  pour gérer les optimisations linéaires Job Shops / Flow Shop <br>
 
-21-04-2022 : Liste provisoire des programmes linéaires du répertoire 26 ' Recherche opérationnelle avec excel '( Fichiers solveur excel provenant de sources diverses ), vivement le tri final, quand tout sera traduit , testé , trié par catégorie et validé !:<br>
-- production mix<br>
-- production - affectaction (Alloc)<br>
-- production - selection de processus<br>
-- Production - avec gestion des stocks et invendus (commerce)<br>
-- mélange - simple période<br>
-- mélange - multi période<br>
-- transport<br>
-- transport - 2-stage-transport	<br>
-- transport -facility location<br>
-- transport - Production Transportation Problem (2-stage-transport, multi-commodity)<br>					
-- sac à dos (knapsac)<br>
-- sac à dos multiple (googleOr, fichier excel à trouver)<br>
-- découpe 1 dimension ( cuttingstock)<br>
-- découpe 2 dimensions ( cuttingstock)<br>
-- FlowShop<br>
-- JobShob<br>
-- Equilibrage de ligne d'assemblage<br>
-- Portefeuille - investissement en portefeuille<br>
-- Investissement<br>
-- Projet - Minimisation de temps de projet MPM<br>
-- Projet - Selection des meilleures tâche <br>
-- Planification employés - (Scheduling) - <br>
-- Affectation - Assignement <br>
-- Affectation - Assignement simple d'employés à des tâches<br>
-- Affectation - Assignement d'employés à des créneaux<br>
-- Plus court chemin - Shortest past<br>
-- Cash Flow<br>
-- Electric engineering<br>
-- Bin packin 1d ( fichier excel à trouver à trouver ou à créer)<br>
-- Bin packin 2d ( fichier excel à trouver à trouver ou à créer)<br>
-
 
 
 - 08-04-2022 : 26. Recherche opérationnelle en Excel - > Je prends chaque problème linéaire EXCEL , valide les résultats, puis les traduits ( Quand ce ne sont pas ceux de Christian Prins et Marc Sevaux) et ajoute des légendes. A terme, j'aurais chaque catégories de programmes linéaires parfaitement triés et susceptibles d'êtres modifiés en fonction des besoins.
@@ -121,8 +102,7 @@ L'objectif est de parvenir à programmer les 'objectifs multiples' et les 'group
 
 
 
-- 21-03-2022 : Création du répertoire '26. Recherche opérationnelle avec Excel' pour stocker et appliquer précisement chaque catégories d'optimisations linéaires du solveur EXCEL par répertoire ( Productions , mélanges, Job Shop, flots, affectation , planification,  Bin Packing, Cutting Stock, gestion des stocks invendus) , contrôle des résultats, ajout de documentations et légendes en français dans les fichiers Excel et validations de P.ls...
-- Etudes de toutes les parties du livre Programmation linéaire avec Excel - Eyrolles de Marc Sevaux et Christian Prins, avec en particulier le gestion des stocks dans les optimisations , ce que mon application www.SolvGraph.com ne fait pas encore (Car c'est très difficile à programmer en Full Stack...). Ajout d'autres fichiers Excels tirés de livres en Anglais. Je ne fais plus que ça en ce moment, pour des années ...
+
 
 - 30-04-2021 : Ajout du répertoire de la théorie des files d'attente. Découverte du site de cours de mathématiques de université Lille L1 L2 et L3 : http://exo7.emath.fr/index.html
 
