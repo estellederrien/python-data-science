@@ -3,4 +3,9 @@ le volume) à vendre ou à produire qui assimilera le revenu total au coût tota
 le revenu total égal au coût total est appelé le seuil de rentabilité et, à ce stade, le profit est égal à zéro. La
 le seuil de rentabilité donne au gestionnaire un point de référence pour déterminer le nombre d'unités
 bien nécessaire pour assurer un profit
-
+Les trois composantes de l'analyse du seuil de rentabilité sont le volume, le coût et le profit. Le volume est le niveau de
+vente ou production par une entreprise. Il peut être exprimé en nombre d'unités (c'est-à-dire en quantité) produites et vendues, en volume de ventes en dollars ou en pourcentage de la capacité totale disponible.
+Deux types de coûts sont généralement engagés dans la production d'un produit : les coûts fixes et les coûts variables. Les coûts fixes sont généralement indépendants du volume d'unités produites et vendues. ce
+c'est-à-dire que les coûts fixes restent constants, quel que soit le nombre d'unités de produit produites dans un
+gamme donnée. Les coûts fixes peuvent inclure des éléments tels que le loyer de l'usine et de l'équipement, les taxes, le personnel et
+les salaires de la direction, les assurances, la publicité, l'amortissement, le chauffage et l'éclairage et l'entretien des installations. Pris ensemble, ces éléments se traduisent par des coûts fixes totaux.
