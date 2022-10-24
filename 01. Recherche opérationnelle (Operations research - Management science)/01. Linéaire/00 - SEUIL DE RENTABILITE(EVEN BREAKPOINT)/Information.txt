@@ -1,0 +1,6 @@
+Le but de l'analyse du seuil de rentabilité est de déterminer le nombre d'unités d'un produit (c'est-à-dire
+le volume) à vendre ou à produire qui assimilera le revenu total au coût total. Le point où
+le revenu total égal au coût total est appelé le seuil de rentabilité et, à ce stade, le profit est égal à zéro. La
+le seuil de rentabilité donne au gestionnaire un point de référence pour déterminer le nombre d'unités
+bien nécessaire pour assurer un profit
+
