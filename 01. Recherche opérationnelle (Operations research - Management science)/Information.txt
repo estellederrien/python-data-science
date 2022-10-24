@@ -1,0 +1,11 @@
+----------------------------------------------------------------
+Organisation des répertoires tirées des livres majeurs suivants:
+----------------------------------------------------------------
+
+Wayne_L._Winston_S._Christian_Albright_Practical_Management_Science
+
+Microsoft Excel 2013 Data Analysis and Business Modeling
+
+Bernard_W_._Taylor_Introduction_to_Management_Science_11th_2013
+
+Optimization Modeling with Spreadsheets
