@@ -1,3 +1,10 @@
+La recherche opérationnelle permet l'optimisation mathématique 
+sur les problèmes combinatoires.
+
+On utilise le solveur Excel et les solveurs python pulp et Gekko et bien d'autres.
+
+Les optimisations sont linéaires ou non linéaires et triées par catégories bien connues.
+
 ----------------------------------------------------------------
 Organisation des répertoires tirées des livres majeurs suivants:
 ----------------------------------------------------------------
