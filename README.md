@@ -29,6 +29,11 @@ Do not hesitate to consult my commercial application, www.solvgraph.com, to unde
   <img  src="https://github.com/estelle15000/python-data-science/blob/master/operationsresearch.png" >
 </p>
 
+26/10/2022 : J'avance désormais sur les optimisations non linéaires sous Excel et le Solveur Gekko Python:
+
+
+[Lien optimisation en français non lin](https://github.com/estelle15000/python-data-science/blob/master/01.%20Recherche%20op%C3%A9rationnelle%20(Operations%20research%20-%20Management%20science)/02.%20Non%20lin%C3%A9aire/01.%20PRODUITS%20MIXES%20N.L%20(PRODUCTS%20MIXES)/04.%20Fabrique%20de%20pantalons%20avec%20contraintes%20multiples/GEKKO/Produit%20mix%20n-l%20avec%20contraintes.ipynb)
+
 26/09/2022 : Réduction drastique du nombre de répertoires ! Les optimisations avec le solveur Excel sont encore en cours de tri mais à la fin , ca va être très bien , et je crée les fichiers en python équivalents dès que je peux et les place dans le même répertoire... Pour le machine learning, j'ai pleins de nouveaux livres ( Surtout du O'reilly) et j'en fait 35% du temps par rapport à la Recherche opérationnelle.
 
 22-09-2022 : Passage définitif en fichiers ipynb, Notebook python pour plus de simplicité pour les optimisations en Python Pulp et Gekko. On peut voir directement les fichiers fonctionner dans Github, c'est beaucoup plus ludique.
