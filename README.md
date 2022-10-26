@@ -29,7 +29,9 @@ Do not hesitate to consult my commercial application, www.solvgraph.com, to unde
   <img  src="https://github.com/estelle15000/python-data-science/blob/master/operationsresearch.png" >
 </p>
 
-26/10/2022 : J'avance désormais sur les optimisations non linéaires sous Excel et le Solveur Gekko Python:
+26/10/2022 : J'avance désormais sur les optimisations non linéaires sous Excel et le Solveur Gekko Python
+Now stating to tackle lots of non linear optimizations using the Excel Solver and the Gekko Solver !
+:
 
 
 [Lien optimisation en français non lin](https://github.com/estelle15000/python-data-science/blob/master/01.%20Recherche%20op%C3%A9rationnelle%20(Operations%20research%20-%20Management%20science)/02.%20Non%20lin%C3%A9aire/01.%20PRODUITS%20MIXES%20N.L%20(PRODUCTS%20MIXES)/04.%20Fabrique%20de%20pantalons%20avec%20contraintes%20multiples/GEKKO/Produit%20mix%20n-l%20avec%20contraintes.ipynb)
