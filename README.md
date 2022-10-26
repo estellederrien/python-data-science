@@ -30,7 +30,7 @@ Do not hesitate to consult my commercial application, www.solvgraph.com, to unde
 </p>
 
 26/10/2022 : J'avance désormais sur les optimisations non linéaires sous Excel et le Solveur Gekko Python
-Now stating to tackle lots of non linear optimizations using the Excel Solver and the Gekko Solver !
+<br>I'm now starting to tackle lots of non linear optimizations using the Excel Solver and the Gekko Solver !
 :
 
 
