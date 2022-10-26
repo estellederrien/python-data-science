@@ -1,0 +1,14 @@
+Le modèle de tarification ( pricing) non linéaire implique 
+
+1. Le service commercial détermine la relation prix - demande (volume), 
+en dessinant la coure de la demande (volume) en fonction du prix
+par exemple :
+
+ the marketing department has estimated demand
+curves relating the price and demand volume for each product. 
+For sofas, the relationship is
+p1 = 220 - 0.4 * x1
+where p1 and x1 are the price and volume, respectively. 
+
+
+2. On substitue ensuite dans la fonction profit p1, ce qui va créer une fonction objectif non linéaire.
