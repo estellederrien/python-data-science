@@ -1,5 +1,7 @@
 
 """ 
+SOURCE : Mastering Python for Finance.pdf
+
 Exemple simple d'optimization de portefeuille de trading :
 
 Supposons que nous souhaitons investir dans deux titres, x et y. 
@@ -26,7 +28,7 @@ x + y ≤ 80
 x ≤ 40 
 x ≥ 0 , y ≥ 0 
 
-SOURCE : Mastering Python for Finance.pdf
+
 
 """
 
