@@ -1,0 +1,9 @@
+Dans les optimisations non linéaires, la fonction objectif 
+peut ne pas être linéaire, et c'est donc une courbe convexe ou concave.
+Parfois, ce sont les contraintes qui sont non linéaires.
+On doit pour cela utiliser un solveur non linéaire comme Python Gekko, 
+ou le Solver Excel non linéaire.
+
+Il est parfois possible de tenter de linéariser une fonction non linéaire objectif ou contraintes, 
+en utilisant des techniques bien expliquées dans le cours de Taiwan University sur coursera.
+
