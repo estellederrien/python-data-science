@@ -1,31 +1,8 @@
-Quels sont les problèmes de sac à dos?
+Sac à dos 0-1 
+On prends un seul objet à la fois pour remplir le sac pour obtenir la plus grande valeur sous contrainte de poids ( ou autres params)
 
-Les problèmes de sac à dos sont des problèmes d'optimisation combinatoire utilisés pour illustrer à la fois le problème et la solution.
+Sac à dos illimités
+On peut prends autant de fois le même objet qu'on veut 
 
-Un problème de sac à dos comprend un ensemble donné d'éléments ayant un poids et une valeur assignés, et le but est d'ajouter le plus de valeur au sac à dos dans la contrainte de poids donnée.
-
-Dans de tels problèmes, il y a des objets et un sac (sac à dos) où:
-
-    L'entrée est le tableau de poids et le tableau de valeurs ('N' ensemble d'éléments)
-    La production doit être le profit maximum possible
-    La contrainte est le poids (généralement désigné par « W » ou « C »)
-     
-
-                                               Source : fr.wikipedia.org
-Types de sac à dos
-Sac à dos fractionnaire
-
-Il s'agit d'un type «gourmand» qui permet de diviser les articles si la capacité du sac ne permet pas l'article entier.
-
-Par exemple, si « W » est de 10 kg et que le sac est rempli jusqu'à 9 kg, un article de 2 kg ne peut pas y être ajouté. Dans ce cas, un sac à dos fractionné permettrait d'ajouter seulement une fraction de l'article (1 kg ici) et de diviser sa valeur en conséquence (en divisant par deux dans ce cas).
-0-1 sac à dos
-
-Le sac à dos 0-1 est nommé ainsi parce qu'il prend un article dans son ensemble ou pas du tout. Si la capacité du sac est de 10 kg et rempli jusqu'à 9 kg, il ne peut pas prélever un article de 2 kg à ajouter. De plus, parmi tous les articles donnés, un article ne peut être choisi qu'une seule fois pour le sac à dos.
-Sac à dos illimité
-
-Le sac à dos illimité ne peut également contenir que des éléments dans leur ensemble et non en parties ou en fractions.
-
-Cependant, un article sélectionné en premier pour le sac à dos peut être choisi à nouveau lors de la prochaine itération.
-
-La seule différence entre le code pour le sac à dos 0-1 et le sac à dos illimité serait que les éléments déjà sélectionnés ne seront pas considérés une deuxième fois dans le cas du sac à dos 0-1, mais pour le sac à dos illimité, le tableau entier sera considéré partout de nouveau.
-
+Sac à doss multiples 
+On peut prendre plusieurs sacs à dos
