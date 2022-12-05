@@ -6,13 +6,27 @@ On utilise le solveur Excel et les solveurs python pulp et Gekko et bien d'autre
 Les optimisations sont linéaires ou non linéaires et triées par catégories bien connues.
 
 ----------------------------------------------------------------
-Organisation des répertoires tirées des livres majeurs suivants:
+Organisation des répertoires tirée des livres majeurs suivants:
 ----------------------------------------------------------------
 
 Wayne_L._Winston_S._Christian_Albright_Practical_Management_Science
 
 Microsoft Excel 2013 Data Analysis and Business Modeling
 
+Introduction to Linear Programming
+
 Bernard_W_._Taylor_Introduction_to_Management_Science_11th_2013
 
 Optimization Modeling with Spreadsheets
+
+Step-By-Step_Optimization_S
+
+Roberta_S._Russell,_Bernard_W._Taylor]_Operations Management
+
+Christians Prins 50 optimisations avec Excel
+
+----------------------------------------------------------------
+Cours en vidéo :
+----------------------------------------------------------------
+Taiwan university - Operations Research - Coursera
+Udemy - Optimization with Excel: Operations Research without Coding
