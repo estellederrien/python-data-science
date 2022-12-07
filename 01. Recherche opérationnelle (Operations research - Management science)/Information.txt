@@ -13,7 +13,7 @@ Organisation des répertoires tirée des livres majeurs de recherche opérationn
 
 2. "Microsoft Excel 2013 Data Analysis and Business Modeling" - Wayne L. Winston
 
-3. "Introduction to Linear Programming" - Mark Harmon
+3. "Introduction to Linear Programming" - https://sites.math.washington.edu/~perkins/381AWin14/handouts/chapter3.pdf
 
 4. "Introduction to Management Science" - Bernard W Taylor
 
