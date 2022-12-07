@@ -9,21 +9,21 @@ Les optimisations sont linéaires ou non linéaires et triées par catégories b
 Organisation des répertoires tirée des livres majeurs de recherche opérationnelle suivants:
 ----------------------------------------------------------------
 
-"Practical Management Science" - Wayne L. Winston Christian Albright 
+1. "Practical Management Science" - Wayne L. Winston Christian Albright 
 
-"Microsoft Excel 2013 Data Analysis and Business Modeling" - Wayne L. Winston
+2. "Microsoft Excel 2013 Data Analysis and Business Modeling" - Wayne L. Winston
 
-"Introduction to Linear Programming" - Mark Harmon
+3. "Introduction to Linear Programming" - Mark Harmon
 
-"Introduction to Management Science" - Bernard W Taylor
+4. "Introduction to Management Science" - Bernard W Taylor
 
-"Optimization Modeling with Spreadsheets" - Kenneth R. Baker
+5. "Optimization Modeling with Spreadsheets" - Kenneth R. Baker
 
-"Step-By-Step_Optimization with Excel Solver" - Mark Harmon MBA
+6. "Step-By-Step_Optimization with Excel Solver" - Mark Harmon MBA
 
-"Operations Management" - Roberta S. Russell, Bernard W. Taylor
+7. "Operations Management" - Roberta S. Russell, Bernard W. Taylor
 
-"Programmation linéaire avec excel" - Christians Prins , Marc Sevaux
+8. "Programmation linéaire avec excel" - Christians Prins , Marc Sevaux
 
 ---------------------------------------------------------------
 Cours en Pdf "trouvé" sur Internet: 
