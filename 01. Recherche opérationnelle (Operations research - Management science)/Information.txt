@@ -6,12 +6,12 @@ On utilise le solveur Excel et les solveurs Python Pulp,Gekko et bien d'autres.
 Les optimisations sont linéaires ou non linéaires et triées par catégories bien connues.
 
 ----------------------------------------------------------------
-Organisation des répertoires tirée des livres majeurs suivants:
+Organisation des répertoires tirée des livres majeurs de recherche opérationnelle suivants:
 ----------------------------------------------------------------
 
-"Practical Management Science" - Wayne_L._Winston_S._Christian_Albright 
+"Practical Management Science" - Wayne L. Winston Christian Albright 
 
-"Microsoft Excel 2013 Data Analysis and Business Modeling"
+"Microsoft Excel 2013 Data Analysis and Business Modeling" - Wayne L. Winston
 
 "Introduction to Linear Programming" - Mark Harmon
 
@@ -26,9 +26,9 @@ Organisation des répertoires tirée des livres majeurs suivants:
 "Programmation linéaire avec excel" - Christians Prins , Marc Sevaux
 
 ---------------------------------------------------------------
-Cours en Pdf : 
+Cours en Pdf "trouvé" sur Internet: 
 ----------------------------------------------------------------
-Columbia University business school - decisions models
+Columbia University business school - decisions models - 8 chapitres
 
 ----------------------------------------------------------------
 Cours en vidéo :
