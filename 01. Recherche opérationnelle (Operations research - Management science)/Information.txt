@@ -1,12 +1,12 @@
 La recherche opérationnelle permet l'optimisation mathématique 
-sur les problèmes combinatoires.
+de problèmes combinatoires.
 
-On utilise le solveur Excel et les solveurs Python Pulp,Gekko et bien d'autres.
+On utilise le solveur Excel et les solveurs Python Pulp, Gekko et bien d'autres.
 
 Les optimisations sont linéaires ou non linéaires et triées par catégories bien connues.
 
 ----------------------------------------------------------------
-Organisation des répertoires tirée des livres majeurs de recherche opérationnelle suivants:
+Organisation des répertoires tirée des livres majeurs de recherche opérationnelle suivants (Orientés action):
 ----------------------------------------------------------------
 
 1. "Practical Management Science" - Wayne L. Winston Christian Albright 
@@ -26,12 +26,19 @@ Organisation des répertoires tirée des livres majeurs de recherche opérationn
 8. "Programmation linéaire avec excel" - Christians Prins , Marc Sevaux
 
 ---------------------------------------------------------------
-Cours en Pdf "trouvé" sur Internet: 
+Cours en Pdf "trouvés" sur Internet: 
 ----------------------------------------------------------------
-Columbia University business school - decisions models - 8 chapitres
+1. Columbia University business school - decisions models - 8 chapitres
+2. Recherche opérationnelle et applications - Bernard Fortz - Université libre de Bruxelles
 
 ----------------------------------------------------------------
 Cours en vidéo :
 ----------------------------------------------------------------
 Taiwan university - Operations Research - Coursera
 Udemy - Optimization with Excel: Operations Research without Coding
+
+----------------------------------------------------------------
+Livres de théorie mathématique en recherche opérationnelle (Orientés théorie):
+----------------------------------------------------------------
+
+
