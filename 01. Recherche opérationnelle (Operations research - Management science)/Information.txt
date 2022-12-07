@@ -1,7 +1,7 @@
 La recherche opérationnelle permet l'optimisation mathématique 
 sur les problèmes combinatoires.
 
-On utilise le solveur Excel et les solveurs python pulp et Gekko et bien d'autres.
+On utilise le solveur Excel et les solveurs Python Pulp,Gekko et bien d'autres.
 
 Les optimisations sont linéaires ou non linéaires et triées par catégories bien connues.
 
@@ -9,21 +9,26 @@ Les optimisations sont linéaires ou non linéaires et triées par catégories b
 Organisation des répertoires tirée des livres majeurs suivants:
 ----------------------------------------------------------------
 
-Wayne_L._Winston_S._Christian_Albright_Practical_Management_Science
+"Practical Management Science" - Wayne_L._Winston_S._Christian_Albright 
 
-Microsoft Excel 2013 Data Analysis and Business Modeling
+"Microsoft Excel 2013 Data Analysis and Business Modeling"
 
-Introduction to Linear Programming
+"Introduction to Linear Programming" - Mark Harmon
 
-Bernard_W_._Taylor_Introduction_to_Management_Science_11th_2013
+"Introduction to Management Science" - Bernard W Taylor
 
-Optimization Modeling with Spreadsheets
+"Optimization Modeling with Spreadsheets" - Kenneth R. Baker
 
-Step-By-Step_Optimization_S
+"Step-By-Step_Optimization with Excel Solver" - Mark Harmon MBA
 
-Roberta_S._Russell,_Bernard_W._Taylor]_Operations Management
+"Operations Management" - Roberta S. Russell, Bernard W. Taylor
 
-Christians Prins 50 optimisations avec Excel
+"Programmation linéaire avec excel" - Christians Prins , Marc Sevaux
+
+---------------------------------------------------------------
+Cours en Pdf : 
+----------------------------------------------------------------
+Columbia University business school - decisions models
 
 ----------------------------------------------------------------
 Cours en vidéo :
