@@ -1,0 +1,169 @@
+Let's take an example.
+
+Imagine a desert island where a deadly virus takes hold.
+
+Every day, a tenth of the population dies.
+
+We might say that:
+
+Number dying per day = 0.1 x population
+
+Let's now write this using maths symbols:
+
+- dN / dt = 0.1 x N
+
+where:
+
+dN / dt = Number dying per day
+
+The negative sign tells us that people dying decreases the population (it's a negative change)
+
+N = Population
+
+WHAT WILL HAPPEN TO THE POPULATION, N ?
+
+The population, N, will obviously decrease every day.
+
+This means that the number of people dying every day will also decrease.
+
+For example:
+
+On day zero the population is 10 000 and then the virus arrives
+
+On day one the population starts at 10 0000 so 1000 die
+
+On day two the population starts at 9000 so 900 die
+
+On day three the population starts at 8100 so 810 die
+
+and so on.
+
+CAN I WORK OUT HOW MANY PEOPLE WILL BE ALIVE AFTER 12 DAYS?
+
+Well, you could work it out as I have done above for three days, but just keep going until you get to day 12.
+
+But that would be a bit tedious.
+
+So a quicker way is look at our equation again.
+
+Here it is:
+
+- dN / dt = 0.1 x N
+
+This type of equation is called a differential equation.
+
+The nice thing about differential equations is that we can write them in a different way.
+
+So we can write any differential equation in a way that looks totally different.
+
+When we do this we say that we are going to "solve the differential equation."
+
+If we solve: - dN / dt = 0.1 x N
+
+We get:
+
+N = n x e^-0.1xt
+
+n= the population to begin with (on day zero)
+
+e = 2.71 ( this is an important number in maths and physics called the exponential constant)
+
+t = the number of days I am interested in
+
+N = the population after t days.
+
+So, after 12 days:
+
+N = n x e^-0.1xt
+
+N = 10 000 x e^-0.1x12
+
+N = 10 000 x e^-1.2
+
+If you use your scientific calculator to work out e^-1.2 you will get 0.30
+
+So: N = 10 000 x 0.30
+
+N = 3000
+
+After 12 days the population will be 3000.
+
+HOW DO I SOLVE DIFFERENTIAL EQUATIONS?
+
+If you study calculus this is one of the things you will learn to do.
+
+WHY ARE DIFFERENTIAL EQUATIONS IMPORTANT?
+
+All sorts of things in the world around us can be described by differential equations.
+
+So they are really important in Physics.
+
+And by knowing how to solve them we can work things out much more quickly than having to go through lots of steps.
+
+HERE ARE SOME OTHER EXAMPLES OF DIFFERENTIAL EQUATIONS
+
+1. The change in height per day of water in a particular tank that has a hole in its base.
+
+- dH / dt = 0.2 H
+
+dH / dt = change in height of water per day
+
+H = height of water in the tank
+
+You will see that the leaking water means the height of water in the tank drops by one fifth of its new height every day.
+
+Notice the negative sign again because the height is decreasing.
+
+The solution of this differential equation is:
+
+H = h x e^-0.2 x t
+
+So we can work out the height, H, of water t days after the tank was full at a height, h.
+
+The 0.2 will be a different number for a different tank as it depends on the size of the hole.
+
+2. The amount of charge, Q, that flows every second from a capacitor (a device that stores charge).
+
+- dQ / dt = 0.04 x Q
+
+dQ / dt = charge flowing from the capacitor every second.
+
+Q = charge stored in the capacitor.
+
+In this example, the capacitor loses 4% of its remaining charge every second.
+
+The solution of this differential equation is:
+
+Q = q x
+
+e^-0.04 x t
+
+So we can work out the charge, Q, still stored in the capacitor t seconds after the capacitor had a full charge, q.
+
+The 0.04 will depend on the type of capacitor and the electrical resistance of the circuit.
+
+3. The number of radioactive atoms that emit radiation every second
+
+- dN / dt = 0.0005 N
+
+dN / dt = the number of atoms that emit radiation every second
+
+N = number of radioactive atoms that have not yet emitted radiation
+
+So we see that 0.05 % of the atoms that have not yet emitted radiation will emit radiation every second.
+
+QUESTION
+
+You might like to have a go at this question:
+
+(a) Write down what you think is the solution of this differential equation
+
+(b) If a sample of this radioactive material contains one million atoms that have not emitted radiation, how many atoms will there be that have still not emitted after 60 seconds?
+
+[You should get an answer of about 970 446 atoms]
+
+THERE ARE LOTS OF TYPES OF DIFFERENTIAL EQUATION THAT YOU WILL COME ACROSS IN CALCULUS.
+
+Isaac Newton invented calculus to help him explain his theories.
+
+It is still as useful today as it was over three hundred years ago.
