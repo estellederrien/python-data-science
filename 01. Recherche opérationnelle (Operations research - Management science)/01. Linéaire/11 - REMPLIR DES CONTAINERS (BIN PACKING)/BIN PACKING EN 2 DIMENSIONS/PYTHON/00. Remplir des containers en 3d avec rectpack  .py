@@ -1,5 +1,5 @@
 """ 
-Utiliser la lib rectpack, pour optimiser le remplissage de containers en 3d
+Utiliser la lib rectpack, pour optimiser le remplissage de containers en 2d
 
 Lien : https://github.com/secnot/rectpack
 
