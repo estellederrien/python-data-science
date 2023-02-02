@@ -25,6 +25,10 @@ Organisation des répertoires tirée des livres majeurs de recherche opérationn
 
 8. "Programmation linéaire avec excel" - Christians Prins , Marc Sevaux
 
+9. " Pyomo - OPtimization modeling with Python " - SPringer
+
+10. "Mathematical Models of Optimization Problems with Google OR-Tools" - Serge Kruk
+
 ---------------------------------------------------------------
 Cours en Pdf "trouvés" sur Internet: 
 ----------------------------------------------------------------
