@@ -1,23 +1,12 @@
 \* MaximiserProfit *\
 Maximize
-MaximiserBenefice: 12 produits__arc + 8 produits__automobile
- + 12 produits__cycle1 + 14 produits__cycle2 + 16 produits__dragon
- + 9 produits__nounours + 13 produits__poupee
+MaximiserBenefice: 7 produits__produit_1 + 9 produits__produit_2
+ + 18 produits__produit_3 + 17 produits__produit_4
 Subject To
-MaxAcier: 5 produits__arc + produits__automobile + 2 produits__cycle1
- + 3 produits__cycle2 + 3 produits__dragon + 2 produits__nounours
- + 2 produits__poupee <= 124
-MaxBois: produits__arc + produits__automobile + produits__cycle1
- + 2 produits__cycle2 + 2 produits__dragon + produits__nounours
- + 5 produits__poupee <= 117
-MaxPlastique: 2 produits__arc + 2 produits__automobile + 4 produits__cycle1
- + 5 produits__cycle2 + 7 produits__dragon + produits__nounours
- + 4 produits__poupee <= 142
-min_production_units_for_product_arc: produits__arc >= 5
-min_production_units_for_product_automobile: produits__automobile >= 5
-min_production_units_for_product_cycle1: produits__cycle1 >= 5
-min_production_units_for_product_cycle2: produits__cycle2 >= 5
-min_production_units_for_product_dragon: produits__dragon >= 5
-min_production_units_for_product_nounours: produits__nounours >= 5
-min_production_units_for_product_poupee: produits__poupee >= 5
+ct1: 2 produits__produit_1 + 4 produits__produit_2 + 5 produits__produit_3
+ + 7 produits__produit_4 <= 42
+ct2: produits__produit_1 + produits__produit_2 + 2 produits__produit_3
+ + 2 produits__produit_4 <= 17
+ct3: produits__produit_1 + 2 produits__produit_2 + 3 produits__produit_3
+ + 3 produits__produit_4 <= 24
 End
