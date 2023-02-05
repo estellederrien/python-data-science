@@ -29,6 +29,8 @@ Do not hesitate to consult my commercial application, www.solvgraph.com, to unde
   <img  src="https://github.com/estelle15000/python-data-science/blob/master/operationsresearch.png" >
 </p>
 
+05/02/2023 : Je suis toujours en train de principalement réaliser le répertoire 02 Recherche opérationnelle . Je passe le tout en Notebooks python et je continue bien sur à en ajouter, surtout du non linéaire  à l'avenir...
+
 22/01/2023 : Restructuration et correction des lois de probabilités, en particulier Poisson et passages en fichier notebooks directement visualisable dans github, J'utilise prioritairement les fonctions SCIPY désormais (poisson.cdf, uniform.cdf , expon.cdf etc...). Le bon lien : https://www.w3schools.com/python/numpy/numpy_random_exponential.asp<br>
 
 26/10/2022 : J'avance désormais sur les optimisations non linéaires sous Excel et le Solveur Gekko Python
