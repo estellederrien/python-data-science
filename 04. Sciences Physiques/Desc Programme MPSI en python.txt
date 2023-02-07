@@ -1,15 +1,6 @@
-Je vais poster ici les versions python de ce que je pourrais faire concernant le programme MPSI 1ère année.
 
-Ce qui m'intéresse, c'est surtout la mécanique et ses formules, voir un peu de chimie.
+Le but est d'avoir les formules de base les plus usitées sous la main 
 
-Le but étant d'avoir les formules de base les plus usitées sous la main en un clin d'oeil.
-
-Mon but étant égalemenent, comme pour la recherche opérationnelle, d'avoir un maximum de "cas d'utilisations" 
-ou " Practical expérience" en Anglais, avec des histoires tangibles et compréhensibles .
-
-On peut ainsi ensuite dériver les problèmes les plus connus plus facilement.
-
-N'ayant pas trop de pression, et n'étant pas jeune, je peux passer du temps dessus plusieurs années.
 
 Livres:
 - Physique MPSI tout en un - Dunod 3 ème édition
