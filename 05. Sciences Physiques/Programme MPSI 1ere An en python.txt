@@ -1,0 +1,18 @@
+Je vais poster ici les versions python de ce que je pourrais faire concernant le programme MPSI 1ère année.
+
+Ce qui m'intéresse, c'est surtout la mécanique et ses formules, voir un peu de chimie.
+
+Mon but étant comme pour la recherche opérationnelle, d'avoir un maximum de "cas d'utilisations" 
+ou " Practical expérience" en Anglais, avec des histoires tangibles et compréhensibles .
+
+On peut ainsi ensuite dériver les problèmes les plus connus plus facilement.
+
+Livres:
+- Physique MPSI tout en un - Dunod 3 ème édition
+- Sciences industrielles pour l'ingénieur tout en un - Dunod 
+- Maths Mpsi - Hachette supérieur
+- Exos résolus Physique Chimie - Mpsi hachette supérieur
+
+Liens de cours en ligne:
+https://melusine.eu.org/syracuse/immae/
+http://christophebertault.fr/cours-et-exercices/

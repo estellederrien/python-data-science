@@ -1,3 +1,0 @@
-
-Ici seront les notebooks python concernant des formules de 
-mécanique et science physique ( MPSI 1ère année)
