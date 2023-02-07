@@ -15,12 +15,6 @@ Livres:
 - Maths Mpsi - Hachette supérieur
 - Exos résolus Physique Chimie - Mpsi hachette supérieur
 
-Librairies:
-- https://docs.sympy.org/dev/modules/physics/mechanics/index.html
-
 Liens de cours en ligne:
 https://melusine.eu.org/syracuse/immae/
 http://christophebertault.fr/cours-et-exercices/
-
-Scripts:
-https://jlamerenx.fr/python/
