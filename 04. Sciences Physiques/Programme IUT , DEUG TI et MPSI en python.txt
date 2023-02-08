@@ -1,8 +1,11 @@
 
-Le but est d'avoir les formules de base les plus usitées sous la main 
+Le but est d'avoir les formules de base les plus usitées sous la main .
 
 
 Livres:
+
+- Mécanique appliquée - Iut, Deug Ti -  de 1996 - Dunod, Agatti, Matera
+
 - Physique MPSI tout en un - Dunod 3 ème édition
 - Sciences industrielles pour l'ingénieur tout en un - Dunod 
 - Maths Mpsi - Hachette supérieur
