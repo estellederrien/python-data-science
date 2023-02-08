@@ -29,6 +29,8 @@ Organisation des répertoires tirée des livres majeurs de recherche opérationn
 
 10. "Mathematical Models of Optimization Problems with Google OR-Tools" - Serge Kruk
 
+11. www.mhhe.com/hillier - L'un des meilleurs livres en non linéaire
+
 ---------------------------------------------------------------
 Cours en Pdf "trouvés" sur Internet: 
 ----------------------------------------------------------------
