@@ -25,7 +25,7 @@ Organisation des répertoires tirée des livres majeurs de recherche opérationn
 
 8. "Programmation linéaire avec excel" - Christians Prins , Marc Sevaux
 
-9. " Pyomo - OPtimization modeling with Python " - SPringer
+9. " Pyomo - Optimization modeling with Python " - Springer
 
 10. "Mathematical Models of Optimization Problems with Google OR-Tools" - Serge Kruk
 
@@ -45,4 +45,4 @@ Udemy - Optimization with Excel: Operations Research without Coding
 Livres de théorie mathématique en recherche opérationnelle (Orientés théorie):
 ----------------------------------------------------------------
 
-
+01.  Convex Optimization - Stephen Boyd, Lieven Vanderberg - Cambridge University press
