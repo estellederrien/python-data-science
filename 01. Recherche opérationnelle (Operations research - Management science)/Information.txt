@@ -29,7 +29,10 @@ Organisation des répertoires tirée des livres majeurs de recherche opérationn
 
 10. "Mathematical Models of Optimization Problems with Google OR-Tools" - Serge Kruk
 
-11. www.mhhe.com/hillier - L'un des meilleurs livres en non linéaire
+11. www.mhhe.com/hillier - Hillier - introduction to operations research - 
+L'un des meilleurs livres pour commencer à comprendre le non linéaire.
+
+12. Operations Research An Introduction - Pearson - Hamdy A. Taha
 
 ---------------------------------------------------------------
 Cours en Pdf "trouvés" sur Internet: 
