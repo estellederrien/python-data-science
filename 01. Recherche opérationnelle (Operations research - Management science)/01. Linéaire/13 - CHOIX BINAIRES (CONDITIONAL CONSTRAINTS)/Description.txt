@@ -1,0 +1,7 @@
+Dans des problèmes de programmation linéaire, 
+
+Il est possible d'ajouter des contraintes conditionnelles.
+
+Cela peut permettre d'éviter de créer un pb non linéaire.
+
+Normalement, ces nouvelles contraintes sont de type binaires ( 0, 1)<

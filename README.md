@@ -29,6 +29,15 @@ Do not hesitate to consult my commercial application, www.solvgraph.com, to unde
   <img  src="https://github.com/estelle15000/python-data-science/blob/master/operationsresearch.png" >
 </p>
 
+06/03/2023:
+Découverte du cours du Mit en ligne :
+https://ocw.mit.edu/courses/15-053-optimization-methods-in-management-science-spring-2013/resources/mit15_053s13_lec11/
+
+Surtout pour les contraintes conditionelles binaires en programmation linéaire et surtout les contraintes piecewise linear functions pour par exemple avoir des coûts variables en fonction des quantités dans des lps de type produit mixes.
+
+Egalement : 
+https://download.aimms.com/aimms/download/manuals/AIMMS3OM_IntegerProgrammingTricks.pdf
+
 05/02/2023 : Je suis toujours en train de principalement réaliser le répertoire 02 Recherche opérationnelle . Je passe le tout en Notebooks python et je continue bien sur à en ajouter, ainsi que du Solveur Excel, surtout du non linéaire  à l'avenir...
 Je fais aussi dorénavant le répertoire 3 machine Learning et il faut aussi que je fasse les équations différentielles et le traitement du signal ... Le dépot n'est donc pas du tout en état définitif , en travaillant tous le sjours dessus, il y en a encore pour un ou deux ans au moins ,je dirais.<br>
 
