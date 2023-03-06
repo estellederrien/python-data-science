@@ -4,4 +4,21 @@ Il est possible d'ajouter des contraintes conditionnelles.
 
 Cela peut permettre d'éviter de créer un pb non linéaire.
 
-Normalement, ces nouvelles contraintes sont de type binaires ( 0, 1)<
+Normalement, ces nouvelles contraintes sont de type binaires ( 0, 1)
+
+
+06/03/2023: Découverte du cours du Mit en ligne : 
+
+https://ocw.mit.edu/courses/15-053-optimization-methods-in-management-science-spring-2013/resources/mit15_053s13_lec11/
+
+Surtout pour les contraintes conditionelles binaires en programmation linéaire et 
+
+surtout les contraintes piecewise linear functions pour par exemple avoir des 
+
+coûts variables en fonction des quantités dans des lps de type produit mixes.
+
+Egalement : https://download.aimms.com/aimms/download/manuals/AIMMS3OM_IntegerProgrammingTricks.pdf
+
+
+Vidéo : 
+https://www.youtube.com/watch?v=-3my1TkyFiM
