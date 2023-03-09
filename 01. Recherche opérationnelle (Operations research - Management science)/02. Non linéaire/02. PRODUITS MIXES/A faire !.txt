@@ -1,2 +1,0 @@
-Les produits mixes non linéaires avec des contraintes
-non linéaires sont à faire !
