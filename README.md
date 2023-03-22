@@ -29,6 +29,9 @@ Do not hesitate to consult my commercial application, www.solvgraph.com, to unde
   <img  src="https://github.com/estelle15000/python-data-science/blob/master/operationsresearch.png" >
 </p>
 
+
+22/03/2023: Ne désirant pas travailler gratuitement sur ce dépot, je vais encore publier 2 ou 3 codes d'optimisations non linéaires, puis tout le reste ira sur mon application, www.solvgraph.com .
+
 06/03/2023:
 Découverte du cours du Mit en ligne :
 https://ocw.mit.edu/courses/15-053-optimization-methods-in-management-science-spring-2013/resources/mit15_053s13_lec11/
