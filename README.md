@@ -30,7 +30,7 @@ Do not hesitate to consult my commercial application, www.solvgraph.com, to unde
 </p>
 
 
-22/03/2023: Ne désirant pas travailler gratuitement sur ce dépot, je vais encore publier 2 ou 3 codes d'optimisations non linéaires, puis tout le reste ira sur mon application, www.solvgraph.com .
+22/03/2023: En train d'évaluer comment je vais coder en full stack l'intégration de Gekko Solver à mon application www.solvgraph.com . Je pense commencer par proposer le pricing non linéaire, le products mix non linéaire, le Portefeuille de type Markovitz, ce sera déjà un bon départ, mais une évaluation globale des modèles de data et du fonctionnement de SolvGraph au niveau des components est nécessaire.
 
 06/03/2023:
 Découverte du cours du Mit en ligne :
