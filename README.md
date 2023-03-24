@@ -30,7 +30,7 @@ Do not hesitate to consult my commercial application, www.solvgraph.com, to unde
 </p>
 
 
-22/03/2023: En train d'évaluer comment je vais coder en full stack l'intégration de Gekko Solver à mon application www.solvgraph.com . Je pense commencer par proposer le pricing non linéaire, le products mix non linéaire, le Portefeuille de type Markovitz, ce sera déjà un bon départ, mais une évaluation globale des modèles de data et du fonctionnement de SolvGraph au niveau des components est nécessaire.
+24/03/2023: En train d'évaluer comment je vais coder en full stack l'intégration de Gekko Solver à mon application www.solvgraph.com . Je pense commencer par proposer le pricing non linéaire, le products mix non linéaire, le Portefeuille aux moindres carrés, ce sera déjà un bon départ, mais une évaluation globale des modèles de data et du fonctionnement de SolvGraph au niveau des components est nécessaire.
 www.solvgraph.com doit router vers les solveurs, et proposer un mode graphique facile. Le travail est assez énorme.
 
 06/03/2023:
