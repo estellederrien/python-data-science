@@ -34,6 +34,10 @@ Do not hesitate to consult my commercial application, www.solvgraph.com, to unde
 www.solvgraph.com doit router vers les solveurs, et proposer un mode graphique facile. Le travail est assez énorme. Un audit de ma propre application effectué par moi même est nécessaire, afin de la faire évoluer.
 le back end n'est pas difficile à réaliser, une fois que je l'ai testé, je sais qu'il fonctionne. Par contre, le Front end est assez difficile quand aux choix à entreprendre quand à ne pas révinventer la roue, mais de ne pas arriver à un code incompréhensible par de futurs collaborateurs. L'intérêt de Solvgraph est bien sur de proposer une surcouche graphique de facilité extrême pour faire de la recherche opérationnelle mathématique en temps réel, en mode graphique, et d'avoir des résultats irréprochables identiques à Excel, par exemple(Sinon, quel serait l'intérêt ?).
 
+03/24/2023: Evaluating how I will full stack code the Gekko Solver integration to my www.solvgraph.com application. I think to start by proposing the non-linear pricing, the non-linear product mix, the least squares Portfolio, it will already be a good start, but a global evaluation of the data models and the functioning of SolvGraph at the component level is necessary. www.solvgraph.com must route to solvers, and offer an easy graphing mode. The work is quite enormous. An audit of my own application carried out by myself is necessary, in order to make it evolve. the back end is not hard to make, once i tested it i know it works. On the other hand, the Front end is quite difficult when it comes to the choices to be made when not to reinvent the wheel, but not to arrive at a code incomprehensible by future collaborators. The interest of Solvgraph is of course to offer a graphic overlay of extreme ease to carry out operational research in real time, in graphic mode, and to have irreproachable results (Otherwise, what would be the interest?).
+
+
+
 06/03/2023:
 Découverte du cours du Mit en ligne :
 https://ocw.mit.edu/courses/15-053-optimization-methods-in-management-science-spring-2013/resources/mit15_053s13_lec11/
