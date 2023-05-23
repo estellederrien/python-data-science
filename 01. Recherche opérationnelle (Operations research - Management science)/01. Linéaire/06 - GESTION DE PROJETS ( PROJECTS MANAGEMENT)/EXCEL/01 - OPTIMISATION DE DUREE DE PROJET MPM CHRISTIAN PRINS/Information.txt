@@ -1,0 +1,5 @@
+L'optimisation de projet de création d'un stade provient 
+du livre optimisations avec Excel de Eyrolles.
+Je vais essayer de trouver le même résultat, avec python
+Mip.
+https://docs.python-mip.com/en/latest/examples.html
