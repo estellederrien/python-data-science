@@ -29,6 +29,8 @@ Do not hesitate to consult my commercial application, www.solvgraph.com, to unde
   <img  src="https://github.com/estelle15000/python-data-science/blob/master/operationsresearch.png" >
 </p>
 
+24/05/2023: Recréation du problème d'ordonnancement excel " Construction d'un stade" de Marc Sevaux et Christian Prins, avec Python Mip  :
+https://github.com/estelle15000/python-data-science/blob/master/01.%20Recherche%20op%C3%A9rationnelle%20(Operations%20research%20-%20Management%20science)/01.%20Lin%C3%A9aire/06%20-%20GESTION%20DE%20PROJETS%20(%20PROJECTS%20MANAGEMENT)/EXCEL/01%20-%20DUREE%20DE%20PROJET%20MPM%20CHRISTIAN%20PRINS/RECREATION%20PYTHON/Recreation%20de%20CHristian%20Prins%20en%20Python.ipynb
 
 24/03/2023: En train d'évaluer comment je vais coder en full stack l'intégration de Gekko Solver à mon application www.solvgraph.com . Je pense commencer par proposer le pricing non linéaire, le products mix non linéaire, le Portefeuille aux moindres carrés, ce sera déjà un bon départ, mais une évaluation globale des modèles de data et du fonctionnement de SolvGraph au niveau des components est nécessaire.
 www.solvgraph.com doit router vers les solveurs, et proposer un mode graphique facile. Le travail est assez énorme. Un audit de ma propre application effectué par moi même est nécessaire, afin de la faire évoluer.
