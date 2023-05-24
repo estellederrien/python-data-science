@@ -30,7 +30,7 @@ Do not hesitate to consult my commercial application, www.solvgraph.com, to unde
 </p>
 
 24/05/2023: Recréation du problème d'ordonnancement excel " Construction d'un stade" de Marc Sevaux et Christian Prins, avec Python Mip  :
-[Lien optimisation de durée de projet](https://github.com/estelle15000/python-data-science/blob/master/01.%20Recherche%20op%C3%A9rationnelle%20(Operations%20research%20-%20Management%20science)/01.%20Lin%C3%A9aire/06%20-%20GESTION%20DE%20PROJETS%20(%20PROJECTS%20MANAGEMENT)/EXCEL/01%20-%20DUREE%20DE%20PROJET%20MPM%20CHRISTIAN%20PRINS/RECREATION%20PYTHON/Recreation%20de%20CHristian%20Prins%20en%20Python.ipynb)
+[Lien optimisation de durée de projet](https://github.com/estelle15000/python-data-science/blob/master/01.%20Recherche%20op%C3%A9rationnelle%20(Operations%20research%20-%20Management%20science)/01.%20Lin%C3%A9aire/06%20-%20GESTION%20DE%20PROJETS%20(%20PROJECTS%20MANAGEMENT)/EXCEL/01%20-%20DUREE%20DE%20PROJET%20MPM%20CHRISTIAN%20PRINS/RECREATION%20PYTHON/Ordonnancement%20de%20projet.ipynb)
 
 
 
