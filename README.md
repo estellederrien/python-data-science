@@ -33,7 +33,6 @@ Do not hesitate to consult my commercial application, www.solvgraph.com, to unde
 [Problème non linéaire très simple](https://github.com/estelle15000/python-data-science/blob/master/01.%20Recherche%20op%C3%A9rationnelle%20(Operations%20research%20-%20Management%20science)/02.%20Non%20lin%C3%A9aire/02.%20PRODUITS%20MIXES/PYTHON/01.%20Plus%20grand%20qt%C3%A9%20d'objets%2C%20moins%20le%20prix%20est%20%C3%A9lev%C3%A9.ipynb)
 
 29/05/2023 :  Ma méthode pour créer des variables de décision et des contraintes en itérant avec un solveur Python :<br>
-
 [Lien Créer des variables de décision](https://github.com/estelle15000/python-data-science/blob/master/01.%20Recherche%20op%C3%A9rationnelle%20(Operations%20research%20-%20Management%20science)/04.%20Comment%20utiliser%20les%20variables%20binaires%20-%20conditionelles/02.%20CREER%20DES%20VARS%20DE%20DECISION%20RAPIDEMENT.ipynb)
 
 25/05/2023:Mon Etude des variables conditionnelles binaire et de la méthode BigM en optimisation :<br>
