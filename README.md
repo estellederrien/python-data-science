@@ -29,7 +29,7 @@ Do not hesitate to consult my commercial application, www.solvgraph.com, to unde
   <img  src="https://github.com/estelle15000/python-data-science/blob/master/operationsresearch.png" >
 </p>
 
-29/05/2023 :  Ma méthode pour Créer des vars de décision et des contraintes en itérant avec un solveur Python :
+29/05/2023 :  Ma méthode pour créer des variables de décision et des contraintes en itérant avec un solveur Python :
 
 [Lien Créer des variables de décision](https://github.com/estelle15000/python-data-science/blob/master/01.%20Recherche%20op%C3%A9rationnelle%20(Operations%20research%20-%20Management%20science)/04.%20Comment%20utiliser%20les%20variables%20binaires%20-%20conditionelles/02.%20CREER%20DES%20VARS%20DE%20DECISION%20RAPIDEMENT.ipynb)
 
