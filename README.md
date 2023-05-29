@@ -6,21 +6,9 @@
 
 ##  Français/French
 
-## Introduction
-Je stocke ici divers scripts de data science et de mathématiques <b>descriptives</b> ou <b>prédictives</b> en Python, en langue Française. Mes études sont principalement axées sur les solveurs linéaires, les régressions multiples, les lois de probabilité et les chaines de Markov. Un peu de finances aussi...<br>
-<br><B>New 2022</b> : Je vais dorénavant stocker des centaines de fichiers de recherche opérationnelle avec le solveur EXCEL , c'est donc désormais du <b>Prescriptif</b> (Optimisation linéaire et non linéaires mathématique), que je traduis en Français, je leur crée des légendes simplifiées et les valide( Produits mixs, Produits mix non linéaires, Mélanges, Production multi périodes avec gestion des stocks, Job Shop sur multiples machines, Cutting stock, Bin Packing 2d et bien plus etc ... Je crée aussi le code en python correspondant afin de vérifier que les résultats collent entre eux !
-je ne fais plus que ça ....<br> 
-<br><B>New 2022</b>: I will now store hundreds of operational research files with the EXCEL solver, so it is now <b>Prescriptive</b> (Linear and nonlinear mathematical optimization ), which I translate into French, I create simplified legends for them and validate them (mixed products, non-linear mixed products, mixtures, multi-period production with inventory management, Job Shop on multiple machines, Cutting stock, Bin Packing 2d and many more etc. I will create the corresponding Python solver code too ...
-I just do that....<br>
-
-<p align="center" >
-  <img  src="https://github.com/estelle15000/python-data-science/blob/master/2007_solveur2.jpg" >
-</p>
-
-Important : Il faut savoir que les valeurs dans les fichiers Excel pourraient provenir de bases de données et non pas être des valeurs 'statiques'  , et donc se modifier en temps réel, et pas seulement être statiques, ce qui procure une puissance incroyable au Solveur Excel. Je tente également de comparer les résultats  en python à ceux en Excel dès que c'est possible, pour l'instant, c'est assez largement OK, et les solveurs trouvent les mêmes résultats (Solveur Excel = Solveur Python).
-<br><br>
-N'hésitez pas à consulter mon application commerciale ,  www.solvgraph.com ,![alt text](http://www.solvgraph.com/static/img/output-onlinepngtools.213abb5a.png) pour comprendre plus facilement ce qu'est la Recherche opérationnelle, en mode graphique, ainsi que son grand intérêt pour les entreprises.<br><br>
-Do not hesitate to consult my commercial application, www.solvgraph.com, to understand more easily what Operational Research is, in graphic mode, as well as its great interest for companies.
+Mon dépot qui traite principalement de la recherche opérationnelle mathématique, des statistiques et des mathématiques avec Python.
+Orienté à fond sur la pratique, ou cas d'utilisations.
+Souvent mis à jour désormais, avec suivi des "news".
 
 
 ## Dernières news du dépot : 
@@ -46,7 +34,24 @@ Do not hesitate to consult my commercial application, www.solvgraph.com, to unde
 [Lien Pricing à l'aide de l'équation N.L de la demande](https://github.com/estelle15000/python-data-science/blob/master/01.%20Recherche%20op%C3%A9rationnelle%20(Operations%20research%20-%20Management%20science)/02.%20Non%20lin%C3%A9aire/01.%20ETABLISSEMENT%20DES%20PRIX%20(PRICING)/00.%20Pricing%20de%201%20produit/GEKKO/La%20companie%20M.ipynb)
 
 
+## Introduction
+Je stocke ici divers scripts de data science et de mathématiques <b>descriptives</b> ou <b>prédictives</b> en Python, en langue Française. Mes études sont principalement axées sur les solveurs linéaires, les régressions multiples, les lois de probabilité et les chaines de Markov. Un peu de finances aussi...<br>
+<br><B>New 2022</b> : Je vais dorénavant stocker des centaines de fichiers de recherche opérationnelle avec le solveur EXCEL , c'est donc désormais du <b>Prescriptif</b> (Optimisation linéaire et non linéaires mathématique), que je traduis en Français, je leur crée des légendes simplifiées et les valide( Produits mixs, Produits mix non linéaires, Mélanges, Production multi périodes avec gestion des stocks, Job Shop sur multiples machines, Cutting stock, Bin Packing 2d et bien plus etc ... Je crée aussi le code en python correspondant afin de vérifier que les résultats collent entre eux !
+je ne fais plus que ça ....<br> 
+<br><B>New 2022</b>: I will now store hundreds of operational research files with the EXCEL solver, so it is now <b>Prescriptive</b> (Linear and nonlinear mathematical optimization ), which I translate into French, I create simplified legends for them and validate them (mixed products, non-linear mixed products, mixtures, multi-period production with inventory management, Job Shop on multiple machines, Cutting stock, Bin Packing 2d and many more etc. I will create the corresponding Python solver code too ...
+I just do that....<br>
 
+<p align="center" >
+  <img  src="https://github.com/estelle15000/python-data-science/blob/master/2007_solveur2.jpg" >
+</p>
+
+Important : Il faut savoir que les valeurs dans les fichiers Excel pourraient provenir de bases de données et non pas être des valeurs 'statiques'  , et donc se modifier en temps réel, et pas seulement être statiques, ce qui procure une puissance incroyable au Solveur Excel. Je tente également de comparer les résultats  en python à ceux en Excel dès que c'est possible, pour l'instant, c'est assez largement OK, et les solveurs trouvent les mêmes résultats (Solveur Excel = Solveur Python).
+<br><br>
+N'hésitez pas à consulter mon application commerciale ,  www.solvgraph.com ,![alt text](http://www.solvgraph.com/static/img/output-onlinepngtools.213abb5a.png) pour comprendre plus facilement ce qu'est la Recherche opérationnelle, en mode graphique, ainsi que son grand intérêt pour les entreprises.<br><br>
+Do not hesitate to consult my commercial application, www.solvgraph.com, to understand more easily what Operational Research is, in graphic mode, as well as its great interest for companies.
+
+
+## News (suite)
 
 24/03/2023: En train d'évaluer comment je vais coder en full stack l'intégration de Gekko Solver à mon application www.solvgraph.com . Je pense commencer par proposer le pricing non linéaire, le products mix non linéaire, le Portefeuille aux moindres carrés, ce sera déjà un bon départ, mais une évaluation globale des modèles de data et du fonctionnement de SolvGraph au niveau des components est nécessaire.
 www.solvgraph.com doit router vers les solveurs, et proposer un mode graphique facile. Le travail est assez énorme. Un audit de ma propre application effectué par moi même est nécessaire, afin de la faire évoluer.
