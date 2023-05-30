@@ -17,6 +17,8 @@ Souvent mis à jour désormais, avec suivi des "news".
   <img  src="https://github.com/estelle15000/python-data-science/blob/master/operationsresearch.png" >
 </p>
 
+30/05/2023 :  Découverte du super livre "Numerical Python" de APress. Décision d'étudier une seule catégorie d'optimisation par semaine.
+
 29/05/2023 : Un problème non linéaire de mix de produits, réduit à sa plus simple expression, avec Python Gekko :
 [Problème non linéaire très simple](https://github.com/estelle15000/python-data-science/blob/master/01.%20Recherche%20op%C3%A9rationnelle%20(Operations%20research%20-%20Management%20science)/02.%20Non%20lin%C3%A9aire/02.%20PRODUITS%20MIXES/PYTHON/01.%20Plus%20grand%20qt%C3%A9%20d'objets%2C%20moins%20le%20prix%20est%20%C3%A9lev%C3%A9.ipynb)
 
