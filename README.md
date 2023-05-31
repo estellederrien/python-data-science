@@ -37,8 +37,8 @@ Souvent mis à jour désormais, avec suivi des "news".
 [Lien Pricing à l'aide de l'équation N.L de la demande](https://github.com/estelle15000/python-data-science/blob/master/01.%20Recherche%20op%C3%A9rationnelle%20(Operations%20research%20-%20Management%20science)/02.%20Non%20lin%C3%A9aire/01.%20ETABLISSEMENT%20DES%20PRIX%20(PRICING)/00.%20Pricing%20de%201%20produit/GEKKO/La%20companie%20M.ipynb)
 
 31/05/2023 :  Création de la chaine Youtube de mon app SolvGraph.com, pour les futurs tutoriels de l'app...
-https://www.youtube.com/watch?v=BASBjqhSRvI
-<iframe width="560" height="315" src="https://www.youtube.com/embed/BASBjqhSRvI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+[![Photo](https://img.youtube.com/vi/BASBjqhSRvI/0.jpg)](https://www.youtube.com/watch?v=BASBjqhSRvI)
 
 
 ## Introduction
