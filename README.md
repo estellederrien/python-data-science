@@ -17,6 +17,7 @@ Souvent mis à jour désormais, avec suivi des "news".
   <img  src="https://github.com/estelle15000/python-data-science/blob/master/operationsresearch.png" >
 </p>
 
+
 30/05/2023 :  Découverte du super livre "Numerical Python" de APress. Décision d'étudier une seule catégorie d'optimisation par semaine ( Les transports et le voyageur de commerce la semaine prochaine). Pour l'instant, je continue l'étude des variables binaires/conditionnelles, et des contraintes de type piecewize, avec des exemples concrets à venir, parce que c'est vraiment trop important à tenter de maitriser. Les eq diffs aussi... 
 
 29/05/2023 : Un problème non linéaire de mix de produits, réduit à sa plus simple expression, avec Python Gekko :
@@ -34,6 +35,9 @@ Souvent mis à jour désormais, avec suivi des "news".
 
 01/05/2023: Etablir le meilleur prix pour un objet, à l'aide de l'équation non linéaire de la demande, mon code ( et celui de John Hedengren) : 
 [Lien Pricing à l'aide de l'équation N.L de la demande](https://github.com/estelle15000/python-data-science/blob/master/01.%20Recherche%20op%C3%A9rationnelle%20(Operations%20research%20-%20Management%20science)/02.%20Non%20lin%C3%A9aire/01.%20ETABLISSEMENT%20DES%20PRIX%20(PRICING)/00.%20Pricing%20de%201%20produit/GEKKO/La%20companie%20M.ipynb)
+
+31/05/2023 :  Création de la chaine Youtube de mon app SolvGraph.com, pour les futurs tutoriels de l'app...
+https://www.youtube.com/watch?v=BASBjqhSRvI
 
 
 ## Introduction
