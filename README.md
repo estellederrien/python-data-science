@@ -38,6 +38,7 @@ Souvent mis à jour désormais, avec suivi des "news".
 
 31/05/2023 :  Création de la chaine Youtube de mon app SolvGraph.com, pour les futurs tutoriels de l'app...
 https://www.youtube.com/watch?v=BASBjqhSRvI
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BASBjqhSRvI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
 ## Introduction
