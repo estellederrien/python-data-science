@@ -17,6 +17,9 @@ Souvent mis à jour désormais, avec suivi des "news".
   <img  src="https://github.com/estelle15000/python-data-science/blob/master/operationsresearch.png" >
 </p>
 
+01/06/2023: Mon problème non linéaire de mix de produits avec Gekko, avec la modélisation mathématique Latex + L'Etude des variables binaires + La méthode pour itérer avec Python Gekko 
+[Problème non linéaire vec modélisation Latex et variables binaires](https://github.com/estelle15000/python-data-science/blob/master/01.%20Recherche%20op%C3%A9rationnelle%20(Operations%20research%20-%20Management%20science)/02.%20Non%20lin%C3%A9aire/02.%20PRODUITS%20MIXES/PYTHON/02.%20Produits%20mix%20avec%20contraintes%20et%20condition.ipynb)
+
 
 30/05/2023 :  Découverte du super livre "Numerical Python" de APress. Décision d'étudier une seule catégorie d'optimisation par semaine ( Les transports et le voyageur de commerce la semaine prochaine). Pour l'instant, je continue l'étude des variables binaires/conditionnelles, et des contraintes de type piecewize, avec des exemples concrets à venir, parce que c'est vraiment trop important à tenter de maitriser. Les eq diffs aussi... 
 
