@@ -20,9 +20,9 @@ Souvent mis à jour désormais, avec suivi des "news".
 05/06/2023: 
 [La méthode BigM, nécessaire ou pas dans Pulp](https://github.com/estelle15000/python-data-science/blob/master/01.%20Recherche%20op%C3%A9rationnelle%20(Operations%20research%20-%20Management%20science)/03.%20Comment%20Lin%C3%A9ariser/PYTHON/05.%20THEORIE%20-%20Methode%20BigM%20et%20solveurs.ipynb)
 
-01/06/2023: Finalement tout est contenu dans https://download.aimms.com/aimms/download/manuals/AIMMS3OM_IntegerProgrammingTricks.pdf
+01/06/2023: Finalement toutes les astuces de type " Piecewize, BigM" et "Contraintes binaires" sont contenues dans https://download.aimms.com/aimms/download/manuals/AIMMS3OM_IntegerProgrammingTricks.pdf
 
-01/06/2023: Mon problème non linéaire de mix de produits avec Gekko, avec la modélisation mathématique Latex + L'Etude des variables binaires + La méthode pour itérer avec Python Gekko 
+01/06/2023: Mon problème non linéaire de mix de produits avec Python Gekko et Pyton Cplex, avec la modélisation mathématique Latex + L'Etude des variables binaires + La méthode pour itérer avec Python Gekko et Cplex.
 [Problème non linéaire vec modélisation Latex et variables binaires](https://github.com/estelle15000/python-data-science/blob/master/01.%20Recherche%20op%C3%A9rationnelle%20(Operations%20research%20-%20Management%20science)/02.%20Non%20lin%C3%A9aire/02.%20PRODUITS%20MIXES/PYTHON/02.%20Produits%20mix%20avec%20contraintes%20et%20condition.ipynb)
 
 
