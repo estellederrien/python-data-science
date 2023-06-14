@@ -24,14 +24,14 @@ I will translate my studies when all is finished...<br>
 
 01/06/2023: Finalement toutes les astuces de type " Piecewize, BigM" et "Contraintes binaires" sont contenues dans https://download.aimms.com/aimms/download/manuals/AIMMS3OM_IntegerProgrammingTricks.pdf
 
-01/06/2023: Mon problème non linéaire de mix de produits avec Python Gekko et Pyton Cplex, avec la modélisation mathématique Latex + L'Etude des variables binaires + La méthode pour itérer avec Python Gekko et Cplex.
-[Problème non linéaire vec modélisation Latex et variables binaires](https://github.com/estelle15000/python-data-science/blob/master/01.%20Recherche%20op%C3%A9rationnelle%20(Operations%20research%20-%20Management%20science)/02.%20Non%20lin%C3%A9aire/02.%20PRODUITS%20MIXES/PYTHON/02.%20Produits%20mix%20avec%20contraintes%20et%20condition.ipynb)
+01/06/2023: Mon optimisation non linéaire de mix de produits avec Python Gekko et Pyton Cplex, avec la modélisation mathématique Latex + L'Etude des variables binaires + La méthode pour itérer avec Python Gekko et Cplex.
+[Optimisation non linéaire avec modélisation Latex et variables binaires](https://github.com/estelle15000/python-data-science/blob/master/01.%20Recherche%20op%C3%A9rationnelle%20(Operations%20research%20-%20Management%20science)/02.%20Non%20lin%C3%A9aire/02.%20PRODUITS%20MIXES/PYTHON/02.%20Produits%20mix%20avec%20contraintes%20et%20condition.ipynb)
 
 
 30/05/2023 :  Découverte du super livre "Numerical Python" de APress. Décision d'étudier une seule catégorie d'optimisation par semaine ( Les transports et le voyageur de commerce la semaine prochaine). Pour l'instant, je continue l'étude des variables binaires/conditionnelles, et des contraintes de type piecewize, avec des exemples concrets à venir, parce que c'est vraiment trop important à tenter de maitriser. Les eq diffs aussi... 
 
-29/05/2023 : Un problème non linéaire de mix de produits, réduit à sa plus simple expression, avec Python Gekko :
-[Problème non linéaire très simple](https://github.com/estelle15000/python-data-science/blob/master/01.%20Recherche%20op%C3%A9rationnelle%20(Operations%20research%20-%20Management%20science)/02.%20Non%20lin%C3%A9aire/02.%20PRODUITS%20MIXES/PYTHON/01.%20Plus%20grand%20qt%C3%A9%20d'objets%2C%20moins%20le%20prix%20est%20%C3%A9lev%C3%A9.ipynb)
+29/05/2023 : Une optimisation non linéaire de mix de produits, réduit à sa plus simple expression, avec Python Gekko :
+[Optimisation non linéaire très simple](https://github.com/estelle15000/python-data-science/blob/master/01.%20Recherche%20op%C3%A9rationnelle%20(Operations%20research%20-%20Management%20science)/02.%20Non%20lin%C3%A9aire/02.%20PRODUITS%20MIXES/PYTHON/01.%20Plus%20grand%20qt%C3%A9%20d'objets%2C%20moins%20le%20prix%20est%20%C3%A9lev%C3%A9.ipynb)
 
 29/05/2023 :  Ma méthode pour créer des variables de décision et des contraintes en itérant avec un solveur Python :<br>
 [Lien Créer des variables de décision](https://github.com/estelle15000/python-data-science/blob/master/01.%20Recherche%20op%C3%A9rationnelle%20(Operations%20research%20-%20Management%20science)/04.%20Comment%20utiliser%20les%20variables%20binaires%20-%20conditionelles/02.%20CREER%20DES%20VARS%20DE%20DECISION%20RAPIDEMENT.ipynb)
