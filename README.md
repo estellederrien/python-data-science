@@ -9,7 +9,7 @@
 Mon dépot qui traite principalement de la recherche opérationnelle mathématique, des statistiques et des mathématiques avec Python.
 Orienté à fond sur la pratique, ou cas d'utilisations faciles à mettre en place, je pars toujours des cas les plus simples.
 Souvent mis à jour désormais, avec suivi des "news".
-
+I could have written everything in English, but I will translate later.
 
 ## Dernières news du dépot : 
 
