@@ -18,12 +18,11 @@ Souvent mis à jour désormais, avec suivi des "news".
 </p>
 
 
-14/06/2023: 
-I will translate my studies when all is finished...
-Nouveau lien Important pour comprendre Piecewize : https://ibmdecisionoptimization.github.io/tutorials/html/Beyond_Linear_Programming.html
+
+
 
 05/06/2023:
-[La méthode BigM, nécessaire ou pas dans Pulp](https://github.com/estelle15000/python-data-science/blob/master/01.%20Recherche%20op%C3%A9rationnelle%20(Operations%20research%20-%20Management%20science)/03.%20Comment%20Lin%C3%A9ariser/PYTHON/05.%20THEORIE%20-%20Methode%20BigM%20et%20solveurs.ipynb)
+[La méthode BigM, nécessaire ou pas dans Pulp](https://github.com/estelle15000/python-data-science/blob/master/01.%20Recherche%20op%C3%A9rationnelle%20(Operations%20research%20-%20Management%20science)/03.%20Comment%20Lin%C3%A9ariser/PYTHON/01.%20THEORIE%20-%20Methode%20BigM%20et%20solveurs.ipynb)
 
 01/06/2023: Finalement toutes les astuces de type " Piecewize, BigM" et "Contraintes binaires" sont contenues dans https://download.aimms.com/aimms/download/manuals/AIMMS3OM_IntegerProgrammingTricks.pdf
 
@@ -31,7 +30,8 @@ Nouveau lien Important pour comprendre Piecewize : https://ibmdecisionoptimizati
 [Optimisation non linéaire avec modélisation Latex et variables binaires](https://github.com/estelle15000/python-data-science/blob/master/01.%20Recherche%20op%C3%A9rationnelle%20(Operations%20research%20-%20Management%20science)/02.%20Non%20lin%C3%A9aire/02.%20PRODUITS%20MIXES/PYTHON/02.%20Produits%20mix%20avec%20contraintes%20et%20condition.ipynb)
 
 
-30/05/2023 :  Découverte du super livre "Numerical Python" de APress. Décision d'étudier une seule catégorie d'optimisation par semaine ( Les transports et le voyageur de commerce la semaine prochaine). Pour l'instant, je continue l'étude des variables binaires/conditionnelles, et des contraintes de type piecewize, avec des exemples concrets à venir, parce que c'est vraiment trop important à tenter de maitriser. Les eq diffs aussi... 
+30/05/2023 :  Découverte du super livre "Numerical Python" de APress. Décision d'étudier une seule catégorie d'optimisation par semaine ( Les transports et le voyageur de commerce la semaine prochaine). Pour l'instant, je continue l'étude des variables binaires/conditionnelles, et des contraintes de type piecewize, avec des exemples concrets à venir, parce que c'est vraiment trop important à tenter de maitriser. I will translate my studies when all is finished...
+Nouveau lien Important pour comprendre Piecewize : https://ibmdecisionoptimization.github.io/tutorials/html/Beyond_Linear_Programming.html
 
 29/05/2023 : Une optimisation non linéaire de mix de produits, réduite à sa plus simple expression, avec Python Gekko :
 [Optimisation non linéaire très simple](https://github.com/estelle15000/python-data-science/blob/master/01.%20Recherche%20op%C3%A9rationnelle%20(Operations%20research%20-%20Management%20science)/02.%20Non%20lin%C3%A9aire/02.%20PRODUITS%20MIXES/PYTHON/01.%20Plus%20grand%20qt%C3%A9%20d'objets%2C%20moins%20le%20prix%20est%20%C3%A9lev%C3%A9.ipynb)
