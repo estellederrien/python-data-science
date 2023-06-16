@@ -11,6 +11,13 @@ Orienté à fond sur la pratique, ou cas d'utilisations faciles à mettre en pla
 Souvent mis à jour désormais, avec suivi des "news".
 I could have written everything in English, but I will translate later.
 
+##  Anglais/English
+
+My repository which mainly deals with mathematical operations research, statistics and mathematics with Python.
+Focused on practice, or easy to implement use cases, I always start from the simplest cases.
+Often updated now, with follow-up of "news".
+
+
 ## Dernières news du dépot : 
 
 <p align="center" >
