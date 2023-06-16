@@ -37,10 +37,10 @@ Nouveau lien Important pour comprendre Piecewize : https://ibmdecisionoptimizati
 [Optimisation non linéaire très simple](https://github.com/estelle15000/python-data-science/blob/master/01.%20Recherche%20op%C3%A9rationnelle%20(Operations%20research%20-%20Management%20science)/02.%20Non%20lin%C3%A9aire/02.%20PRODUITS%20MIXES/PYTHON/01.%20Plus%20grand%20qt%C3%A9%20d'objets%2C%20moins%20le%20prix%20est%20%C3%A9lev%C3%A9.ipynb)
 
 29/05/2023 :  Ma méthode pour créer des variables de décision et des contraintes en itérant avec un solveur Python :<br>
-[Lien Créer des variables de décision](https://github.com/estelle15000/python-data-science/blob/master/01.%20Recherche%20op%C3%A9rationnelle%20(Operations%20research%20-%20Management%20science)/04.%20Comment%20utiliser%20les%20variables%20binaires%20-%20conditionelles/02.%20CREER%20DES%20VARS%20DE%20DECISION%20RAPIDEMENT.ipynb)
+[Lien Créer des variables de décision](https://github.com/estelle15000/python-data-science/blob/master/01.%20Recherche%20op%C3%A9rationnelle%20(Operations%20research%20-%20Management%20science)/04.%20Comment%20utiliser%20les%20variables%20binaires%20-%20conditionnelles/02.%20CREER%20DES%20VARS%20DE%20DECISION%20RAPIDEMENT.ipynb)
 
 25/05/2023:Mon Etude des variables conditionnelles binaire et de la méthode BigM en optimisation :<br>
-[Lien variables conditionnelles](https://github.com/estelle15000/python-data-science/blob/master/01.%20Recherche%20op%C3%A9rationnelle%20(Operations%20research%20-%20Management%20science)/04.%20Comment%20utiliser%20les%20variables%20binaires%20-%20conditionelles/01.%20THEORIE.ipynb)
+[Lien variables conditionnelles](https://github.com/estelle15000/python-data-science/blob/master/01.%20Recherche%20op%C3%A9rationnelle%20(Operations%20research%20-%20Management%20science)/04.%20Comment%20utiliser%20les%20variables%20binaires%20-%20conditionnelles/01.%20THEORIE.ipynb)
 
 24/05/2023: Recréation du problème d'ordonnancement excel " Construction d'un stade" de Marc Sevaux et Christian Prins, avec Python Mip  :<br>
 [Lien optimisation de durée de projet](https://github.com/estelle15000/python-data-science/blob/master/01.%20Recherche%20op%C3%A9rationnelle%20(Operations%20research%20-%20Management%20science)/01.%20Lin%C3%A9aire/06%20-%20GESTION%20DE%20PROJETS%20(%20PROJECTS%20MANAGEMENT)/EXCEL/01%20-%20DUREE%20DE%20PROJET%20MPM%20CHRISTIAN%20PRINS/RECREATION%20PYTHON/Ordonnancement%20de%20projet.ipynb)
@@ -96,7 +96,7 @@ It is this function which transfers and formats the mathematical instance of an 
 Découverte du cours du Mit en ligne :
 https://ocw.mit.edu/courses/15-053-optimization-methods-in-management-science-spring-2013/resources/mit15_053s13_lec11/
 
-Surtout pour les contraintes conditionelles binaires en programmation linéaire et surtout les contraintes piecewise linear functions pour par exemple avoir des coûts variables en fonction des quantités dans des lps de type produit mixes.
+Surtout pour les contraintes conditionnelles binaires en programmation linéaire et surtout les contraintes piecewise linear functions pour par exemple avoir des coûts variables en fonction des quantités dans des lps de type produit mixes.
 
 Egalement : 
 https://download.aimms.com/aimms/download/manuals/AIMMS3OM_IntegerProgrammingTricks.pdf
