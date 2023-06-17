@@ -24,8 +24,10 @@ Often updated now, with follow-up of "news".
   <img  src="https://github.com/estelle15000/python-data-science/blob/master/operationsresearch.png" >
 </p>
 
+16/06/2023: 
+[Contraintes discontinues et Piecewize avec différents solveurs](https://github.com/estelle15000/python-data-science/blob/master/01.%20Recherche%20op%C3%A9rationnelle%20(Operations%20research%20-%20Management%20science)/03.%20Comment%20Lin%C3%A9ariser/PYTHON/02.%20THEORIE%20-%20Piecewize%20avec%20diff%C3%A9rents%20solveurs.ipynb)
 
-16/06/2023: Création du répertoire " Notebooks synthétique multiple" qui contiendra 2 notebooks géants. 1. Avec les types génériques d'optimisation linéaires testés sur plusieurs solveurs, 2. Avec Les optimisations non linéaires de base testées sur plusieurs solveurs. Ce sera beaucoup plus rapide à lire.
+
 
 05/06/2023:
 [La méthode BigM, nécessaire ou pas dans Pulp](https://github.com/estelle15000/python-data-science/blob/master/01.%20Recherche%20op%C3%A9rationnelle%20(Operations%20research%20-%20Management%20science)/03.%20Comment%20Lin%C3%A9ariser/PYTHON/01.%20THEORIE%20-%20Methode%20BigM%20et%20solveurs.ipynb)
