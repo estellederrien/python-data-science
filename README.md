@@ -25,7 +25,7 @@ Often updated now, with follow-up of "news".
 </p>
 
 24/06/2023:
-Mes nouveaux notebooks sont désormais multiples et triés par catégories classique d'optimisation.
+Mes nouveaux notebooks sont désormais multiples et triés par catégories classique d'optimisation. La modélisation mathématique sera toujours en début d'exemple.
 [Lancement de Mon notebook Python synthétique dédié aux optimisations de type réseaux (Transport, Transshipment, Affectation, Flots...)](https://github.com/estelle15000/python-data-science/blob/master/01.%20Recherche%20op%C3%A9rationnelle%20(Operations%20research%20-%20Management%20science)/03.%20Comment%20Lin%C3%A9ariser/PYTHON/02.%20THEORIE%20-%20Piecewize%20avec%20diff%C3%A9rents%20solveurs.ipynb)
 
 16/06/2023: 
