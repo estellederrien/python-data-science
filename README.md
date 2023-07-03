@@ -25,8 +25,7 @@ Often updated now, with follow-up of "news". I could have written everything in 
 </p>
 
 03/07/2023:
-
-[Lancement de mon notebook synthétique à propos des optimisations de type mixes de produits.)](https://github.com/estelle15000/python-data-science/blob/master/01.%20Recherche%20op%C3%A9rationnelle%20(Operations%20research%20-%20Management%20science)/05.%20Notebooks%20multiples%20-%20cr%C3%A9ation%20en%20cours/01.%20Optimisations%20Produits%20mixes.ipynb)
+[Lancement de mon notebook synthétique à propos des optimisations de type mixes de produits.](https://github.com/estelle15000/python-data-science/blob/master/01.%20Recherche%20op%C3%A9rationnelle%20(Operations%20research%20-%20Management%20science)/05.%20Notebooks%20multiples%20-%20cr%C3%A9ation%20en%20cours/01.%20Optimisations%20Produits%20mixes.ipynb)
 
 24/06/2023:
 Mes nouveaux notebooks sont désormais multiples et triés par catégories classique d'optimisation. La modélisation mathématique sera toujours en début d'exemple.
