@@ -9,13 +9,13 @@
 Mon dépot qui traite principalement de la recherche opérationnelle mathématique, des statistiques et des mathématiques avec Python.
 Orienté à fond sur la pratique, ou cas d'utilisations faciles à mettre en place, je pars toujours des cas les plus simples.
 Souvent mis à jour désormais, avec suivi des "news".
-I could have written everything in English, but I will translate later.
+
 
 ##  Anglais/English
 
 My repository which mainly deals with mathematical operations research, statistics and mathematics with Python.
 Focused on practice, or easy to implement use cases, I always start from the simplest cases.
-Often updated now, with follow-up of "news".
+Often updated now, with follow-up of "news". I could have written everything in English, but I will translate later all of my multiple optimizations notebooks and create a new depot. I am available in Hong Kong, Asia...
 
 
 ## Dernières news du dépot : 
@@ -24,8 +24,13 @@ Often updated now, with follow-up of "news".
   <img  src="https://github.com/estelle15000/python-data-science/blob/master/operationsresearch.png" >
 </p>
 
+03/07/2023:
+
+[Lancement de mon notebook synthétique à propos des optimisations de type mixes de produits.)](https://github.com/estelle15000/python-data-science/blob/master/01.%20Recherche%20op%C3%A9rationnelle%20(Operations%20research%20-%20Management%20science)/05.%20Notebooks%20multiples%20-%20cr%C3%A9ation%20en%20cours/01.%20Optimisations%20Produits%20mixes.ipynb)
+
 24/06/2023:
 Mes nouveaux notebooks sont désormais multiples et triés par catégories classique d'optimisation. La modélisation mathématique sera toujours en début d'exemple.
+
 [Lancement de Mon notebook Python synthétique dédié aux optimisations de type réseaux (Transport, Transshipment, Affectation, Flots...)](https://github.com/estelle15000/python-data-science/blob/master/01.%20Recherche%20op%C3%A9rationnelle%20(Operations%20research%20-%20Management%20science)/05.%20Notebooks%20multiples%20-%20cr%C3%A9ation%20en%20cours/03.%20Optimisations%20R%C3%A9seaux.ipynb)
 
 16/06/2023: 
