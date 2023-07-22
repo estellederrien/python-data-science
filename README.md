@@ -24,21 +24,13 @@ Often updated now, with follow-up of "news". I could have written everything in 
   <img  src="https://github.com/estelle15000/python-data-science/blob/master/operationsresearch.png" >
 </p>
 
-03/07/2023:
-[Lancement de mon notebook synthétique à propos des optimisations de type mixes de produits.](https://github.com/estelle15000/python-data-science/blob/master/01.%20Recherche%20op%C3%A9rationnelle%20(Operations%20research%20-%20Management%20science)/05.%20Notebooks%20multiples%20-%20cr%C3%A9ation%20en%20cours/01.%20Optimisations%20Produits%20mixes.ipynb)
 
 24/06/2023:
 Mes nouveaux notebooks sont désormais multiples et triés par catégories classique d'optimisation. La modélisation mathématique sera toujours en début d'exemple.
 
-[Lancement de Mon notebook Python synthétique dédié aux optimisations de type réseaux (Transport, Transshipment, Affectation, Flots...)](https://github.com/estelle15000/python-data-science/blob/master/01.%20Recherche%20op%C3%A9rationnelle%20(Operations%20research%20-%20Management%20science)/05.%20Notebooks%20multiples%20-%20cr%C3%A9ation%20en%20cours/03.%20Optimisations%20R%C3%A9seaux.ipynb)
-
-16/06/2023: 
-[Contraintes discontinues et Piecewize avec différents solveurs](https://github.com/estelle15000/python-data-science/blob/master/01.%20Recherche%20op%C3%A9rationnelle%20(Operations%20research%20-%20Management%20science)/03.%20Comment%20Lin%C3%A9ariser/PYTHON/02.%20THEORIE%20-%20Piecewize%20avec%20diff%C3%A9rents%20solveurs.ipynb)
-
-
 
 05/06/2023:
-[La méthode BigM, nécessaire ou pas dans Pulp](https://github.com/estelle15000/python-data-science/blob/master/01.%20Recherche%20op%C3%A9rationnelle%20(Operations%20research%20-%20Management%20science)/03.%20Comment%20Lin%C3%A9ariser/PYTHON/01.%20THEORIE%20-%20Methode%20BigM%20et%20solveurs.ipynb)
+La méthode BigM, nécessaire ou pas dans Pulp
 
 01/06/2023: Finalement toutes les astuces de type " Piecewize, BigM" et "Contraintes binaires" sont contenues dans https://download.aimms.com/aimms/download/manuals/AIMMS3OM_IntegerProgrammingTricks.pdf
 
@@ -48,18 +40,13 @@ Nouveau lien Important pour comprendre Piecewize : https://ibmdecisionoptimizati
 
 
 
-29/05/2023 :  Ma méthode pour créer des variables de décision et des contraintes en itérant avec un solveur Python :<br>
-[Lien Créer des variables de décision](https://github.com/estelle15000/python-data-science/blob/master/01.%20Recherche%20op%C3%A9rationnelle%20(Operations%20research%20-%20Management%20science)/04.%20Comment%20utiliser%20les%20variables%20binaires%20-%20conditionnelles/02.%20CREER%20DES%20VARS%20DE%20DECISION%20RAPIDEMENT.ipynb)
+29/05/2023 :  Ma méthode pour créer des variables de décision et des contraintes en itérant avec un solveur Python :
 
-25/05/2023:Mon Etude des variables conditionnelles binaire et de la méthode BigM en optimisation :<br>
-[Lien variables conditionnelles](https://github.com/estelle15000/python-data-science/blob/master/01.%20Recherche%20op%C3%A9rationnelle%20(Operations%20research%20-%20Management%20science)/04.%20Comment%20utiliser%20les%20variables%20binaires%20-%20conditionnelles/01.%20THEORIE.ipynb)
+25/05/2023: Etude des variables conditionnelles binaire et de la méthode BigM en optimisation :<br>
 
-24/05/2023: Recréation du problème d'ordonnancement excel " Construction d'un stade" de Marc Sevaux et Christian Prins, avec Python Mip  :<br>
-[Lien optimisation de durée de projet](https://github.com/estelle15000/python-data-science/blob/master/01.%20Recherche%20op%C3%A9rationnelle%20(Operations%20research%20-%20Management%20science)/01.%20Lin%C3%A9aire/06%20-%20GESTION%20DE%20PROJETS%20(%20PROJECTS%20MANAGEMENT)/EXCEL/01%20-%20DUREE%20DE%20PROJET%20MPM%20CHRISTIAN%20PRINS/RECREATION%20PYTHON/Ordonnancement%20de%20projet.ipynb)
+24/05/2023: Recréation du problème d'ordonnancement excel " Construction d'un stade" de Marc Sevaux et Christian Prins, avec Python Mip  
 
-
-01/05/2023: Etablir le meilleur prix pour un objet, à l'aide de l'équation non linéaire de la demande, mon code ( et celui de John Hedengren) : 
-[Lien Pricing à l'aide de l'équation N.L de la demande](https://github.com/estelle15000/python-data-science/blob/master/01.%20Recherche%20op%C3%A9rationnelle%20(Operations%20research%20-%20Management%20science)/02.%20Non%20lin%C3%A9aire/01.%20ETABLISSEMENT%20DES%20PRIX%20(PRICING)/00.%20Pricing%20de%201%20produit/GEKKO/La%20companie%20M.ipynb)
+01/05/2023: Etablir le meilleur prix pour un objet, à l'aide de l'équation non linéaire de la demande, mon code ( et celui de John Hedengren) 
 
 31/05/2023 :  Création de la chaine Youtube de mon app SolvGraph.com, pour les futurs tutoriels de l'app...
 
