@@ -27,6 +27,8 @@ Often updated now, with follow-up of "news". I could have written everything in 
 
 24/06/2023:
 Mes nouveaux notebooks sont désormais multiples et triés par catégories classique d'optimisation. La modélisation mathématique sera toujours en début d'exemple.
+[Visionner mes notebooks d'optimisation mathématique - Recherche opérationnelle](https://github.com/estelle15000/python-data-science/tree/master/01.%20Recherche%20op%C3%A9rationnelle%20(Operations%20research%20-%20Management%20science)/01.%20Notebooks%20optimisation%20multiples%20-%20cr%C3%A9ation%20en%20cours)
+
 
 
 05/06/2023:
