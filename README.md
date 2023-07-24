@@ -24,6 +24,8 @@ Often updated now, with follow-up of "news". I could have written everything in 
   <img  src="https://github.com/estelle15000/python-data-science/blob/master/operationsresearch.png" >
 </p>
 
+24/07/2023: 
+[Découverte de la documentation majeure Simpy pour calculer en maths symboliques (Français).](https://github.com/estelle15000/python-data-science/blob/master/03.%20Math%C3%A9matiques/01.%20Ecrire%20les%20maths%20symboliques%20avec%20Simpy/Calcul%20symbolique.ipynb)
 
 24/06/2023:
 Mes nouveaux notebooks sont désormais multiples et triés par catégories classique d'optimisation. La modélisation mathématique sera toujours en début d'exemple.
