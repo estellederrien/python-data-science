@@ -24,6 +24,9 @@ Often updated now, with follow-up of "news". I could have written everything in 
   <img  src="https://github.com/estelle15000/python-data-science/blob/master/operationsresearch.png" >
 </p>
 
+10/08/2023:
+[Calculer les seuils de rentabilité avec Python](https://github.com/estelle15000/python-data-science/blob/master/01.%20Recherche%20op%C3%A9rationnelle%20(Operations%20research%20-%20Management%20science)/01.%20Notebooks%20d'optimisation%20-%20cr%C3%A9ation%20en%20cours/20.%20Annexe%20-%20Calculer%20les%20seuils%20de%20rentabilit%C3%A9.ipynb)
+
 24/07/2023: 
 [Découverte de la documentation majeure Simpy pour calculer en maths symboliques (Français).](https://github.com/estelle15000/python-data-science/blob/master/03.%20Math%C3%A9matiques/01.%20Ecrire%20les%20maths%20symboliques%20avec%20Simpy/Calcul%20symbolique.ipynb)
 
