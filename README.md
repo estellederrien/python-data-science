@@ -24,7 +24,7 @@ Often updated now, with follow-up of "news". I could have written everything in 
   <img  src="https://github.com/estelle15000/python-data-science/blob/master/operationsresearch.png" >
 </p>
 
-10/08/2023: Devant le peu d'opportunités en France concernant la recherche opérationnelle et le temps de traduction trop long, je termine plus ou moins mes notebooks en français puis switche sur le dépot en Anglais et en Espagnol pour continuer sur les optimisations plus complexes.
+10/08/2023: Devant le peu d'opportunités en France concernant la recherche opérationnelle et le temps de traduction trop long, je termine plus ou moins mes notebooks en français encore quelques semaines, puis switche sur le dépot en Anglais et en Espagnol pour continuer sur les optimisations plus complexes.
 
 10/08/2023:
 [Calculer les seuils de rentabilité avec Python](https://github.com/estelle15000/python-data-science/blob/master/01.%20Recherche%20op%C3%A9rationnelle%20(Operations%20research%20-%20Management%20science)/01.%20Notebooks%20d'optimisation%20-%20cr%C3%A9ation%20en%20cours/20.%20Annexe%20-%20Calculer%20les%20seuils%20de%20rentabilit%C3%A9.ipynb)
