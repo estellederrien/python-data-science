@@ -24,6 +24,9 @@ Often updated now, with follow-up of "news". I could have written everything in 
   <img  src="https://github.com/estelle15000/python-data-science/blob/master/operationsresearch.png" >
 </p>
 
+29/08/2023: Devant le peu d'opportunités en francophonie en matière de recherche opérationnelle mathématique, 
+Je passe au plus vite en notebooks en Anglais et en Espagnol, ainsi que pour l'étude des ODE en Python(Equations différentielles.) ( Abandon des notebooks en français)
+
 10/08/2023: Devant le temps de traduction trop long, je termine plus ou moins mes notebooks en français encore quelques semaines, puis switche sur le dépot en Anglais et en Espagnol pour continuer sur les optimisations plus complexes.
 
 10/08/2023:
