@@ -12,7 +12,7 @@ Installer le module : #pip install networkx
 import networkx as nx
 
 
-# 1. On paramêtre le graphe 
+# 1. On paramètre le graphe 
 G = nx.cycle_graph(10) 
 A = nx.adjacency_matrix(G)
 

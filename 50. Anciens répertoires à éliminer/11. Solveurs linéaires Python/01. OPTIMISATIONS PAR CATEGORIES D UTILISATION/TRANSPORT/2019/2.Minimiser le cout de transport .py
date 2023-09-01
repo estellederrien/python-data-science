@@ -94,7 +94,7 @@ for n in Nodes:
 # On écrite le résumé du LP dans un fichier.
 prob.writeLP("TransportProblem.lp")
 
-# On résouds le problème en utilisant le soolveur de notre choix en paramêtre.
+# On résouds le problème en utilisant le soolveur de notre choix en paramètre.
 prob.solve()
 
 # Le status de la solution est imprimé à l'écran .

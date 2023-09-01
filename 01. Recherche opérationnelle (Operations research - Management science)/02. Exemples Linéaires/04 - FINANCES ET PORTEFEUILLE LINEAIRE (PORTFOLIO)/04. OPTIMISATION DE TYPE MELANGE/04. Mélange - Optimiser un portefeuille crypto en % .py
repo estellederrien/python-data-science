@@ -1,7 +1,7 @@
 """ 
 Etudes : 
 
-Maximiser le profit d' un portefeuille crypto dont les paramêtres sont exprimés en %
+Maximiser le profit d' un portefeuille crypto dont les paramètres sont exprimés en %
 
 note : 
 - Les contraintes sont exprimées en % lors de l'initialisation des datas

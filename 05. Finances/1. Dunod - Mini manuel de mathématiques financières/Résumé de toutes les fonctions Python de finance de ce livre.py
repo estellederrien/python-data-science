@@ -45,7 +45,7 @@ print(somme(2)) # On itère jusqu'au terme u3 ( La boucle for commence à 0, don
 
 """ 
 ====================================================================================
-Calculer le n ieme terme d'une suite géométrique avec une fonction récurrente en paramêtre, de raison * 2 .
+Calculer le n ieme terme d'une suite géométrique avec une fonction récurrente en paramètre, de raison * 2 .
 ====================================================================================
 """
 def calculerTermeRecurrence(premierTerme,f,n):

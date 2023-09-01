@@ -80,7 +80,7 @@ var mapIngenieur  = function() {
     emit(this.ingenieur._id, this.nom);
 };
 
-// 2. La deuxième fonction de reduce prends en paramêtre l'id de l'ingénieur, 
+// 2. La deuxième fonction de reduce prends en paramètre l'id de l'ingénieur, 
 // et les noms de ses voitures qui ont été envoyés par la fonction de map dans le groupe approprié.
 var reduceIngenieur = function(ingenieurId, noms) {
    var res = new Object();
