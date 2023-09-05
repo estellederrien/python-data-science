@@ -1,18 +1,37 @@
 \* Portfolio_Opt *\
-Maximize
-OBJ: 0.18 Maximisation_de_profit_bitcoin
- + 0.18 Maximisation_de_profit_euthereum
- + 0.35 Maximisation_de_profit_litecoin + 0.16 Maximisation_de_profit_ripple
+Minimize
+OBJ: 40 Potential_Investment_Antony_Hotels
+ + 30 Potential_Investment_Arkansas_REIT
+ + 25 Potential_Investment_Atlantic_Lightning
+ + 20 Potential_Investment_Bedrock_Insurance_Annuity
+ + 65 Potential_Investment_Minocompo_System
+ + 15 Potential_Investment_Nocal_Mining_Bond
 Subject To
-budget: Maximisation_de_profit_bitcoin + Maximisation_de_profit_euthereum
- + Maximisation_de_profit_litecoin + Maximisation_de_profit_ripple = 100
-fiability: 0.09 Maximisation_de_profit_bitcoin
- + 0.05 Maximisation_de_profit_euthereum
- + 0.08 Maximisation_de_profit_litecoin + 0.13 Maximisation_de_profit_ripple
- >= 9
-Bounds
-10 <= Maximisation_de_profit_bitcoin
-8 <= Maximisation_de_profit_euthereum
-10 <= Maximisation_de_profit_litecoin
-5 <= Maximisation_de_profit_ripple
+Investments: Potential_Investment_Antony_Hotels
+ + Potential_Investment_Arkansas_REIT
+ + Potential_Investment_Atlantic_Lightning
+ + Potential_Investment_Bedrock_Insurance_Annuity
+ + Potential_Investment_Certificate_of_deposit
+ + Potential_Investment_Minocompo_System
+ + Potential_Investment_Nocal_Mining_Bond
+ + Potential_Investment_Saving_Account = 100000
+Liquidity: Potential_Investment_Antony_Hotels
+ + Potential_Investment_Arkansas_REIT
+ + Potential_Investment_Atlantic_Lightning
+ + Potential_Investment_Minocompo_System + Potential_Investment_Saving_Account
+ >= 40000
+Ratings: Potential_Investment_Bedrock_Insurance_Annuity
+ + Potential_Investment_Certificate_of_deposit
+ + Potential_Investment_Minocompo_System + Potential_Investment_Saving_Account
+ >= 50000
+Returns: 0.125 Potential_Investment_Antony_Hotels
+ + 0.1 Potential_Investment_Arkansas_REIT
+ + 0.071 Potential_Investment_Atlantic_Lightning
+ + 0.082 Potential_Investment_Bedrock_Insurance_Annuity
+ + 0.052 Potential_Investment_Certificate_of_deposit
+ + 0.2 Potential_Investment_Minocompo_System
+ + 0.065 Potential_Investment_Nocal_Mining_Bond
+ + 0.04 Potential_Investment_Saving_Account >= 7500
+Save_and_CD: Potential_Investment_Certificate_of_deposit
+ + Potential_Investment_Saving_Account <= 30000
 End
