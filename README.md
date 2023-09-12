@@ -21,7 +21,7 @@ Often updated now, with follow-up of "news". I could have written everything in 
 ## Dernières news du dépot : 
 
 <p align="center" >
-  <img  src="https://github.com/estelle15000/python-data-science/blob/master/operationsresearch.png" >
+  <img  src="https://github.com/estellederrien/python-data-science/blob/master/operationsresearch.png" >
 </p>
 
 29/08/2023: Devant le peu d'opportunités en francophonie en matière de recherche opérationnelle mathématique, qui est pourtant primordiale.
@@ -30,14 +30,14 @@ Je passe de toute urgence en notebooks en Anglais et en Espagnol dans mon autre 
 10/08/2023: Devant le temps de traduction trop long, je termine plus ou moins mes notebooks en français encore quelques semaines, puis switche sur le dépot en Anglais et en Espagnol pour continuer sur les optimisations plus complexes.
 
 10/08/2023:
-[Calculer les seuils de rentabilité avec Python](https://github.com/estelle15000/python-data-science/blob/master/01.%20Recherche%20op%C3%A9rationnelle%20(Operations%20research%20-%20Management%20science)/01.%20Notebooks%20d'optimisation%20-%20cr%C3%A9ation%20en%20cours/20.%20Annexe%20-%20Calculer%20les%20seuils%20de%20rentabilit%C3%A9.ipynb)
+[Calculer les seuils de rentabilité avec Python](https://github.com/estellederrien/python-data-science/blob/master/01.%20Recherche%20op%C3%A9rationnelle%20(Operations%20research%20-%20Management%20science)/01.%20Notebooks%20d'optimisation%20-%20cr%C3%A9ation%20en%20cours/20.%20Annexe%20-%20Calculer%20les%20seuils%20de%20rentabilit%C3%A9.ipynb)
 
 24/07/2023: 
-[Découverte de la documentation majeure Simpy pour calculer en maths symboliques (Français).](https://github.com/estelle15000/python-data-science/blob/master/03.%20Math%C3%A9matiques/01.%20Ecrire%20les%20maths%20symboliques%20avec%20Simpy/Calcul%20symbolique.ipynb)
+[Découverte de la documentation majeure Simpy pour calculer en maths symboliques (Français).](https://github.com/estellederrien/python-data-science/blob/master/03.%20Math%C3%A9matiques/01.%20Ecrire%20les%20maths%20symboliques%20avec%20Simpy/Calcul%20symbolique.ipynb)
 
 24/06/2023:
 Mes nouveaux notebooks sont désormais multiples et triés par catégories classique d'optimisation. La modélisation mathématique sera toujours en début d'exemple.
-[Visionner mes notebooks d'optimisation mathématique - Recherche opérationnelle](https://github.com/estelle15000/python-data-science/tree/master/01.%20Recherche%20op%C3%A9rationnelle%20(Operations%20research%20-%20Management%20science)/01.%20Notebooks%20d'optimisation%20-%20cr%C3%A9ation%20en%20cours)
+[Visionner mes notebooks d'optimisation mathématique - Recherche opérationnelle](https://github.com/estellederrien/python-data-science/tree/master/01.%20Recherche%20op%C3%A9rationnelle%20(Operations%20research%20-%20Management%20science)/01.%20Notebooks%20d'optimisation%20-%20cr%C3%A9ation%20en%20cours)
 
 
 
@@ -75,7 +75,7 @@ je ne fais plus que ça ....<br>
 I just do that....<br>
 
 <p align="center" >
-  <img  src="https://github.com/estelle15000/python-data-science/blob/master/2007_solveur2.jpg" >
+  <img  src="https://github.com/estellederrien/python-data-science/blob/master/2007_solveur2.jpg" >
 </p>
 
 Important : Il faut savoir que les valeurs dans les fichiers Excel pourraient provenir de bases de données et non pas être des valeurs 'statiques'  , et donc se modifier en temps réel, et pas seulement être statiques, ce qui procure une puissance incroyable au Solveur Excel. Je tente également de comparer les résultats  en python à ceux en Excel dès que c'est possible, pour l'instant, c'est assez largement OK, et les solveurs trouvent les mêmes résultats (Solveur Excel = Solveur Python).
@@ -122,7 +122,7 @@ Je fais aussi dorénavant le répertoire 3 machine Learning et il faut aussi que
 :
 
 
-[Lien optimisation en français non lin](https://github.com/estelle15000/python-data-science/blob/master/01.%20Recherche%20op%C3%A9rationnelle%20(Operations%20research%20-%20Management%20science)/02.%20Non%20lin%C3%A9aire/01.%20PRODUITS%20MIXES%20N.L%20(PRODUCTS%20MIXES)/04.%20Fabrique%20de%20tshirts%20avec%20contraintes%20multiples/GEKKO/Produit%20mix%20n-l%20avec%20contraintes.ipynb)
+[Lien optimisation en français non lin](https://github.com/estellederrien/python-data-science/blob/master/01.%20Recherche%20op%C3%A9rationnelle%20(Operations%20research%20-%20Management%20science)/02.%20Non%20lin%C3%A9aire/01.%20PRODUITS%20MIXES%20N.L%20(PRODUCTS%20MIXES)/04.%20Fabrique%20de%20tshirts%20avec%20contraintes%20multiples/GEKKO/Produit%20mix%20n-l%20avec%20contraintes.ipynb)
 
 26/09/2022 : Réduction drastique du nombre de répertoires ! Les optimisations avec le solveur Excel sont encore en cours de tri mais à la fin , ca va être très bien , et je crée les fichiers en python équivalents dès que je peux et les place dans le même répertoire... Pour le machine learning, j'ai pleins de nouveaux livres ( Surtout du O'reilly) et j'en fait 35% du temps par rapport à la Recherche opérationnelle.
 
