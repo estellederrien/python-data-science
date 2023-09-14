@@ -29,7 +29,7 @@ Often updated now, with follow-up of "news". I could have written everything in 
 14/09/2023: Découverte de la bonne vidéo à propos des équations diffs ODE dans Simulink (Robotique):
 https://www.youtube.com/watch?v=apPJtJqCu44&t=1209s
 
-Bonne vidéo de 1ère en mécanique.
+Bonne vidéo de 1ère en résistance des matériaux.
 https://www.youtube.com/watch?v=jZBYX5M1Mx4
 
 Mécanique Marc Buffat : 
