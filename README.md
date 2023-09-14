@@ -29,6 +29,8 @@ Often updated now, with follow-up of "news". I could have written everything in 
 14/09/2023: Découverte de la bonne vidéo à propos des équations diffs ODE dans Simulink (Robotique):
 https://www.youtube.com/watch?v=apPJtJqCu44&t=1209s
 
+Un bon livre de mécanique : https://femto-physique.fr/mecanique/pdf/book_meca.pdf
+
 Découverte du cours difficile : https://perso.univ-lyon1.fr/marc.buffat/COURS/BOOK_OUTILSNUM_HTML/MGC2367M/cours/Chap6c_MecaPendule3D.html
 
 et du blog du professeur de Mécanique Marc Buffat : 
