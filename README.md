@@ -29,7 +29,7 @@ Often updated now, with follow-up of "news". I could have written everything in 
 14/09/2023: Découverte de la bonne vidéo à propos des équations diffs ODE dans Simulink (Robotique):
 https://www.youtube.com/watch?v=apPJtJqCu44&t=1209s
 
-Dès que mes notebooks en optimisation sont plus ou moins terminés, je vais commencer avec mon répertoire Mécanique, en commencant par la résistance des matériaux en python et regarder un peu SolidWorks. 
+Dès que mes notebooks en optimisation sont plus ou moins terminés ( Ce ne sera jamais terminé mais seulement une base), je vais commencer avec mon répertoire Mécanique, en commencant par la résistance des matériaux en python et regarder un peu SolidWorks. 
 
 
 10/08/2023:
