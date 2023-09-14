@@ -29,6 +29,8 @@ Often updated now, with follow-up of "news". I could have written everything in 
 14/09/2023: Découverte de la bonne vidéo à propos des équations diffs ODE dans Simulink (Robotique):
 https://www.youtube.com/watch?v=apPJtJqCu44&t=1209s
 
+Dès que mes notebooks en optimisation sont plus ou moins terminés, je vais commencer avec mon répertoire Mécanique, en commencant par la résistance des matériaux en python et regarder un peu SolidWorks. 
+
 
 10/08/2023:
 [Calculer les seuils de rentabilité avec Python](https://github.com/estellederrien/python-data-science/blob/master/01.%20Recherche%20op%C3%A9rationnelle%20(Operations%20research%20-%20Management%20science)/01.%20Notebooks%20d'optimisation%20-%20cr%C3%A9ation%20en%20cours/20.%20Annexe%20-%20Calculer%20les%20seuils%20de%20rentabilit%C3%A9.ipynb)
