@@ -29,6 +29,8 @@ Often updated now, with follow-up of "news". I could have written everything in 
 14/09/2023: Découverte de la bonne vidéo à propos des équations diffs ODE dans Simulink (Robotique):
 https://www.youtube.com/watch?v=apPJtJqCu44&t=1209s
 
+Découverte du cours difficile : https://perso.univ-lyon1.fr/marc.buffat/COURS/BOOK_OUTILSNUM_HTML/MGC2367M/cours/Chap6c_MecaPendule3D.html
+
 10/08/2023: Devant le temps de traduction trop long, je termine plus ou moins mes notebooks en français encore quelques semaines, puis switche sur le dépot en Anglais et en Espagnol pour continuer sur les optimisations plus complexes.
 
 10/08/2023:
