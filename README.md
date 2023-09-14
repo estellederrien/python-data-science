@@ -32,7 +32,7 @@ https://www.youtube.com/watch?v=apPJtJqCu44&t=1209s
 Découverte du cours difficile : https://perso.univ-lyon1.fr/marc.buffat/COURS/BOOK_OUTILSNUM_HTML/MGC2367M/cours/Chap6c_MecaPendule3D.html
 
 et du blog de Marc Buffat : 
-https://perso.univ-lyon1.fr/marc.buffat/pages/apropos/
+https://perso.univ-lyon1.fr/marc.buffat/
 
 10/08/2023: Devant le temps de traduction trop long, je termine plus ou moins mes notebooks en français encore quelques semaines, puis switche sur le dépot en Anglais et en Espagnol pour continuer sur les optimisations plus complexes.
 
