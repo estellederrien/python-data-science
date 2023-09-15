@@ -24,7 +24,12 @@ Often updated now, with follow-up of "news". I could have written everything in 
   <img  src="https://github.com/estellederrien/python-data-science/blob/master/operationsresearch.png" >
 </p>
 
-
+15/09/2023:
+Menu pour l'année 2023-2024 :
+- Terminer l'étude "Notebooks d'optimisation"
+- Refaire et finaliser l'étude "Equations différentielles"
+- Réaliser le fichier " Lois de probabilités"
+- Entamer l'étude en resistance des matériaux avec Python
 
 14/09/2023: Découverte de la bonne vidéo à propos des équations diffs ODE dans Simulink (Robotique):
 https://www.youtube.com/watch?v=apPJtJqCu44&t=1209s
