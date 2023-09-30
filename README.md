@@ -25,7 +25,8 @@ Often updated now, with follow-up of "news". I could have written everything in 
 </p>
 
 20/09/2023:
-Du à l'absence d'opportunités en optimisation mathématique/Recherche opérationnelle en francophonie, je passe intégralement en Anglais et Espagnol dans mon autre dépot.
+Dû à l'absence d'opportunités en optimisation mathématique/Recherche opérationnelle en francophonie, alors que c'est un domaine primordial, je passe intégralement en Anglais et Espagnol dans mon autre dépot.
+J'espère trouver un poste à l'étranger.
 
 15/09/2023:
 Menu pour l'année 2023-2024 :
