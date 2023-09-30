@@ -26,7 +26,7 @@ Often updated now, with follow-up of "news". I could have written everything in 
 
 20/09/2023:
 Dû à l'absence d'opportunités en optimisation mathématique/Recherche opérationnelle en francophonie, alors que c'est un domaine primordial, je passe intégralement en Anglais et Espagnol dans mon autre dépot.
-J'espère trouver un poste à l'étranger.
+J'espère trouver un emploi en recherche opérationnelle à l'étranger.
 
 15/09/2023:
 Menu pour l'année 2023-2024 :
