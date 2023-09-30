@@ -24,6 +24,9 @@ Often updated now, with follow-up of "news". I could have written everything in 
   <img  src="https://github.com/estellederrien/python-data-science/blob/master/operationsresearch.png" >
 </p>
 
+20/09/2023:
+Du à l'absence d'opportunités en optimisation mathématique/Recherche opérationnelle en francophonie, je passe intégralement en Anglais et Espagnol dans mon autre dépot.
+
 15/09/2023:
 Menu pour l'année 2023-2024 :
 - Terminer l'étude "Notebooks d'optimisation"
