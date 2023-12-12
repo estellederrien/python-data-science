@@ -31,7 +31,7 @@ de faire autre chose :
 Management opérationnel, Etude du management de la qualité avec l'excellent
 livre " Operations Management" de Roberta Russel et et James Taylor.
 Les mesures de productivité, les simulations, des formules simples mais primordiales à connaitre feront l'objet d'un autre notebook, et sont présentes dans ce livre. Pour les eq diffs, c'est le gros bordel, et je ne le supporte pas, donc je vais tout reprendre.
-A par ça, j'ai  regroupé toutes les documentations et un livre traitant des méthodes reconnues de linéarisation de produits de contraintes, et je vais continuer le notebook approprié.
+A par ça, j'ai  regroupé toutes les documentations et un livre traitant des méthodes reconnues de linéarisation de produits de contraintes dans les optimisations linéaires, et je vais continuer le notebook approprié.
 
 15/09/2023:
 Menu pour l'année 2023-2024 :
