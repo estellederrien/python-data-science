@@ -24,9 +24,13 @@ Often updated now, with follow-up of "news". I could have written everything in 
   <img  src="https://github.com/estellederrien/python-data-science/blob/master/operationsresearch.png" >
 </p>
 
-20/09/2023:
-Dû à l'absence d'opportunités en optimisation mathématique/Recherche opérationnelle en francophonie, alors que c'est un domaine primordial, je passe intégralement en Anglais et Espagnol dans mon autre dépot.
-J'espère trouver un emploi en recherche opérationnelle à l'étranger.
+12/12/2023:
+Enfin de retour après des emplois alimentaires !
+FInalement pas de resitance de matériaux, je me cantonne à mon domaine, ça ne sert à rien
+de faire autre chose :
+Management opérationnel, Etude du management de la qualité avec l'excellent
+livre " Operations Management" de Roberta Russel et et James Taylor.
+Les mesures de productivité, les simulations, des formules ultra simples mais primordiales à connaitre feront l'objet d'un autre notebook, et sont présentes dans ce livre. Pour les eq diffs, c'est le gros bordel, et je ne le supporte pas, donc je vais tout reprendre.
 
 15/09/2023:
 Menu pour l'année 2023-2024 :
