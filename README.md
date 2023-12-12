@@ -26,11 +26,11 @@ Often updated now, with follow-up of "news". I could have written everything in 
 
 12/12/2023:
 Enfin de retour après des emplois alimentaires !
-FInalement pas de resitance de matériaux, je me cantonne à mon domaine, ça ne sert à rien
+FInalement pas de resistance de matériaux, je me cantonne à mon domaine, ça ne sert à rien
 de faire autre chose :
 Management opérationnel, Etude du management de la qualité avec l'excellent
 livre " Operations Management" de Roberta Russel et et James Taylor.
-Les mesures de productivité, les simulations, des formules ultra simples mais primordiales à connaitre feront l'objet d'un autre notebook, et sont présentes dans ce livre. Pour les eq diffs, c'est le gros bordel, et je ne le supporte pas, donc je vais tout reprendre.
+Les mesures de productivité, les simulations, des formules simples mais primordiales à connaitre feront l'objet d'un autre notebook, et sont présentes dans ce livre. Pour les eq diffs, c'est le gros bordel, et je ne le supporte pas, donc je vais tout reprendre.
 A par ça, j'ai  regroupé toutes les documentations et un livre traitant des méthodes reconnues de linéarisation de produits de contraintes, et je vais continuer le notebook approprié.
 
 15/09/2023:
