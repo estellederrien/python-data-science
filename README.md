@@ -24,10 +24,12 @@ Often updated now, with follow-up of "news". I could have written everything in 
   <img  src="https://github.com/estellederrien/python-data-science/blob/master/operationsresearch.png" >
 </p>
 
+15/01/2023:
+Réécriture de mon notebook : Introduction aux solveurs 
+[Introduction aux solveurs](https://github.com/estellederrien/python-data-science/blob/master/01.%20Recherche%20op%C3%A9rationnelle%20(Operations%20research%20-%20Management%20science)/01.%20Notebooks%20d'optimisation%20-%20cr%C3%A9ation%20en%20cours/18.%20Annexe%20-%20Introduction%20aux%20solveurs.ipynb)
+
+
 12/12/2023:
-Enfin de retour après des emplois alimentaires !
-FInalement pas de resistance de matériaux, je me cantonne à mon domaine, ça ne sert à rien
-de faire autre chose :
 Management opérationnel, Etude du management de la qualité avec l'excellent
 livre " Operations Management" de Roberta Russel et et James Taylor.
 Les mesures de productivité, les simulations, des formules simples mais primordiales à connaitre feront l'objet d'un autre notebook, et sont présentes dans ce livre. Pour les eq diffs, c'est le gros bordel, et je ne le supporte pas, donc je vais tout reprendre.
