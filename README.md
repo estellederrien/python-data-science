@@ -25,8 +25,8 @@ Often updated now, with follow-up of "news". I could have written everything in 
 </p>
 
 22/01/2024
-Cessation de publication en langue Française et passage sur le dépot en Anglais et Espagnol, adin de soutenir 
-mon expatriation.
+Cessation de publication en langue Française et passage sur le dépot en Anglais et Espagnol, afin de soutenir 
+mon expatriation. Début de la traduction.
 
 15/01/2024
 Réécriture de mon notebook : Introduction aux solveurs 
