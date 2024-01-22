@@ -25,7 +25,9 @@ Often updated now, with follow-up of "news". I could have written everything in 
 </p>
 
 22/01/2024
-Cessation définitive de publication en langue Française et passage sur le dépot en Anglais et Espagnol, afin de tenter de soutenir mon expatriation. Début de la traduction. le mois prochain
+Cessation définitive de publication en langue Française et passage sur le dépot en Anglais et Espagnol, afin de tenter de soutenir mon expatriation. Début de la traduction le mois prochain ! (Il n'y a aucune opportunité en france, en tout cas pour moi)
+
+Permanent cessation of publication in French and transition to the repository in English and Spanish, in order to try to support my expatriation. Start of translation next month !
 
 15/01/2024
 Réécriture de mon notebook : Introduction aux solveurs 
