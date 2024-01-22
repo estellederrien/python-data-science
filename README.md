@@ -24,7 +24,11 @@ Often updated now, with follow-up of "news". I could have written everything in 
   <img  src="https://github.com/estellederrien/python-data-science/blob/master/operationsresearch.png" >
 </p>
 
-15/01/2023:
+22/01/2024
+Cessation de publication en langue Française et passage sur le dépot en Anglais et Espagnol, adin de soutenir 
+mon expatriation.
+
+15/01/2024
 Réécriture de mon notebook : Introduction aux solveurs 
 [Introduction aux solveurs](https://github.com/estellederrien/python-data-science/blob/master/01.%20Recherche%20op%C3%A9rationnelle%20(Operations%20research%20-%20Management%20science)/01.%20Notebooks%20d'optimisation%20-%20cr%C3%A9ation%20en%20cours/18.%20Annexe%20-%20Introduction%20aux%20solveurs.ipynb)
 
