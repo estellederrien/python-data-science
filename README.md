@@ -25,7 +25,7 @@ Often updated now, with follow-up of "news". I could have written everything in 
 </p>
 
 22/01/2024
-Cessation définitive de publication en langue Française et passage sur le dépot en Anglais et Espagnol, afin de tenter de soutenir mon expatriation. Début de la traduction le mois prochain !  passage sur le dépot  python-optimizations ( Je suspecte qu'on m'a mis un genre de fiche S ou un truc du genre , pour que je ne puisse plus retrouver d'emploi dans ma banche ici ( Car tous les emplois ont des actionnaires publics), donc, mobilisation intégrale pour expatriation définitive et basard définitif de cette langue), que de temps perdu , mais bon tant pis, j'irais plus vite et mieux en Anglais. 
+Cessation définitive de publication en langue Française et passage sur le dépot en Anglais et Espagnol, afin de tenter de soutenir mon expatriation ( définitive, j'espère).
 
 Permanent cessation of publication in French and transition to the repository in English and Spanish, in order to try to support my expatriation. Start of translation next month ! Feel free to contact me for any PYTHON DATA SCIENCE collaboration, my depot is  python-optimizations. There is my linkedIn, just in case :https://www.linkedin.com/in/estelle-derrien-ro/
 
