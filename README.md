@@ -24,10 +24,9 @@ Often updated now, with follow-up of "news". I could have written everything in 
   <img  src="https://github.com/estellederrien/python-data-science/blob/master/operationsresearch.png" >
 </p>
 
-22/01/2024
-Cessation définitive de publication en langue Française et passage sur le dépot en Anglais et Espagnol, afin de tenter de soutenir mon expatriation.
+15/02/2024
+Ces notebooks en R.O visent à réaliser ensuite mon mémoire d'ingénieur.
 
-Permanent cessation of publication in French and transition to the repository in English and Spanish, in order to try to support my expatriation. Start of translation next month ! Feel free to contact me for any PYTHON DATA SCIENCE collaboration, my depot is  python-optimizations. There is my linkedIn, just in case :https://www.linkedin.com/in/estelle-derrien-ro/
 
 15/01/2024
 Réécriture de mon notebook : Introduction aux solveurs 
