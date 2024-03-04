@@ -45,12 +45,10 @@ Menu pour l'année 2023-2024 :
 - Terminer l'étude "Notebooks d'optimisation"
 - Refaire et finaliser l'étude "Equations différentielles"
 - Réaliser le fichier " Lois de probabilités"
-- Entamer l'étude en resistance des matériaux avec Python
+- Eventuellement regarder la resistance des matériaux avec Python
 
-14/09/2023: Découverte de la bonne vidéo à propos des équations diffs ODE dans Simulink (Robotique):
+14/09/2023: Découverte de la bonne vidéo à propos des équations diffs ODE utilisées dans Simulink (Robotique):
 https://www.youtube.com/watch?v=apPJtJqCu44&t=1209s
-
-Dès que mes notebooks en optimisation sont plus ou moins terminés ( Ce ne sera jamais terminé mais seulement une base), je vais commencer avec mon répertoire Mécanique, en commencant par la résistance des matériaux en python et regarder un peu SolidWorks. 
 
 
 10/08/2023:
