@@ -1,0 +1,29 @@
+\* minimiser_couts *\
+Minimize
+OBJ: 350 Relations_Fournisseur_A_Depot_A + 450 Relations_Fournisseur_A_Depot_B
+ + 300 Relations_Fournisseur_A_Depot_C + 250 Relations_Fournisseur_A_Depot_D
+ + 450 Relations_Fournisseur_B_Depot_A + 390 Relations_Fournisseur_B_Depot_B
+ + 250 Relations_Fournisseur_B_Depot_C + 268 Relations_Fournisseur_B_Depot_D
+ + 600 Relations_Fournisseur_C_Depot_A + 395 Relations_Fournisseur_C_Depot_B
+ + 420 Relations_Fournisseur_C_Depot_C + 290 Relations_Fournisseur_C_Depot_D
+ + 385 Relations_Fournisseur_D_Depot_A + 700 Relations_Fournisseur_D_Depot_B
+ + 290 Relations_Fournisseur_D_Depot_C + 320 Relations_Fournisseur_D_Depot_D
+Subject To
+Binaries
+Relations_Fournisseur_A_Depot_A
+Relations_Fournisseur_A_Depot_B
+Relations_Fournisseur_A_Depot_C
+Relations_Fournisseur_A_Depot_D
+Relations_Fournisseur_B_Depot_A
+Relations_Fournisseur_B_Depot_B
+Relations_Fournisseur_B_Depot_C
+Relations_Fournisseur_B_Depot_D
+Relations_Fournisseur_C_Depot_A
+Relations_Fournisseur_C_Depot_B
+Relations_Fournisseur_C_Depot_C
+Relations_Fournisseur_C_Depot_D
+Relations_Fournisseur_D_Depot_A
+Relations_Fournisseur_D_Depot_B
+Relations_Fournisseur_D_Depot_C
+Relations_Fournisseur_D_Depot_D
+End
