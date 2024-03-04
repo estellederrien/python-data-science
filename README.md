@@ -24,13 +24,14 @@ Often updated now, with follow-up of "news". I could have written everything in 
   <img  src="https://github.com/estellederrien/python-data-science/blob/master/operationsresearch.png" >
 </p>
 
+04/03/2024
+Enfin de retour ! Dans le dur avec mes notebooks "Manipulation des variables de décision" et ceux de Management et Odes.. espérons que j'aurais le temps de tout faire et en Anglais..
+[Manipulation de variables de décision](https://github.com/estellederrien/python-data-science/blob/master/01.%20Recherche%20op%C3%A9rationnelle%20(Operations%20research%20-%20Management%20science)/01.%20Notebooks%20d'optimisation%20-%20cr%C3%A9ation%20en%20cours/18.%20Annexe%20-%20Manipulation%20des%20variables%20de%20d%C3%A9cision.ipynb)
+
+
+
 15/02/2024
 Ces notebooks en R.O visent à réaliser ensuite mon mémoire d'ingénieur.
-
-
-15/01/2024
-Réécriture de mon notebook : Introduction aux solveurs 
-[Introduction aux solveurs](https://github.com/estellederrien/python-data-science/blob/master/01.%20Recherche%20op%C3%A9rationnelle%20(Operations%20research%20-%20Management%20science)/01.%20Notebooks%20d'optimisation%20-%20cr%C3%A9ation%20en%20cours/18.%20Annexe%20-%20Introduction%20aux%20solveurs.ipynb)
 
 
 12/12/2023:
