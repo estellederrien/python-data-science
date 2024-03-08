@@ -25,7 +25,7 @@ Often updated now, with follow-up of "news". I could have written everything in 
 </p>
 
 08/03/2024
-Une fois les notebooks standard en optimisation terminés en Anglais, le reste sera confidentiel ( arrêt des publications).
+Une fois les notebooks standard en optimisation terminés en Anglais, le reste sera confidentiel (Arrêt des publications). Je continuerais alors uniquement mon Application SolvGraph.
 
 04/03/2024
 Enfin de retour ! Dans le dur avec mes notebooks "Manipulation des variables de décision" et ceux de Management et Odes.. espérons que j'aurais le temps de tout faire et en Anglais..
