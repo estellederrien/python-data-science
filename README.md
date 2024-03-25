@@ -24,6 +24,10 @@ Often updated now, with follow-up of "news". I could have written everything in 
   <img  src="https://github.com/estellederrien/python-data-science/blob/master/operationsresearch.png" >
 </p>
 
+25/03/2024 
+Super post en Anglais concernant les méthode de linéarisation et Big M, sur or.stackexchange :
+https://or.stackexchange.com/questions/57/single-reference-for-mixed-integer-programming-formulations-to-linearize-handle
+
 08/03/2024
 Une fois les notebooks standard en optimisation terminés en Anglais, le reste sera confidentiel (Arrêt des publications en optimisation). Je continuerais alors uniquement mon Application SolvGraph.
 
