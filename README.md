@@ -24,8 +24,7 @@ Often updated now, with follow-up of "news". I could have written everything in 
   <img  src="https://github.com/estellederrien/python-data-science/blob/master/operationsresearch.png" >
 </p>
 
-15/02/2024
-Ces notebooks en R.O visent à réaliser ensuite mon mémoire d'ingénieur.
+
 
 
 15/01/2024
