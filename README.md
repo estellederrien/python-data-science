@@ -23,6 +23,9 @@ Often updated now, with follow-up of "news". I could have written everything in 
 <p align="center" >
   <img  src="https://github.com/estellederrien/python-data-science/blob/master/operationsresearch.png" >
 </p>
+04/05/2024:
+Je termine le notebook " Equations différentielles" en Français, et pour le reste, pour l'instant, je continue sur mon dépot en Anglais pour la chaine d'approvisionnement ( supply chain), le management et les lois de probabilité, afin de pouvoir traduire tout d'un seul coup plus tard, ça ira bien plus vite.
+
 
 
 25/03/2024 
