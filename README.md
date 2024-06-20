@@ -26,6 +26,9 @@ Often updated now, with follow-up of "news". I could have written everything in 
 
 04/05/2024
 Je termine le notebook " Equations différentielles" en Français, et pour le reste, pour l'instant, je continue sur mon dépot en Anglais pour la chaine d'approvisionnement ( supply chain), le management et les lois de probabilité, afin de pouvoir traduire tout d'un seul coup plus tard, ça ira bien plus vite.
+[Equations différentielles en PYTHON](https://github.com/estellederrien/python-data-science/blob/master/05.%20Math%C3%A9matiques/05.%20Equations%20diff%C3%A9rentielles/01.%20Equations%20differentielles%20en%20python.ipynb)
+
+
 
 
 25/03/2024 
