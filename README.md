@@ -24,11 +24,13 @@ Often updated now, with follow-up of "news". I could have written everything in 
   <img  src="https://github.com/estellederrien/python-data-science/blob/master/operationsresearch.png" >
 </p>
 
+21/11/2024 :Enfin de retour, et cette fois , j'espère ne plus faire d'arrêts !
+[Faire correspondre un modèle mathématique à un Solveur Python](https://github.com/estellederrien/python-data-science/blob/master/01.%20Recherche%20op%C3%A9rationnelle/01.%20Notebooks%20d'optimisation%20-%20cr%C3%A9ation%20en%20cours/19.%20Annexe%20-%20Faire%20correspondre%20un%20mod%C3%A8le%20math%C3%A9matique.ipynb)
+
+
 04/05/2024
 Je termine le notebook " Equations différentielles" en Français, et pour le reste, pour l'instant, je continue sur mon dépot en Anglais pour la chaine d'approvisionnement ( supply chain), le management et les lois de probabilité, afin de pouvoir traduire tout d'un seul coup plus tard, ça ira bien plus vite.
 [Equations différentielles en PYTHON](https://github.com/estellederrien/python-data-science/blob/master/05.%20Math%C3%A9matiques/05.%20Equations%20diff%C3%A9rentielles/01.%20Equations%20differentielles%20en%20python.ipynb)
-
-
 
 
 25/03/2024 
