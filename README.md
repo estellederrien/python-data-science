@@ -24,7 +24,7 @@ Often updated now, with follow-up of "news". I could have written everything in 
   <img  src="https://github.com/estellederrien/python-data-science/blob/master/operationsresearch.png" >
 </p>
 21/12/2024 : Devant le manque d'opportunités en recherche opérationnelle et optimisations, et suite au shadow ban de mon 
-linkedin et/ou diverses malveillances, j'abandonne désormais définitivement la langue française et continuerais sur mon dépot en Anglais. Ca va prendre un certain temps de terminer mes notebooks en optimisation/recherche opérationnelle, j'enverrais des candidatures à l'étranger désormais. Ca ne sert à rien de persister à vouloir communiquer dans cette langue, cette fois ci, j'abandonne pour de bon. En fait, c'est comme en musique, ça ne sert à rien de persister à vouloir communiquer dans cette langue, je reprends tout de zéro et switche définitivement, avec je l'espère un départ à la clef.
+linkedin et/ou diverses malveillances, j'abandonne désormais définitivement la langue française et continuerais sur mon dépot en Anglais. Ca va prendre un certain temps de terminer mes notebooks en optimisation/recherche opérationnelle, j'enverrais des candidatures à l'étranger désormais. Ca ne sert à rien de persister à vouloir communiquer dans cette langue ou de faire de quelquonques projets, cette fois ci, j'abandonne pour de bon. En fait, c'est comme en musique, ça ne sert à rien de persister à vouloir communiquer dans cette langue, je reprends tout de zéro et switche définitivement, avec je l'espère un départ à la clef.
 J'abandonne carrément ce dépot, directement.<br><br>
 
 21/11/2024 :Enfin de retour, et cette fois , j'espère ne plus faire d'arrêts !<br>
