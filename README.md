@@ -23,7 +23,7 @@ Often updated now, with follow-up of "news". I could have written everything in 
 <p align="center" >
   <img  src="https://github.com/estellederrien/python-data-science/blob/master/operationsresearch.png" >
 </p>
-21/12/2024 : Devant le manque d'opportunités en recherche opérationnelle et optimisations, et suite au shadow ban de mon 
+21/12/2024 : Devant le manque d'opportunités en recherche opérationnelle et optimisations en français, et suite au shadow ban de mon 
 linkedin et/ou diverses malveillances, j'abandonne désormais définitivement la langue française et continuerais sur mon dépot en Anglais et/ou Espagnol. Ca va prendre un certain temps de terminer mes notebooks en optimisation/recherche opérationnelle, j'enverrais des candidatures à l'étranger désormais. Ca ne sert à rien de persister à vouloir communiquer dans cette langue ou de faire de quelconques projets , cette fois ci, j'abandonne pour de bon. En fait, c'est comme en musique, ça ne sert à rien de persister à vouloir communiquer dans cette langue, je reprends tout de zéro et switche définitivement, bien que j'aurais préféré en Espagnol, avec je l'espère un départ définitif à la clef, je ne sais pas encore sous quelle forme.
 J'abandonne carrément ce dépot, directement. Le temps m'aura prouvé que cela ne sert à rien, et, en dehors de diverses malveillances, ça ne sert à rien. Pareil pour mon app SolvGraph, désormais uniquement en Anglais, Espagnol et Chinois. Repartir sur des notebooks en Anglais permet d'avoir une chance de sortir de tout ça et de communiquer avec beaucoup plus de pays, et d'avoir, je l'espère, une opportunité de départ définitif.<br><br>
 
