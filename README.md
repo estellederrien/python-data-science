@@ -23,8 +23,8 @@ Often updated now, with follow-up of "news". I could have written everything in 
 <p align="center" >
   <img  src="https://github.com/estellederrien/python-data-science/blob/master/operationsresearch.png" >
 </p>
-21/12/2024 : Abandon de la langue Française suite à diverses discriminations et malveillances. Mon dernier notebook commence 
-à être bien contrairement aux autres, et je passe en Anglais pour augmenter mes chances de départ à l'étranger ( Zéro opportunités en france et discriminations qui me mettent litéralement en danger). Retrouvez aussi mon app https://www.solvgraph.com<br>
+21/12/2024 : Abandon du dépot, et de la langue Française suite à diverses discriminations dans l'emploi et de malveillances. Mon dernier notebook commence 
+à être bien contrairement aux autres, et je passe en Anglais pour augmenter mes chances de départ à l'étranger ( Zéro opportunités en france et discriminations qui me mettent littéralement en danger, désormais). Retrouvez aussi mon app https://www.solvgraph.com<br>
 
 
 <br>21/11/2024 :Enfin de retour, et cette fois , j'espère ne plus faire d'arrêts !<br>
