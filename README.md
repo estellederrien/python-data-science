@@ -23,7 +23,7 @@ Often updated now, with follow-up of "news". I could have written everything in 
 <p align="center" >
   <img  src="https://github.com/estellederrien/python-data-science/blob/master/operationsresearch.png" >
 </p>
-
+01/01/2025 : Je passe désormais sur mon dépot en Anglais et traduirais vers celui ci quand j'aurais le temps.
 
 <br>21/11/2024 :Enfin de retour, et cette fois , j'espère ne plus faire d'arrêts !<br>
 [Faire correspondre un modèle mathématique à un Solveur Python](https://github.com/estellederrien/python-data-science/blob/master/01.%20Recherche%20op%C3%A9rationnelle/01.%20Notebooks%20d'optimisation%20-%20cr%C3%A9ation%20en%20cours/19.%20Annexe%20-%20Faire%20correspondre%20un%20mod%C3%A8le%20math%C3%A9matique.ipynb)
